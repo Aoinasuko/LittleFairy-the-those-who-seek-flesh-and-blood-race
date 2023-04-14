@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ToolCapacityDef>
+    <defName>LitF_BrainSuck</defName>
+    <label>BrainSuck</label>
+  </ToolCapacityDef>
+  
+  <ManeuverDef>
+    <defName>LitF_BrainSuck</defName>
+    <requiredCapacity>LitF_BrainSuck</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>LitF_BrainSuck</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  
+  <DamageDef>
+    <defName>LitF_BrainSuck</defName>
+    <label>BrainSuck</label>
+    <workerClass>LittleFairy_Race.LitF_BrainSuckDamage</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been BrainSuck to death.</deathMessage>
+    <hediff>Gunshot</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Bullet</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+    <isRanged>false</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+  </DamageDef>
+
+</Defs>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LitF_ProtectionTotem.label>LitF 守護のトーテム</LitF_ProtectionTotem.label>
+  <LitF_ProtectionTotem.description>周囲の味方に受けるダメージを軽減するバフを与えます,リトルフェアリーの場合は追加でFPを継続回復します.\n輝く木材が燃料として必要です.</LitF_ProtectionTotem.description>
+
+  <LitF_ButcherTotem.label>LitF 屠殺のトーテム</LitF_ButcherTotem.label>
+  <LitF_ButcherTotem.description>範囲内の敵に呪いを付与し,被ダメージと獲得できる肉の量を増加させます.\n血の輝く木材が燃料として必要です.</LitF_ButcherTotem.description>
+
+  <LitF_InterceptionTotem.label>LitF 迎撃のトーテム</LitF_InterceptionTotem.label>
+  <LitF_InterceptionTotem.description>範囲内の敵に超高速の射撃を浴びせます.\n血の輝く木材が燃料として必要です.</LitF_InterceptionTotem.description>
+
+  <LitF_SparkleShell.label>輝くシェル</LitF_SparkleShell.label>
+  <LitF_SparkleShell.description>トーテムに備え付けられている機構です.</LitF_SparkleShell.description>
+
+  <LitF_BrillianceBullet.label>輝くバレット</LitF_BrillianceBullet.label>
+
+  <LitF_GrowthTotem.label>LitF 成長のトーテム</LitF_GrowthTotem.label>
+  <LitF_GrowthTotem.description>周囲の味方のスキルレベルの成長を早めるバフを与えます.\n輝く木材が燃料として必要です.</LitF_GrowthTotem.description>
+
+  <LitF_HarvestTotem.label>LitF 収穫のトーテム</LitF_HarvestTotem.label>
+  <LitF_HarvestTotem.description>範囲内のあらゆる植物の成長を早めます.\n効果量は土壌によって変化します.\n輝く木材が燃料として必要です.</LitF_HarvestTotem.description>
+
+
+</LanguageData>

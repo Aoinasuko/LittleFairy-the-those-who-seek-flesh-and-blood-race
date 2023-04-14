@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 戦士 -->
+
+  <LitF_Tough.label>タフ</LitF_Tough.label>
+
+  <LitF_Adrenalin.label>アドレナリン</LitF_Adrenalin.label>
+  <LitF_Adrenalin.description>運動能力を10秒間の間,30%増加します.</LitF_Adrenalin.description>
+
+  <LitF_Tackle.label>タックル</LitF_Tackle.label>
+  <LitF_Tackle.description>範囲内のポーンを最大5秒間スタンさせます.</LitF_Tackle.description>
+
+
+  <!-- バーサーカー -->
+
+  <LitF_BerserkerBlood.label>バーサーカーの血</LitF_BerserkerBlood.label>
+  <LitF_BerserkerCharge.label>バーサーカーチャージ</LitF_BerserkerCharge.label>
+  <LitF_BerserkerCharge.PassiveDescription>近接攻撃のクールダウンを50%にします.</LitF_BerserkerCharge.PassiveDescription>
+
+  <LitF_BerserkerEnthusiasm.label>バーサーカーの興奮</LitF_BerserkerEnthusiasm.label>
+  <LitF_BerserkerEnthusiasm.description>5秒間の間,移動速度を倍にして被ダメージ倍率を0%にします.\n[注意]\nFPに対するダメージはどれだけ被ダメージ倍率を低くしても最低1消費します.</LitF_BerserkerEnthusiasm.description>
+
+
+  <!-- ナイト -->
+
+  <LitF_KnightKnowledge.label>ナイトの知識</LitF_KnightKnowledge.label>
+
+  <LitF_KnightWill.label>ナイトの意思</LitF_KnightWill.label>
+  <LitF_KnightWill.description>FPを最大値の50%回復します.</LitF_KnightWill.description>
+
+  <LitF_Advance.label>進軍</LitF_Advance.label>
+  <LitF_Advance.description>10秒間の間,自身の近くを通った敵の弾丸をある程度弾き落とします.</LitF_Advance.description>
+
+
+  <!-- レンジャー -->
+
+  <LitF_RangerTips.label>レンジャーの知恵</LitF_RangerTips.label>
+
+  <LitF_Trap.label>トラップ</LitF_Trap.label>
+  <LitF_Trap.description>足元にトラップを設置します.\nトラップの範囲内に敵が侵入した時,その敵に10.0のダメージを与えて被ダメージ増加,移動速度低下のデバフを与えます.\nトラップは1日経過するかダメージを与えると消滅します.</LitF_Trap.description>
+
+
+  <!-- 魔術師 -->
+
+  <LitF_WizardSoul.label>ウィザードソウル</LitF_WizardSoul.label>
+
+  <LitF_Wind.label>ウィンド</LitF_Wind.label>
+  <LitF_Wind.description>ターゲットとその周囲の生物全員に10.0のダメージを与えます.</LitF_Wind.description>
+
+  <LitF_Meteor.label>メテオ</LitF_Meteor.label>
+  <LitF_Meteor.description>隕石を対象に落とします.</LitF_Meteor.description>
+
+
+  <!-- ミートメーカー -->
+
+  <LitF_MeatMaker1.label>肥えた獣 Lv1</LitF_MeatMaker1.label>
+  <LitF_MeatMaker2.label>肥えた獣 Lv2</LitF_MeatMaker2.label>
+  <LitF_MeatMaker3.label>肥えた獣 Lv3</LitF_MeatMaker3.label>
+
+  <LitF_TriggerHappy.label>トリガーハッピー</LitF_TriggerHappy.label>
+  <LitF_TriggerHappy.description>5秒間だけ,射撃準備の時間を0にします.</LitF_TriggerHappy.description>
+
+
+  <!-- ヒーラー -->
+
+  <LitF_Nursing.label>看護</LitF_Nursing.label>
+
+  <LitF_HealBall.label>ヒールボール</LitF_HealBall.label>
+  <LitF_HealBall.description>ターゲットした場所に「ヒールボール」を召喚します.\n「ヒールボール」は20秒間とどまり,1秒ごとに範囲内の味方に回復を行います.\n「ヒールボール」は最大HPが10以下の欠損部位を治癒し治癒可能な怪我を1箇所だけ1ポイント回復します.</LitF_HealBall.description>
+
+  <LitF_EmergencyNursing.label>緊急看護</LitF_EmergencyNursing.label>
+  <LitF_EmergencyNursing.description>「緊急看護」のバフを対象に与えます.\n\n「緊急看護」は30秒持続し,3秒ごとに回復を行います.\n出血している場合,80%の効率で止血し,全ての怪我を2ポイント回復します.</LitF_EmergencyNursing.description>
+
+  <!-- ワーカー -->
+
+  <LitF_Worker1.label>ワーカー Lv1</LitF_Worker1.label>
+  <LitF_Worker2.label>ワーカー Lv2</LitF_Worker2.label>
+  <LitF_Worker3.label>ワーカー Lv3</LitF_Worker3.label>
+
+
+</LanguageData>

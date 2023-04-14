@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>LittleFairy the Those Who Seek Flesh and Blood Race</name>
+  <author>Aoi_nasuko</author>
+  <packageId>bep.littlefairy.ttwsfabr</packageId>
+  <supportedVersions>
+    <li>1.3</li>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      <downloadUrl></downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>Nals.FacialAnimation</li>
+    <li>Nals.FacialAnimationExperimentals</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>bep.littlefairy.ropeworktale</li>
+  </incompatibleWith>
+  <description><![CDATA[
+【対応言語】
+日本語
+English(Machine translation)
+
+血と肉を求める者、リトルフェアリー。
+
+<color=#77FFFF><size=20>＊概要</size></color>
+このMODはLittle Fairy RopeWorkTaleを一新し、作り直したMODです。
+小さな羽を持つ妖精の様な種族、リトルフェアリーとその関連技術を追加します。
+
+<color=#77FFFF><size=15>＊ストーリー</size></color>
+リトルフェアリーは小さな羽を持った、肉を好む妖精のような種族です。
+かつてある企業によって、人間にとって都合のいい奉仕種族として作られた彼女達は乱獲の後、様々な星々に散らばりました。
+今では、主に便利な雑用係や上質な食料としての地位を確立しています。
+
+彼女達は特別な力である「輝き」を持ちます。
+輝きは脆いリトルフェアリーの肉体を守ったり、自身や他者の肉体を強化することが出来ます。
+また、「輝き」を物体に付与することで特殊な力を持った物品を作成することも出来ます。
+一方、不意の事故でご主人様を失った個体が長い時間を掛けて血と肉に塗れた技術を身につけることがあるようです。
+
+<color=#77FFFF><size=15>＊入手方法</size></color>
+-時折、奴隷として売られているため購入して入手
+-敵対するリトルフェアリーとの戦闘で入手
+-研究を進めることで作れる苗床の機能で入手
+
+<color=#77FFFF><size=15>＊特徴</size></color>
+<color=#77FFFF>-移動速度がとても早い</color>
+<color=#77FFFF>-体格が小さい</color>
+<color=#77FFFF>-気温に強く常識の範囲内であればどこでも活動可能</color>
+<color=#77FFFF>-死や環境等に関するムード低下を受けない</color>
+<color=#77FFFF>-リトルフェアリーが死んだり,死体を解体してもムード低下を受けず,また食べた時に心情が大幅に上昇する</color>
+<color=#77FFFF>-ダメージから身を守るFPを所持している FPは1につき1ダメージ身を守ってくれる</color>
+<color=#77FFFF>-Ideorogy導入時、奴隷状態の時に脱走せず、作業速度が50%上昇し、抑圧に応じて心情にボーナスが入る</color>
+
+<color=#FF7777>-部位HPがとても低い</color>
+<color=#FF7777>-毒にかなり弱い</color>
+
+<color=#77FFFF>-いくつかのアクティブ/パッシブスキルを所持している
+リトルフェアリーのスキルには複数のカテゴリがあり、その中から1匹につき1～4つ所持している
+また、汎用スキルをいくつか所持している
+カテゴリによるスキルは時間経過や戦闘によって経験値を得て、経験値を消費してスキルを開放することができる
+
+カテゴリによるスキルは後から変更することが出来ず、多くのカテゴリを得たリトルフェアリーを得るためには苗床を育てるしか無い
+汎用スキルは、研究を進めることで作成できるアーティファクトで12個まで増やすことができる</color>
+
+<color=#77FFFF><size=20>＊その他、このMODで追加されるもの</size></color>
+-リトルフェアリーの研究が追加されます。
+-リトルフェアリーと他の種族を捧げることによって、より強いリトルフェアリーを生み出す苗床を追加します。
+-リトルフェアリーの建築物を追加します。
+-リトルフェアリーの衣装と武器を追加します。
+
+]]></description>
+</ModMetaData>

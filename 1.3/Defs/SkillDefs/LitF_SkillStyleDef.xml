@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- 戦士 -->
+	
+	<LittleFairy_Race.SkillStyleDef>
+		<defName>LitF_Warrior</defName>
+		<label>Warrior</label>
+		<description>Those with the Warrior factor excel in close combat. However, they are not good at research and work.</description>
+		<FPMax>50</FPMax>
+		<CanGeneRandom>true</CanGeneRandom>
+		<CommonRate>100</CommonRate>
+		<SkillDefs>
+			<li>LitF_Tough</li>
+			<li>LitF_Adrenalin</li>
+			<li>LitF_Tackle</li>
+		</SkillDefs>
+		<SkillColor>(0.78, 0.39, 0.39)</SkillColor>
+		<SkillPicture>LittleFairy/UI/Icon/Class/Warrior</SkillPicture>
+	</LittleFairy_Race.SkillStyleDef>
+	
+	<!-- バーサーカー -->
+	
+	<LittleFairy_Race.SkillStyleDef>
+		<defName>LitF_berserker</defName>
+		<label>Berserker</label>
+		<description>Those with the Warrior factor excel in close combat. However, they are not capable of long-range attacks.</description>
+		<FPMax>50</FPMax>
+		<CanGeneRandom>true</CanGeneRandom>
+		<CommonRate>100</CommonRate>
+		<SkillDefs>
+			<li>LitF_BerserkerBlood</li>
+			<li>LitF_BerserkerCharge</li>
+			<li>LitF_BerserkerEnthusiasm</li>
+		</SkillDefs>
+		<SkillColor>(0.78, 0.39, 0.39)</SkillColor>
+		<SkillPicture>LittleFairy/UI/Icon/Class/Berserker</SkillPicture>
+	</LittleFairy_Race.SkillStyleDef>
+	
+	<!-- ナイト -->
+	
+	<LittleFairy_Race.SkillStyleDef>
+		<defName>LitF_Knight</defName>
+		<label>Knight</label>
+		<description>It is a wall that protects everyone from remote attacks. However, they are not good at research and work.</description>
+		<FPMax>50</FPMax>
+		<CanGeneRandom>true</CanGeneRandom>
+		<CommonRate>100</CommonRate>
+		<SkillDefs>
+			<li>LitF_KnightKnowledge</li>
+			<li>LitF_KnightWill</li>
+			<li>LitF_Advance</li>
+		</SkillDefs>
+		<SkillColor>(0.19, 0.59, 0.78)</SkillColor>
+		<SkillPicture>LittleFairy/UI/Icon/Class/Knight</SkillPicture>
+	</LittleFairy_Race.SkillStyleDef>
+	
+	<!-- レンジャー -->
+	
+	<LittleFairy_Race.SkillStyleDef>
+		<defName>LitF_Ranger</defName>
+		<label>Ranger</label>
+		<description>Rangers are good at setting traps and attacking from a distance. However, they are not good at working.</description>
+		<FPMax>30</FPMax>
+		<CanGeneRandom>true</CanGeneRandom>
+		<CommonRate>100</CommonRate>
+		<SkillDefs>
+			<li>LitF_RangerTips</li>
+			<li>LitF_Trap</li>
+			<li>LitF_TriggerHappy</li>
+		</SkillDefs>
+		<SkillColor>(0.19, 0.59, 0.78)</SkillColor>
+		<SkillPicture>LittleFairy/UI/Icon/Class/Ranger</SkillPicture>
+	</LittleFairy_Race.SkillStyleDef>
+	
+	<!-- 魔術師 -->
+	
+	<LittleFairy_Race.SkillStyleDef>
+		<defName>LitF_Wizard</defName>
+		<label>Wizard</label>
+		<description>It can be used as an offensive force, from small lacerations to explosions. However, its FP durability is low.</description>
+		<FPMax>10</FPMax>
+		<CanGeneRandom>true</CanGeneRandom>
+		<CommonRate>100</CommonRate>
+		<SkillDefs>
+			<li>LitF_WizardSoul</li>
+			<li>LitF_Wind</li>
+			<li>LitF_Meteor</li>
+		</SkillDefs>
+		<SkillColor>(0.78, 0.39, 0.78)</SkillColor>
+		<SkillPicture>LittleFairy/UI/Icon/Class/Wizard</SkillPicture>
+	</LittleFairy_Race.SkillStyleDef>
+	
+		
+	<!-- ミートメーカー -->
+	
+	<LittleFairy_Race.SkillStyleDef>
+		<defName>LitF_MeatMaker</defName>
+		<label>MeatMaker</label>
+		<description>MeatMaker is individuals that accumulate more meat than regular LittleFairy.</description>
+		<FPMax>10</FPMax>
+		<CanGeneRandom>true</CanGeneRandom>
+		<CommonRate>100</CommonRate>
+		<SkillDefs>
+			<li>LitF_MeatMaker1</li>
+			<li>LitF_MeatMaker2</li>
+			<li>LitF_MeatMaker3</li>
+		</SkillDefs>
+		<SkillColor>(0.78, 0.39, 0.78)</SkillColor>
+		<SkillPicture>LittleFairy/UI/Icon/Class/MeatMaker</SkillPicture>
+	</LittleFairy_Race.SkillStyleDef>
+	
+	<!-- ヒーラー -->
+	
+	<LittleFairy_Race.SkillStyleDef>
+		<defName>LitF_Healer</defName>
+		<label>Healer</label>
+		<description>It will be able to perform minor wound healing. However, it will not be good at fight.</description>
+		<FPMax>30</FPMax>
+		<CanGeneRandom>true</CanGeneRandom>
+		<CommonRate>100</CommonRate>
+		<SkillDefs>
+			<li>LitF_Nursing</li>
+			<li>LitF_HealBall</li>
+			<li>LitF_EmergencyNursing</li>
+		</SkillDefs>
+		<SkillColor>(0.39, 0.78, 0.39)</SkillColor>
+		<SkillPicture>LittleFairy/UI/Icon/Class/Healer</SkillPicture>
+	</LittleFairy_Race.SkillStyleDef>
+	
+	<!-- ワーカー -->
+	
+	<LittleFairy_Race.SkillStyleDef>
+		<defName>LitF_Worker</defName>
+		<label>Worker</label>
+		<description>The Worker is responsible for assisting in the overall work of the colony. However, at the cost of reduced combat capability.</description>
+		<FPMax>30</FPMax>
+		<CanGeneRandom>true</CanGeneRandom>
+		<CommonRate>100</CommonRate>
+		<SkillDefs>
+			<li>LitF_Worker1</li>
+			<li>LitF_Worker2</li>
+			<li>LitF_Worker3</li>
+		</SkillDefs>
+		<SkillColor>(0.39, 0.78, 0.39)</SkillColor>
+		<SkillPicture>LittleFairy/UI/Icon/Class/Worker</SkillPicture>
+	</LittleFairy_Race.SkillStyleDef>
+	
+</Defs>

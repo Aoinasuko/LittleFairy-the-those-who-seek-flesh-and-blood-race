@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LitF_BloodyWildLittleFairy.label>野生のリトルフェアリー</LitF_BloodyWildLittleFairy.label>
+  <LitF_BloodyWildLittleFairy.description>長い長い年月によって奉仕種族としての意識を忘れ,他種族の肉の味を覚えてしまった結果生まれたリトルフェアリーの群れです.\n他種族を自分たちの繁栄のための食料・材料としか見ず,無差別に攻撃してきます.\n派閥としての説得は不可能です.</LitF_BloodyWildLittleFairy.description>
+  <LitF_BloodyWildLittleFairy.pawnsPlural>野生のリトルフェアリー</LitF_BloodyWildLittleFairy.pawnsPlural>
+  <LitF_BloodyWildLittleFairy.pawnSingular>野生のリトルフェアリー</LitF_BloodyWildLittleFairy.pawnSingular>
+  <LitF_BloodyWildLittleFairy.leaderTitle>リトルフェアリーの長</LitF_BloodyWildLittleFairy.leaderTitle>
+
+  <LitF_GentleWildLittleFairy.label>野生のリトルフェアリー</LitF_GentleWildLittleFairy.label>
+  <LitF_GentleWildLittleFairy.description>ご主人さまと逸れたり,養殖によって生まれたり,何らかの方法で生きていたリトルフェアリーたちです.\n比較的温厚です.</LitF_GentleWildLittleFairy.description>
+  <LitF_GentleWildLittleFairy.pawnsPlural>野生のリトルフェアリー</LitF_GentleWildLittleFairy.pawnsPlural>
+  <LitF_GentleWildLittleFairy.pawnSingular>野生のリトルフェアリー</LitF_GentleWildLittleFairy.pawnSingular>
+  <LitF_GentleWildLittleFairy.leaderTitle>リトルフェアリーの長</LitF_GentleWildLittleFairy.leaderTitle>
+
+
+</LanguageData>

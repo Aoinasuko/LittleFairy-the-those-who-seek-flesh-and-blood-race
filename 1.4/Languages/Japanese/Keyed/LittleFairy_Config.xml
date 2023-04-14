@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LitF.Config.Title>LittleFairy</LitF.Config.Title>
+  
+  <LitF.Config.Title.0>通常設定(起動中でも変更可能)</LitF.Config.Title.0>
+  
+  <LitF.Config.LabelCanOfferFemaleRace>メスの種族でも捧げられるようにする</LitF.Config.LabelCanOfferFemaleRace>
+  <LitF.Config.CanOfferFemaleRace>通常,苗床にはリトルフェアリーとオスしか捧げられません.\n有効化することで,メスの種族でも捧げられるようにします.</LitF.Config.CanOfferFemaleRace>
+  <LitF.Config.LabelGetDailyXPAmount>1日に手に入る経験値量</LitF.Config.LabelGetDailyXPAmount>
+  <LitF.Config.GetDailyXPAmount>1日ごとに手に入る経験値の量です.</LitF.Config.GetDailyXPAmount>
+  <LitF.Config.LabelSpawnMeefaeRate>ミーフィーが産まれる確率</LitF.Config.LabelSpawnMeefaeRate>
+  <LitF.Config.SpawnMeefaeRate>苗床からミーフィーが産まれる確率です.</LitF.Config.SpawnMeefaeRate>
+  <LitF.Config.LabelAdultCondition>大人の状態で産まれるようにする</LitF.Config.LabelAdultCondition>
+  <LitF.Config.AdultCondition>苗床から産まれるリトルフェアリーが,大人の状態で産まれるようにします.</LitF.Config.AdultCondition>
+  <LitF.Config.LabelRandomSuccession>ランダム継承</LitF.Config.LabelRandomSuccession>
+  <LitF.Config.RandomSuccession>永続敵対の野生のリトルフェアリーが,ランダムな種族の能力を継承した状態で出現します.</LitF.Config.RandomSuccession>
+  <LitF.Config.LabelRandomSuccession_Rate>ランダム継承の確率</LitF.Config.LabelRandomSuccession_Rate>
+  <LitF.Config.RandomSuccession_Rate>永続敵対の野生のリトルフェアリーが,ランダムの種族の能力を継承している確率です.</LitF.Config.RandomSuccession_Rate>
+  <LitF.Config.LabelEnemyFairy_Damage>敵対派閥のリトルフェアリーが受けるダメージ補正</LitF.Config.LabelEnemyFairy_Damage>
+  <LitF.Config.EnemyFairy_Damage>敵対派閥のリトルフェアリーが受けるダメージ量に補正を掛けます.</LitF.Config.EnemyFairy_Damage>
+
+  <LitF.Config.Title.1>特殊設定(＊変更後,再起動が必要です＊)</LitF.Config.Title.1>
+  
+  <LitF.Config.LabelAdd_Animal_Succession>動物からも継承できるようにする</LitF.Config.LabelAdd_Animal_Succession>
+  <LitF.Config.Add_Animal_Succession>【警告】\nこの設定を有効化すると,環境によっては起動時間が大幅に増加する可能性があります！注意してください！\n\nデフォルトでは,AlienRaceの種族のみから能力を継承できますが,有効化することで動物からの継承が可能になります.</LitF.Config.Add_Animal_Succession>
+  <LitF.Config.LabelSuccession_Rate>継承の確率</LitF.Config.LabelSuccession_Rate>
+  <LitF.Config.Succession_Rate>継承スキルが抽選候補に選ばれる確率です.\n直接出現率を操作するわけではないため注意してください.</LitF.Config.Succession_Rate>
+  <LitF.Config.LabelSuccession_Power>継承の効果量</LitF.Config.LabelSuccession_Power>
+  <LitF.Config.Succession_Power>継承の効果量を割合で変更できます.</LitF.Config.Succession_Power>
+  
+  <LitF.Config.Update>アップデートを確認する</LitF.Config.Update>
+
+</LanguageData>

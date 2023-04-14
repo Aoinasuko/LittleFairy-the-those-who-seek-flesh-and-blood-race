@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<StyleItemCategoryDef>
+		<defName>LittleFairy</defName>
+		<label>Little Fairy</label>
+	</StyleItemCategoryDef>
+	
+	<HairDef>
+		<defName>LitF_Short</defName>
+		<label>LitF Short</label>
+		<styleGender>Any</styleGender>
+		<texPath>LittleFairy/Race/Hair/Short/Short</texPath>
+		<category>LittleFairy</category>
+		<styleTags>
+			<li>LittleFairy</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>LitF_Okappa</defName>
+		<label>LitF Okappa</label>
+		<styleGender>Any</styleGender>
+		<texPath>LittleFairy/Race/Hair/Okappa/Okappa</texPath>
+		<category>LittleFairy</category>
+		<styleTags>
+			<li>LittleFairy</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>LitF_Long</defName>
+		<label>LitF Long</label>
+		<styleGender>Any</styleGender>
+		<texPath>LittleFairy/Race/Hair/Long/Long</texPath>
+		<category>LittleFairy</category>
+		<styleTags>
+			<li>LittleFairy</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>LitF_Mituami</defName>
+		<label>LitF Mituami</label>
+		<styleGender>Any</styleGender>
+		<texPath>LittleFairy/Race/Hair/Mituami/Mituami</texPath>
+		<category>LittleFairy</category>
+		<styleTags>
+			<li>LittleFairy</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>LitF_Ahoge</defName>
+		<label>LitF Ahoge</label>
+		<styleGender>Any</styleGender>
+		<texPath>LittleFairy/Race/Hair/Ahoge/Ahoge</texPath>
+		<category>LittleFairy</category>
+		<styleTags>
+			<li>LittleFairy</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>LitF_TwintailLike</defName>
+		<label>LitF TwintailLike</label>
+		<styleGender>Any</styleGender>
+		<texPath>LittleFairy/Race/Hair/TwintailLike/TwintailLike</texPath>
+		<category>LittleFairy</category>
+		<styleTags>
+			<li>LittleFairy</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>LitF_Mekakure_L</defName>
+		<label>LitF Mekakure L</label>
+		<styleGender>Any</styleGender>
+		<texPath>LittleFairy/Race/Hair/MekakureL/MekakureL</texPath>
+		<category>LittleFairy</category>
+		<styleTags>
+			<li>LittleFairy</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>LitF_Mekakure_R</defName>
+		<label>LitF Mekakure R</label>
+		<styleGender>Any</styleGender>
+		<texPath>LittleFairy/Race/Hair/MekakureR/MekakureR</texPath>
+		<category>LittleFairy</category>
+		<styleTags>
+			<li>LittleFairy</li>
+		</styleTags>
+	</HairDef>
+	
+</Defs>

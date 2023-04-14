@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LitF.Config.Title>LittleFairy</LitF.Config.Title>
+  
+  <LitF.Config.Title.0>Normal settings</LitF.Config.Title.0>
+  
+  <LitF.Config.LabelCanOfferFemaleRace>Allow female race to be offered as well</LitF.Config.LabelCanOfferFemaleRace>
+  <LitF.Config.CanOfferFemaleRace>Normally, only LittleFairy and males can be offered to the nursery. By activating the option, female race can also be offered to the nursery.</LitF.Config.CanOfferFemaleRace>
+  <LitF.Config.LabelGetDailyXPAmount>Daily XP Amount</LitF.Config.LabelGetDailyXPAmount>
+  <LitF.Config.GetDailyXPAmount>The amount of XP that LittleFairy gets per day. It is consumed to acquire LittleFairy skills.</LitF.Config.GetDailyXPAmount>
+  <LitF.Config.LabelSpawnMeefaeRate>Meefae Spawn Rate</LitF.Config.LabelSpawnMeefaeRate>
+  <LitF.Config.SpawnMeefaeRate>Meefae Spawn Rate in nursery.</LitF.Config.SpawnMeefaeRate>
+  <LitF.Config.LabelAdultCondition>Born AdultCondition</LitF.Config.LabelAdultCondition>
+  <LitF.Config.AdultCondition>Ensure that when they are born from the nursery, they are born as adults.</LitF.Config.AdultCondition>
+  <LitF.Config.LabelRandomSuccession>RandomSuccession</LitF.Config.LabelRandomSuccession>
+  <LitF.Config.RandomSuccession>A permanently hostile wild LittleFairy appears with succession abilities of a random race.</LitF.Config.RandomSuccession>
+  <LitF.Config.LabelRandomSuccession_Rate>RandomSuccession Rate</LitF.Config.LabelRandomSuccession_Rate>
+  <LitF.Config.RandomSuccession_Rate>The probability that a wild LittleFairy of permanent hostility inherits the abilities of a random species.</LitF.Config.RandomSuccession_Rate>
+  <LitF.Config.LabelEnemyFairy_Damage>Damage Correction For HostileFaction</LitF.Config.LabelEnemyFairy_Damage>
+  <LitF.Config.EnemyFairy_Damage>Corrects the amount of damage done to the Little Fairies of the hostile faction.</LitF.Config.EnemyFairy_Damage>
+
+  <LitF.Config.Title.1>Special settings (*Reboot is required after changing the settings*)</LitF.Config.Title.1>
+  
+  <LitF.Config.LabelAdd_Animal_Succession>Allow Succession from animals</LitF.Config.LabelAdd_Animal_Succession>
+  <LitF.Config.Add_Animal_Succession>Warning\nEnabling this setting may significantly increase startup time in some environments! Caution!\n\nBy default, the ability can be inherited only from AlienRace races, but by activating it, it can be inherited from animals.</LitF.Config.Add_Animal_Succession>
+  <LitF.Config.LabelSuccession_Rate>Succession Rate</LitF.Config.LabelSuccession_Rate>
+  <LitF.Config.Succession_Rate>This is the probability that an succeeding skill will be selected as a candidate for the lottery. Please note that it does not directly manipulate the rate of occurrence.</LitF.Config.Succession_Rate>
+  <LitF.Config.LabelSuccession_Power>Amount of effect of succession</LitF.Config.LabelSuccession_Power>
+  <LitF.Config.Succession_Power>The amount of Succession effect can be changed.</LitF.Config.Succession_Power>
+  
+  <LitF.Config.Update>Update Log Check</LitF.Config.Update>
+
+</LanguageData>

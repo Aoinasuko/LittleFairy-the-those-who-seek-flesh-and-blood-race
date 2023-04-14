@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LitF_BrightBow.label>LitF 輝く弓</LitF_BrightBow.label>
+  <LitF_BrightBow.description>極めて短い射程の代わりに威力が大きい弓です.</LitF_BrightBow.description>
+  <LitF_BrightBow.tools.0.label>持ち手</LitF_BrightBow.tools.0.label>
+
+  <LitF_BrightCrossBow.label>LitF 輝くクロスボウ</LitF_BrightCrossBow.label>
+  <LitF_BrightCrossBow.description>輝く弓を改良して作られたクロスボウです.\n全体的に能力が向上していますが,装填に時間がかかります.</LitF_BrightCrossBow.description>
+  <LitF_BrightCrossBow.tools.0.label>持ち手</LitF_BrightCrossBow.tools.0.label>
+
+  <LitF_BloodyBrightBow.label>LitF 血の輝く弓</LitF_BloodyBrightBow.label>
+  <LitF_BloodyBrightBow.description>射程が長く強力な弓です.</LitF_BloodyBrightBow.description>
+  <LitF_BloodyBrightBow.tools.0.label>持ち手</LitF_BloodyBrightBow.tools.0.label>
+
+  <LitF_WingBeat.label>LitF ウィングビート</LitF_WingBeat.label>
+  <LitF_WingBeat.description>矢を機械的に射出することによって,超遠距離からの攻撃を可能にした武器です.\n装填に非常に時間がかかります.</LitF_WingBeat.description>
+  <LitF_WingBeat.tools.0.label>バレル</LitF_WingBeat.tools.0.label>
+
+  <LitF_BloodyBrightArrow.label>血の輝く矢</LitF_BloodyBrightArrow.label>
+
+  <LitF_BrightArrow.label>輝く矢</LitF_BrightArrow.label>
+
+</LanguageData>

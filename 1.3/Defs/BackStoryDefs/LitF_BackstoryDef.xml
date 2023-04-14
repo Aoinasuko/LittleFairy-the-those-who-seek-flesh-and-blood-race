@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>LitF_Child_NurseryBorn</defName>
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>LitF_FairyStory_Born</li>
+		</spawnCategories>
+		<title>Nursery Born LittleFairy</title>
+		<titleShort>Nursery Born</titleShort>
+		<baseDescription>[PAWN_nameDef] was born in a Nursery.</baseDescription>
+		<slot>Childhood</slot>
+	</AlienRace.BackstoryDef>
+	
+	<!-- 完全野生 -->
+	
+	<AlienRace.BackstoryDef Name="LitF_BaseBackStory_Wild" Abstract="True">
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>LitF_FairyStory_Wild</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Wild">
+		<defName>LitF_Wild_Child_A</defName>
+		<title>Wild Born LittleFairy</title>
+		<titleShort>Wild Born</titleShort>
+		<baseDescription>[PAWN_nameDef] was born a wild LittleFairy.</baseDescription>
+		<slot>Childhood</slot>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Wild">
+		<defName>LitF_Wild_Adult_A</defName>
+		<title>Wild Fighter</title>
+		<titleShort>Fighter</titleShort>
+		<baseDescription>Like many LittleFairies, [PAWN_nameDef] has been trained in combat since he was born. They are fearsome fighters, tearing flesh with their swords and piercing bone with their bows.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Wild">
+		<defName>LitF_Wild_Adult_B</defName>
+		<title>Nursery Manager</title>
+		<titleShort>Manager</titleShort>
+		<baseDescription>[PAWN_nameDef] was in control of the nursery to increase the Little Fairies. If there was anything wrong with the nursery, she took care of the nursery.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Wild">
+		<defName>LitF_Wild_Adult_C</defName>
+		<title>Wild Healer</title>
+		<titleShort>Healer</titleShort>
+		<baseDescription>[PAWN_nameDef] was LittleFairy's doctor, healing his friends when they were injured. When it was determined that they could not be saved, they would send the injured to the butcher for cannibalism.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Wild">
+		<defName>LitF_Wild_Adult_D</defName>
+		<title>Wild Butcher</title>
+		<titleShort>Butcher</titleShort>
+		<baseDescription>[PAWN_nameDef] is responsible for butchering and cooking the meat of the prey hunted by the herd. It is a necessary role in order to feed the hunger of his companions.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<!-- 元従者 -->
+	
+	<AlienRace.BackstoryDef Name="LitF_BaseBackStory_Slave" Abstract="True">
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>LitF_FairyStory_Slave</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Slave">
+		<defName>LitF_Slave_Child_A</defName>
+		<title>Artificially Born</title>
+		<titleShort>Artificially</titleShort>
+		<baseDescription>[PAWN_nameDef] has LittleFairy born in aquaculture by a different species.</baseDescription>
+		<slot>Childhood</slot>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Slave">
+		<defName>LitF_Slave_Child_B</defName>
+		<title>LittleFairy Child</title>
+		<titleShort>Child</titleShort>
+		<baseDescription>[PAWN_nameDef] is a LittleFairy born from an interracial marriage.</baseDescription>
+		<slot>Childhood</slot>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Slave">
+		<defName>LitF_Slave_Adult_A</defName>
+		<title>LittleFairy Warrior</title>
+		<titleShort>Warrior</titleShort>
+		<baseDescription>Raised as a warrior, [PAWN_nameDef] went through many battles. After completing her role, she traveled aimlessly.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Slave">
+		<defName>LitF_Slave_Adult_B</defName>
+		<title>LittleFairy Shooter</title>
+		<titleShort>Shooter</titleShort>
+		<baseDescription>Raised as a shooter, [PAWN_nameDef] went through many battles. After completing her role, she traveled aimlessly.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Slave">
+		<defName>LitF_Slave_Adult_C</defName>
+		<title>LittleFairy Servant</title>
+		<titleShort>Servant</titleShort>
+		<baseDescription>trained to serve other species, [PAWN_nameDef] performed many chores. However, he was separated from her master by a spaceship accident.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Slave">
+		<defName>LitF_Slave_Adult_D</defName>
+		<title>LittleFairy Diplomat</title>
+		<titleShort>Diplomat</titleShort>
+		<baseDescription>The charming [PAWN_nameDef] has solved many problems as a diplomat. However, a spaceship accident caused her to be separated from her master.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Slave">
+		<defName>LitF_Slave_Adult_E</defName>
+		<title>LittleFairy Doctor</title>
+		<titleShort>Doctor</titleShort>
+		<baseDescription>Educated for medicine, [PAWN_nameDef] has done a lot of healing in the colony. However, an accident caused the colony to collapse and she escaped.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Slave">
+		<defName>LitF_Slave_Adult_F</defName>
+		<title>LittleFairy Farmer</title>
+		<titleShort>Farmer</titleShort>
+		<baseDescription>Educated for medicine, [PAWN_nameDef] was growing many crops in the colony. However, an accident caused the colony to collapse and she escaped.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="LitF_BaseBackStory_Slave">
+		<defName>LitF_Slave_Adult_G</defName>
+		<title>Emergency Food</title>
+		<titleShort>Food</titleShort>
+		<baseDescription>Born in a cannibalistic colony, [PAWN_nameDef] was kept as food. However, when the colony collapsed due to conflict, she was able to escape her fate as food.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+</Defs>

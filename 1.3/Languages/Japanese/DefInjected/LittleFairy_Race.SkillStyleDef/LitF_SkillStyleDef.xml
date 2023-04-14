@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 戦士 -->
+
+  <LitF_Warrior.label>戦士</LitF_Warrior.label>
+  <LitF_Warrior.description>近接戦闘を得意とするスタイルです. しかし雑用が苦手になります.</LitF_Warrior.description>
+
+
+  <!-- バーサーカー -->
+
+  <LitF_berserker.label>バーサーカー</LitF_berserker.label>
+  <LitF_berserker.description>戦士以上に近接戦闘を得意とするスタイルです. しかし遠隔が苦手になります.</LitF_berserker.description>
+
+
+  <!-- ナイト -->
+
+  <LitF_Knight.label>ナイト</LitF_Knight.label>
+  <LitF_Knight.description>被ダメージを抑え,安全に近接攻撃を行えるスタイルです. しかし雑用が苦手になります.</LitF_Knight.description>
+
+
+  <!-- レンジャー -->
+
+  <LitF_Ranger.label>レンジャー</LitF_Ranger.label>
+  <LitF_Ranger.description>遠距離攻撃とトラップを駆使して戦えるスタイルです. しかし雑用が苦手になります.</LitF_Ranger.description>
+
+
+  <!-- 魔術師 -->
+
+  <LitF_Wizard.label>ウィザード</LitF_Wizard.label>
+  <LitF_Wizard.description>遠距離から強力な攻撃を行うことができるスタイルです. しかしFPが非常に低く,また被ダメージが増加します.</LitF_Wizard.description>
+
+
+  <!-- ミートメーカー -->
+
+  <LitF_MeatMaker.label>ミートメーカー</LitF_MeatMaker.label>
+  <LitF_MeatMaker.description>他のリトルフェアリーよりも多くの肉を得ることができるスタイルです.</LitF_MeatMaker.description>
+
+
+  <!-- ヒーラー -->
+
+  <LitF_Healer.label>ヒーラー</LitF_Healer.label>
+  <LitF_Healer.description>回復専門のスタイルです. 戦闘全般が苦手になります.</LitF_Healer.description>
+
+
+  <!-- ワーカー -->
+
+  <LitF_Worker.label>ワーカー</LitF_Worker.label>
+  <LitF_Worker.description>作業速度が上昇するスタイルです. 戦闘が若干苦手になります.</LitF_Worker.description>
+
+
+</LanguageData>

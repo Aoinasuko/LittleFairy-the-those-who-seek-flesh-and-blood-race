@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="ApparelMakeableBase">
+	<defName>LitF_MaidBand</defName>
+	<label>LitF MaidBand</label>
+	<description>A hair band for Little Fairy Servants.</description>
+	<graphicData>
+		<texPath>LittleFairy/Thing/Apparel/MaidBand/MaidBand</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<techLevel>Medieval</techLevel>
+	<costStuffCount>20</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<tradeability>Sellable</tradeability>
+	<recipeMaker>
+		<researchPrerequisite>LitF_Costumes</researchPrerequisite>
+		<recipeUsers>
+			<li>LitF_CraftTable</li>
+		</recipeUsers>
+	</recipeMaker>
+	<thingCategories>
+		<li>LitF_Apparel</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>1500</WorkToMake>
+		<Mass>0.03</Mass>
+		<Flammability>0.8</Flammability>
+		<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+		<EquipDelay>2</EquipDelay>
+	</statBases>
+	<apparel>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
+		<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>LittleFairy/Thing/Apparel/MaidBand/MaidBand</wornGraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<tags>
+			<li>LitF_Apparel</li>
+		</tags>
+		<defaultOutfitTags>
+			<li>Worker</li>
+		</defaultOutfitTags>
+	</apparel>
+	<colorGenerator Class="ColorGenerator_Options">
+		<options>
+			<li>
+				<weight>10</weight>
+				<only>(1.0,1.0,1.0,1)</only>
+			</li>
+		</options>
+	</colorGenerator>
+	<comps>
+		<li>
+			<compClass>CompColorable</compClass>
+		</li>
+	</comps>
+</ThingDef>
+
+</Defs>

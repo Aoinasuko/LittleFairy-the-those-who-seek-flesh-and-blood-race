@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- 汎用スキル -->
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_FPMaxUP_Lv1</defName>
+		<label>FPMax Lv1</label>
+		<FPMax>10</FPMax>
+		<CommonRate>100</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/FPMax_Lv1</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_FPMaxUP_Lv2</defName>
+		<label>FPMax Lv2</label>
+		<FPMax>20</FPMax>
+		<CommonRate>80</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/FPMax_Lv2</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_FPMaxUP_Lv3</defName>
+		<label>FPMax Lv3</label>
+		<FPMax>30</FPMax>
+		<CommonRate>60</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/FPMax_Lv3</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_FPHealUP_Lv1</defName>
+		<label>FPHealUP Lv1</label>
+		<FPHealRate>1</FPHealRate>
+		<CommonRate>100</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/FPHeal_Lv1</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_FPHealUP_Lv2</defName>
+		<label>FPHealUP Lv2</label>
+		<FPHealRate>2</FPHealRate>
+		<CommonRate>80</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/FPHeal_Lv2</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_FPHealUP_Lv3</defName>
+		<label>FPHealUP Lv3</label>
+		<FPHealRate>3</FPHealRate>
+		<CommonRate>60</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/FPHeal_Lv3</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_CDSpeed_Lv1</defName>
+		<label>CDSpeedUP Lv1</label>
+		<CoolDownRate>1</CoolDownRate>
+		<CommonRate>60</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/SkillCD_Lv1</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_CDSpeed_Lv2</defName>
+		<label>CDSpeedUP Lv2</label>
+		<CoolDownRate>2</CoolDownRate>
+		<CommonRate>40</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/SkillCD_Lv2</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_CDSpeed_Lv3</defName>
+		<label>CDSpeedUP Lv3</label>
+		<CoolDownRate>3</CoolDownRate>
+		<CommonRate>20</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/SkillCD_Lv3</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_FPMaxDown</defName>
+		<label>FPMaxDown</label>
+		<FPMax>-30</FPMax>
+		<CommonRate>30</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/FPMaxDown</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_FPHealDown</defName>
+		<label>FPHealDown</label>
+		<FPHealRate>-3</FPHealRate>
+		<CommonRate>30</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/FPHealDown</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+	<!-- 継承 -->
+	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_Succession_Base</defName>
+		<label>Succession</label>
+		<CommonRate>0</CommonRate>
+		<IsCommonSkill>true</IsCommonSkill>
+		<IsDuplication>false</IsDuplication>
+		<SkillCategory>Passive</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Common/Succession</SkillPicture>
+	</LittleFairy_Race.SkillDef>
+	
+</Defs>

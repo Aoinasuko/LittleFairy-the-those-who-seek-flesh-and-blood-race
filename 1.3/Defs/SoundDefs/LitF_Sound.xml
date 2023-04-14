@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SoundDef>
+    <defName>LitF_LitFDeath</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>LittleFairy/Race/LitF_LitFDeath</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>80~90</volumeRange>
+        <pitchRange>1.9082353~1.114706</pitchRange>
+        <distRange>0~50</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>LitF_LitFHurt</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>LittleFairy/Race/LitF_LitFHurt</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>80~90</volumeRange>
+        <pitchRange>1.9082353~2.114706</pitchRange>
+        <distRange>0~50</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>LitF_Chant</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>LittleFairy/Skill/LitF_Chant</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>100</min>
+          <max>100</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.999</min>
+          <max>1.0</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>50.0</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>LitF_Buff</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>LittleFairy/Skill/LitF_Buff</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>100</min>
+          <max>100</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.999</min>
+          <max>1.0</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>50.0</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>LitF_Parry</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>LittleFairy/FP/LitF_Parry</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>100</min>
+          <max>100</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.999</min>
+          <max>1.0</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>50.0</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>LitF_Break</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>LittleFairy/FP/LitF_Break</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>100</min>
+          <max>100</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.999</min>
+          <max>1.0</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>50.0</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>LitF_Meat</defName>
+    <context>MapOnly</context>
+    <sustain>true</sustain>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>LittleFairy/Effect/LitF_Meat</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>100</min>
+          <max>100</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.999</min>
+          <max>1.0</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>50.0</max>
+        </distRange>
+        <sustainLoop>false</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

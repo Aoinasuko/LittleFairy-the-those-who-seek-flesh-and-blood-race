@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LitF_Child_NurseryBorn.title>苗床生まれのリトルフェアリー</LitF_Child_NurseryBorn.title>
+  <LitF_Child_NurseryBorn.titleShort>苗床生まれ</LitF_Child_NurseryBorn.titleShort>
+  <LitF_Child_NurseryBorn.baseDescription>[PAWN_nameDef]は苗床から生まれたリトルフェアリーです.</LitF_Child_NurseryBorn.baseDescription>
+
+
+  <!-- 完全野生 -->
+
+  <LitF_Wild_Child_A.title>野生のリトルフェアリー</LitF_Wild_Child_A.title>
+  <LitF_Wild_Child_A.titleShort>野生生まれ</LitF_Wild_Child_A.titleShort>
+  <LitF_Wild_Child_A.baseDescription>[PAWN_nameDef]は野生で生まれたリトルフェアリーです.</LitF_Wild_Child_A.baseDescription>
+
+  <LitF_Wild_Adult_A.title>野生の戦闘員</LitF_Wild_Adult_A.title>
+  <LitF_Wild_Adult_A.titleShort>戦闘員</LitF_Wild_Adult_A.titleShort>
+  <LitF_Wild_Adult_A.baseDescription>多くの野生のリトルフェアリーと同じように,[PAWN_nameDef]は生まれた時から戦闘訓練を行っていました.\n彼女は剣で肉を裂き,弓で骨を貫く恐ろしい怪物です.</LitF_Wild_Adult_A.baseDescription>
+
+  <LitF_Wild_Adult_B.title>苗床の管理者</LitF_Wild_Adult_B.title>
+  <LitF_Wild_Adult_B.titleShort>苗床管理者</LitF_Wild_Adult_B.titleShort>
+  <LitF_Wild_Adult_B.baseDescription>[PAWN_nameDef]はリトルフェアリーの数を増やすための苗床を管理していました. もし何か苗床に異常があれば,彼女がそれを解決していました.</LitF_Wild_Adult_B.baseDescription>
+
+  <LitF_Wild_Adult_C.title>野生の医者</LitF_Wild_Adult_C.title>
+  <LitF_Wild_Adult_C.titleShort>医者</LitF_Wild_Adult_C.titleShort>
+  <LitF_Wild_Adult_C.baseDescription>[PAWN_nameDef]は野生のリトルフェアリー達の怪我を治癒する医者でした. しかし野生のリトルフェアリー達はほとんど仲間を使い捨てとして見ているため,助かる見込みがない場合は容赦なくその肉体を屠殺者に持っていきました.</LitF_Wild_Adult_C.baseDescription>
+
+  <LitF_Wild_Adult_D.title>屠殺者</LitF_Wild_Adult_D.title>
+  <LitF_Wild_Adult_D.titleShort>屠殺者</LitF_Wild_Adult_D.titleShort>
+  <LitF_Wild_Adult_D.baseDescription>[PAWN_nameDef]は他の仲間が狩ってきた獲物を屠殺する役割を担っていました. 群れが飢えないためにはこの役割も大切なのです.</LitF_Wild_Adult_D.baseDescription>
+
+
+  <!-- 元従者 -->
+
+  <LitF_Slave_Child_A.title>養殖のリトルフェアリー</LitF_Slave_Child_A.title>
+  <LitF_Slave_Child_A.titleShort>養殖生まれ</LitF_Slave_Child_A.titleShort>
+  <LitF_Slave_Child_A.baseDescription>[PAWN_nameDef]は他の種族によって養殖されて生まれたリトルフェアリーです.</LitF_Slave_Child_A.baseDescription>
+
+  <LitF_Slave_Child_B.title>リトルフェアリーの子供</LitF_Slave_Child_B.title>
+  <LitF_Slave_Child_B.titleShort>子供</LitF_Slave_Child_B.titleShort>
+  <LitF_Slave_Child_B.baseDescription>[PAWN_nameDef]は異種族間結婚の末に生まれた貴重なリトルフェアリーです.</LitF_Slave_Child_B.baseDescription>
+
+  <LitF_Slave_Adult_A.title>リトルフェアリーの戦士</LitF_Slave_Adult_A.title>
+  <LitF_Slave_Adult_A.titleShort>戦士</LitF_Slave_Adult_A.titleShort>
+  <LitF_Slave_Adult_A.baseDescription>戦士として育てられた[PAWN_nameDef]は,沢山の戦いを経験しました. 役割を終え,自由を得た彼女はあてもない旅を続けていました.</LitF_Slave_Adult_A.baseDescription>
+
+  <LitF_Slave_Adult_B.title>リトルフェアリーの射手</LitF_Slave_Adult_B.title>
+  <LitF_Slave_Adult_B.titleShort>射手</LitF_Slave_Adult_B.titleShort>
+  <LitF_Slave_Adult_B.baseDescription>射手として育てられた[PAWN_nameDef]は,沢山の戦いを経験しました. 役割を終え,自由を得た彼女はあてもない旅を続けていました.</LitF_Slave_Adult_B.baseDescription>
+
+  <LitF_Slave_Adult_C.title>リトルフェアリーの使用人</LitF_Slave_Adult_C.title>
+  <LitF_Slave_Adult_C.titleShort>使用人</LitF_Slave_Adult_C.titleShort>
+  <LitF_Slave_Adult_C.baseDescription>異種族に仕えるための教育を受けた[PAWN_nameDef]は沢山の経験を得ました. しかしながら,宇宙船の事故によってご主人さまと逸れてしまいました.</LitF_Slave_Adult_C.baseDescription>
+
+  <LitF_Slave_Adult_D.title>リトルフェアリーの外交官</LitF_Slave_Adult_D.title>
+  <LitF_Slave_Adult_D.titleShort>外交官</LitF_Slave_Adult_D.titleShort>
+  <LitF_Slave_Adult_D.baseDescription>外交官としての教育を受けた[PAWN_nameDef]はその愛嬌の良さで様々な問題を解決してきました. しかしながら,宇宙船の事故によってご主人さまと逸れてしまいました.</LitF_Slave_Adult_D.baseDescription>
+
+  <LitF_Slave_Adult_E.title>リトルフェアリーのドクター</LitF_Slave_Adult_E.title>
+  <LitF_Slave_Adult_E.titleShort>ドクター</LitF_Slave_Adult_E.titleShort>
+  <LitF_Slave_Adult_E.baseDescription>医療の教育を受けた[PAWN_nameDef]はコロニーの良き医者として数々の治療を行ってきました. しかしながら,コロニーが襲撃によって壊滅してしまいました. 彼女はなんとか逃げ出すことが出来ました.</LitF_Slave_Adult_E.baseDescription>
+
+  <LitF_Slave_Adult_F.title>リトルフェアリーの農家</LitF_Slave_Adult_F.title>
+  <LitF_Slave_Adult_F.titleShort>農家</LitF_Slave_Adult_F.titleShort>
+  <LitF_Slave_Adult_F.baseDescription>農業の教育を受けた[PAWN_nameDef]はコロニーで農家として沢山の作物を育てていました. しかしながら,コロニーが襲撃によって壊滅してしまいました. 彼女はなんとか逃げ出すことが出来ました.</LitF_Slave_Adult_F.baseDescription>
+
+  <LitF_Slave_Adult_G.title>非常食</LitF_Slave_Adult_G.title>
+  <LitF_Slave_Adult_G.titleShort>非常食</LitF_Slave_Adult_G.titleShort>
+  <LitF_Slave_Adult_G.baseDescription>人食い部族のコロニーの中で生まれた[PAWN_nameDef]は食料として飼われていました. しかしながら,コロニーが襲撃によって壊滅したことで彼女は食料としての運命を回避することが出来ました.</LitF_Slave_Adult_G.baseDescription>
+
+
+</LanguageData>

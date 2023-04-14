@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>LitF_ProtectionTotem</defName>
+    <label>LitF Protection Totem</label>
+    <description>Buffs surrounding allies to reduce damage taken. LittleFairy provides additional FP recovery. Requires BrillianceWood as fuel.</description>
+    <graphicData>
+      <texPath>LittleFairy/Build/Totem/ProtectionTotem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <costList>
+      <Steel>50</Steel>
+      <LitF_BrillianceWood>30</LitF_BrillianceWood>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.75</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0.25</Flammability>
+      <Mass>5</Mass>
+      <Beauty>20</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>LitF_Building</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <surfaceType>Item</surfaceType>
+    <tickerType>Normal</tickerType>
+    <specialDisplayRadius>10.9</specialDisplayRadius>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <comps>
+      <li Class="LittleFairy_Race.CompProperties_TotemAddHediff">
+        <Range>10.9</Range>
+        <Hediff>LitF_Protection</Hediff>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>5.0</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>LitF_BrillianceWood</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(80,80,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>LitF_Totem</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>LitF_ButcherTotem</defName>
+    <label>LitF Butcher Totem</label>
+    <description>Inflicts a flesh curse on surrounding enemies. The Flesh Curse increases the damage taken and the amount of meat gained.</description>
+    <graphicData>
+      <texPath>LittleFairy/Build/Totem/ButcherTotem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <costList>
+      <Steel>50</Steel>
+      <LitF_BloodyBrillianceWood>30</LitF_BloodyBrillianceWood>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.75</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0.25</Flammability>
+      <Mass>5</Mass>
+      <Beauty>20</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>LitF_Building</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <surfaceType>Item</surfaceType>
+    <tickerType>Normal</tickerType>
+    <specialDisplayRadius>20.9</specialDisplayRadius>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <comps>
+      <li Class="LittleFairy_Race.CompProperties_TotemAddHediff">
+        <Range>20.9</Range>
+        <Hediff>LitF_FleshCurse</Hediff>
+        <Enemy>true</Enemy>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>5.0</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>LitF_BloodyBrillianceWood</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,80,80,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>LitF_BloodyTotem</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>LitF_InterceptionTotem</defName>
+    <label>LitF Interception Totem</label>
+    <description>Consume BloodyBrillianceWood and fire at nearby enemies.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>LittleFairy/Build/Totem/InterceptionTotem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.25,1.25)</drawSize>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>25</Plasteel>
+      <LitF_BrillianceWood>15</LitF_BrillianceWood>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.75</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0.25</Flammability>
+      <Mass>5</Mass>
+      <Beauty>20</Beauty>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>LitF_Building</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <surfaceType>Item</surfaceType>
+    <tickerType>Normal</tickerType>
+    <specialDisplayRadius>10.9</specialDisplayRadius>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>LitF_BloodyBrillianceWood</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,80,80,0)</glowColor>
+      </li>
+    </comps>
+    <building>
+      <combatPower>90</combatPower>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>LitF_SparkleShell</turretGunDef>
+    </building>
+    <researchPrerequisites>
+      <li>LitF_BloodyTotem</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>LitF_SparkleShell</defName>
+    <label>sparkle shell</label>
+    <description>It fires bullets of brilliance.</description>
+    <graphicData>
+      <texPath>LittleFairy/Build/Totem/InterceptionTotem_Turret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>LitF_BrillianceBullet</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>10.9</range>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>10</burstShotCount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <consumeFuelPerShot>0.1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+  <ThingDef ParentName="LitF_BaseProjectile">
+    <defName>LitF_BrillianceBullet</defName>
+    <thingClass>Bullet</thingClass>
+    <label>brilliance bullet</label>
+    <graphicData>
+      <texPath>LittleFairy/Thing/Weapon/BloodSword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>75</speed>
+      <armorPenetrationBase>1.50</armorPenetrationBase>
+      <stoppingPower>10</stoppingPower>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>LitF_GrowthTotem</defName>
+    <label>LitF GrowthTotem</label>
+    <description>Buffs surrounding allies to speed up the growth of their skills for a certain period of time.</description>
+    <graphicData>
+      <texPath>LittleFairy/Build/Totem/GrowthTotem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>50</Plasteel>
+      <LitF_BrillianceWood>100</LitF_BrillianceWood>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.75</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <WorkToBuild>5000</WorkToBuild>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0.25</Flammability>
+      <Mass>5</Mass>
+      <Beauty>20</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>LitF_Building</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <surfaceType>Item</surfaceType>
+    <tickerType>Normal</tickerType>
+    <specialDisplayRadius>10.9</specialDisplayRadius>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <comps>
+      <li Class="LittleFairy_Race.CompProperties_TotemAddHediff">
+        <Range>10.9</Range>
+        <Hediff>LitF_Growth</Hediff>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>10.0</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>LitF_BrillianceWood</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(80,80,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>LitF_UtilityTotem</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>LitF_HarvestTotem</defName>
+    <label>LitF HarvestTotem</label>
+    <description>Promotes growth of all plants. The amount of promotion depends on the quality of the soil.</description>
+    <graphicData>
+      <texPath>LittleFairy/Build/Totem/HarvestTotem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>50</Plasteel>
+      <LitF_BrillianceWood>100</LitF_BrillianceWood>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.75</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <WorkToBuild>5000</WorkToBuild>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0.25</Flammability>
+      <Mass>5</Mass>
+      <Beauty>20</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>LitF_Building</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <surfaceType>Item</surfaceType>
+    <tickerType>Normal</tickerType>
+    <specialDisplayRadius>10.9</specialDisplayRadius>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <comps>
+      <li Class="LittleFairy_Race.CompProperties_TotemPlantGrowth">
+        <OnlyWood>false</OnlyWood>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>10.0</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>LitF_BrillianceWood</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(80,80,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>LitF_UtilityTotem</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>

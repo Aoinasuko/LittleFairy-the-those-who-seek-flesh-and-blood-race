@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LitF_Knowledge.label>知識</LitF_Knowledge.label>
+  <LitF_Knowledge.description>リトルフェアリーの知識を学び,輝きの木材を始めとしたいくつかのリトルフェアリー達のアイテムを作成できるようになります.</LitF_Knowledge.description>
+
+  <LitF_BloodNursery.label>血肉の苗床</LitF_BloodNursery.label>
+  <LitF_BloodNursery.description>リトルフェアリーと他の生物を捧げることで,リトルフェアリーを新たに生み出す施設を建造できるようになります.</LitF_BloodNursery.description>
+
+  <LitF_ResourceRecycling.label>資源再利用</LitF_ResourceRecycling.label>
+  <LitF_ResourceRecycling.description>血肉の苗床を強化します.\n苗床がリトルフェアリーの繁殖に不要な余分なパーツをリサイクルしてくれるようになり,これによって生物を捧げた時に皮と肉をある程度入手することができます.</LitF_ResourceRecycling.description>
+
+  <LitF_MeatFurniture.label>肉の家具</LitF_MeatFurniture.label>
+  <LitF_MeatFurniture.description>不気味な血肉の家具を建造できるようになります.</LitF_MeatFurniture.description>
+
+  <LitF_BloodyBrillianceWood.label>血の輝く木材</LitF_BloodyBrillianceWood.label>
+  <LitF_BloodyBrillianceWood.description>血とリトルフェアリーの輝きの力によって,血の輝く木材を作成できるようになります.</LitF_BloodyBrillianceWood.description>
+
+  <LitF_NurseryExpansion.label>苗床拡張</LitF_NurseryExpansion.label>
+  <LitF_NurseryExpansion.description>血と肉に飢えた野生のリトルフェアリー達の強力な武器と防具を作成できるようになります.</LitF_NurseryExpansion.description>
+
+  <LitF_WeaponsSmithing.label>武器の鍛冶</LitF_WeaponsSmithing.label>
+  <LitF_WeaponsSmithing.description>人間の技術を真似て,少しマシなリトルフェアリー用の武器を作成できるようになります.</LitF_WeaponsSmithing.description>
+
+  <LitF_Costumes.label>衣装</LitF_Costumes.label>
+  <LitF_Costumes.description>人間の技術を真似て,リトルフェアリー用の衣装を作成できるようになります.</LitF_Costumes.description>
+
+  <LitF_UtilityCollar.label>便利な首輪</LitF_UtilityCollar.label>
+  <LitF_UtilityCollar.description>リトルフェアリー用の便利な首輪を作成できるようになります.</LitF_UtilityCollar.description>
+
+  <LitF_Totem.label>トーテム</LitF_Totem.label>
+  <LitF_Totem.description>輝きの木材によって動く,不思議なトーテムを作成できるようになります.</LitF_Totem.description>
+
+  <LitF_BloodyTotem.label>血のトーテム</LitF_BloodyTotem.label>
+  <LitF_BloodyTotem.description>血の輝きの木材によって動く,不思議なトーテムを作成できるようになります.</LitF_BloodyTotem.description>
+
+  <LitF_ImitationTechnology.label>模倣技術</LitF_ImitationTechnology.label>
+  <LitF_ImitationTechnology.description>人間の技術を模倣し,より高度なリトルフェアリーの技術を手に入れるための糧とします.\n更に,リトルフェアリーの好物であるリッチミートを長期間保存できる方法を獲得します.</LitF_ImitationTechnology.description>
+
+  <LitF_SmallGun.label>小さな銃</LitF_SmallGun.label>
+  <LitF_SmallGun.description>リトルフェアリーの体格でも扱える銃を作成できるようになります.</LitF_SmallGun.description>
+
+  <LitF_MoreBrilliance.label>さらなる輝き</LitF_MoreBrilliance.label>
+  <LitF_MoreBrilliance.description>リトルフェアリー達の能力を高めるアイテムを作成できるようになります.</LitF_MoreBrilliance.description>
+
+  <LitF_UtilityTotem.label>利便のトーテム</LitF_UtilityTotem.label>
+  <LitF_UtilityTotem.description>コロニーの生活をサポートする,便利なトーテムを作成できるようになります.</LitF_UtilityTotem.description>
+
+
+</LanguageData>

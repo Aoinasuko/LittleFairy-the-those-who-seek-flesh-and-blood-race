@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="ApparelMakeableBase">
+	<defName>LitF_BrainwashCollar</defName>
+	<label>LitF BrainwashCollar</label>
+	<description>This is a collar for Little Fairy. It can be used on prisoners or littlefaeries belonging to the colony, who can be fitted with it and enslaved directly. When this effect is used, the collar loses its ability and turns into a mere collar. It also keeps the oppression fixed at maximum at all times while it is worn.\n\n[Note]\nThis item can only be used on prisoners when Ideorogy is not in effect. Also, the effect of enslaving changes to that of belonging directly to the colony.</description>
+	<graphicData>
+		<texPath>LittleFairy/Thing/Apparel/BrainwashCollar/BrainwashCollar</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<costList>
+		<Steel>30</Steel>
+		<Jade>30</Jade>
+	</costList>
+	<techLevel>Medieval</techLevel>
+	<costStuffCount>10</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<tradeability>Sellable</tradeability>
+	<recipeMaker>
+		<researchPrerequisite>LitF_UtilityCollar</researchPrerequisite>
+		<recipeUsers>
+			<li>LitF_CraftTable</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<thingCategories>
+		<li>LitF_Apparel</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>1500</WorkToMake>
+		<Mass>0.03</Mass>
+		<Flammability>0.5</Flammability>
+		<EquipDelay>1</EquipDelay>
+	</statBases>
+	<tickerType>Normal</tickerType>
+	<equippedStatOffsets>
+		<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+	<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
+		<bodyPartGroups>
+			<li>Neck</li>
+		</bodyPartGroups>
+		<wornGraphicPath>LittleFairy/Thing/Apparel/ExplosionCollar/ExplosionCollar</wornGraphicPath>
+		<layers>
+			<li>Belt</li>
+		</layers>
+		<tags>
+			<li>LitF_Apparel_Slave</li>
+		</tags>
+		<defaultOutfitTags>
+			<li>Worker</li>
+		</defaultOutfitTags>
+	</apparel>
+	<comps>
+		<li>
+			<compClass>CompColorable</compClass>
+		</li>
+		<li Class="LittleFairy_Race.CompProperties_Oppression">
+		</li>
+		<li Class="CompProperties_Usable">
+			<useJob>UseItem</useJob>
+			<useLabel>Use Collar</useLabel>
+			<useDuration>0</useDuration>
+		</li>
+		<li Class="CompProperties_Targetable">
+			<compClass>LittleFairy_Race.CompTargetable_LitF_OnlyPlayerorPrisoner</compClass>
+		</li>
+		<li>
+			<compClass>LittleFairy_Race.CompTargetEffect_EnSlave</compClass>
+		</li>
+	</comps>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />
+	</ThingDef>
+</Defs>

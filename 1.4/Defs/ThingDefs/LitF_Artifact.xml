@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="ResourceBase" Name="LitF_ArtifactBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <techLevel>Archotech</techLevel>
+    <tradeability>Sellable</tradeability>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+    <statBases>
+      <Mass>0.1</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseArtifact</useJob>
+        <useLabel>Activate</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf">
+      </li>
+      <li Class="CompProperties_Styleable"></li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="LitF_ArtifactBase">
+    <defName>LitF_BrillianceAmplifier</defName>
+    <label>LitF Brilliance Amplifier</label>
+    <description>Amplify the brilliance of LittleFairies and gain new Common Skills. However, the Common Skills to be acquired are chosen completely at random and only a maximum of 12 can be acquired.</description>
+    <graphicData>
+      <texPath>LittleFairy/Thing/Artifact/BrillianceAmplifier</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <costList>
+      <Plasteel>50</Plasteel>
+      <LitF_Richmeat>10</LitF_Richmeat>
+      <LitF_BrillianceWood>100</LitF_BrillianceWood>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_MakeBow</soundWorking>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>LitF_CraftTable</li>
+      </recipeUsers>
+      <researchPrerequisite>LitF_MoreBrilliance</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+      <WorkToMake>30000</WorkToMake>
+    </statBases>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <comps>
+      <li Class="CompProperties_Targetable">
+        <compClass>LittleFairy_Race.CompTargetable_LitF</compClass>
+      </li>
+      <li>
+        <compClass>LittleFairy_Race.CompTargetEffect_BrillianceAmplifier</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectArtifact">
+        <sound>PsychicPulseGlobal</sound>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

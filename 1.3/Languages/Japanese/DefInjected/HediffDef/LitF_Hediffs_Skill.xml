@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 戦士 -->
+
+  <LitF_Skill_Tough.label>タフ</LitF_Skill_Tough.label>
+  <LitF_Skill_Tough.description>作業速度と研究速度が低下した状態です.</LitF_Skill_Tough.description>
+
+  <LitF_Skill_Adrenalin.label>アドレナリン</LitF_Skill_Adrenalin.label>
+  <LitF_Skill_Adrenalin.description>作業速度と研究速度が低下した状態です.</LitF_Skill_Adrenalin.description>
+
+  <LitF_Skill_Adrenalin_Active.label>アドレナリンフル</LitF_Skill_Adrenalin_Active.label>
+  <LitF_Skill_Adrenalin_Active.description>少しの間,運動能力が上昇した状態です.</LitF_Skill_Adrenalin_Active.description>
+
+
+  <!-- バーサーカー -->
+
+  <LitF_Skill_BerserkerBlood.label>バーサーカーの血</LitF_Skill_BerserkerBlood.label>
+  <LitF_Skill_BerserkerBlood.description>近接性能が上昇しますが,遠距離性能が弱体化します.</LitF_Skill_BerserkerBlood.description>
+
+  <LitF_Skill_BerserkerCharge.label>バーサーカーチャージ</LitF_Skill_BerserkerCharge.label>
+  <LitF_Skill_BerserkerCharge.description>近接攻撃のクールダウン速度を倍加します,遠距離性能が弱体化します.</LitF_Skill_BerserkerCharge.description>
+
+  <LitF_BerserkerEnthusiasm.label>バーサーカーの興奮</LitF_BerserkerEnthusiasm.label>
+  <LitF_BerserkerEnthusiasm.description>移動速度を上昇し,受けるダメージを大幅に軽減します.</LitF_BerserkerEnthusiasm.description>
+
+
+  <!-- ナイト -->
+
+  <LitF_Skill_KnightKnowledge.label>ナイトの知識</LitF_Skill_KnightKnowledge.label>
+  <LitF_Skill_KnightKnowledge.description>受けるダメージを軽減します,作業速度と研究速度が低下します.</LitF_Skill_KnightKnowledge.description>
+
+  <LitF_Skill_KnightWill.label>ナイトの意思</LitF_Skill_KnightWill.label>
+  <LitF_Skill_KnightWill.description>受けるダメージを軽減します,作業速度と研究速度が低下します.</LitF_Skill_KnightWill.description>
+
+  <LitF_Skill_Advance.label>進軍</LitF_Skill_Advance.label>
+  <LitF_Skill_Advance.description>ある程度の弾丸を弾き落とす状態です.</LitF_Skill_Advance.description>
+
+
+  <!-- レンジャー -->
+
+  <LitF_Skill_RangerTips.label>レンジャーの知恵</LitF_Skill_RangerTips.label>
+  <LitF_Skill_RangerTips.description>射撃速度が上昇します,作業速度と研究速度が低下します.</LitF_Skill_RangerTips.description>
+
+  <LitF_Skill_Traped.label>トラップ</LitF_Skill_Traped.label>
+  <LitF_Skill_Traped.description>移動速度が大幅に低下し,受けるダメージが増加します.</LitF_Skill_Traped.description>
+
+  <LitF_Skill_TriggerHappy.label>トリガーハッピー</LitF_Skill_TriggerHappy.label>
+  <LitF_Skill_TriggerHappy.description>射撃速度が上昇します,作業速度と研究速度が低下し,受けるダメージが増加します.</LitF_Skill_TriggerHappy.description>
+
+  <LitF_Skill_TriggerHappyShot.label>トリガーハッピー(ショット)</LitF_Skill_TriggerHappyShot.label>
+  <LitF_Skill_TriggerHappyShot.description>射撃速度が上昇します.</LitF_Skill_TriggerHappyShot.description>
+
+
+  <!-- 魔術師 -->
+
+  <LitF_Skill_WizardSoul.label>魔術師の魂</LitF_Skill_WizardSoul.label>
+  <LitF_Skill_WizardSoul.description>受けるダメージが増加します.</LitF_Skill_WizardSoul.description>
+
+
+  <!-- ミートメーカー -->
+
+  <LitF_Skill_MeatMaker1.label>肥えた獣 Lv1</LitF_Skill_MeatMaker1.label>
+  <LitF_Skill_MeatMaker1.description>肉の量が増加します.</LitF_Skill_MeatMaker1.description>
+
+  <LitF_Skill_MeatMaker2.label>肥えた獣 Lv2</LitF_Skill_MeatMaker2.label>
+  <LitF_Skill_MeatMaker2.description>肉の量が増加します.</LitF_Skill_MeatMaker2.description>
+
+  <LitF_Skill_MeatMaker3.label>肥えた獣 Lv3</LitF_Skill_MeatMaker3.label>
+  <LitF_Skill_MeatMaker3.description>肉の量が増加します.</LitF_Skill_MeatMaker3.description>
+
+
+  <!-- ヒーラー -->
+
+  <LitF_Skill_Nursing.label>看護</LitF_Skill_Nursing.label>
+  <LitF_Skill_Nursing.description>医療関連の能力が強化されます. 射撃が弱体化します.</LitF_Skill_Nursing.description>
+
+  <LitF_Skill_HealBall.label>ヒールボール</LitF_Skill_HealBall.label>
+  <LitF_Skill_HealBall.description>医療関連の能力が強化されます. 自身の資産価値が増加します.</LitF_Skill_HealBall.description>
+
+  <LitF_Skill_EmergencyNursing.label>緊急看護</LitF_Skill_EmergencyNursing.label>
+  <LitF_Skill_EmergencyNursing.description>医療関連の能力が強化されます. 自身の資産価値が増加します.</LitF_Skill_EmergencyNursing.description>
+
+  <LitF_EmergencyNursing.label>緊急看護(治癒)</LitF_EmergencyNursing.label>
+  <LitF_EmergencyNursing.description>3秒ごとに少し回復します.</LitF_EmergencyNursing.description>
+
+
+  <!-- ワーカー -->
+
+  <LitF_Skill_Worker1.label>作業者 Lv1</LitF_Skill_Worker1.label>
+  <LitF_Skill_Worker1.description>作業速度が上昇します.</LitF_Skill_Worker1.description>
+
+  <LitF_Skill_Worker2.label>作業者 Lv2</LitF_Skill_Worker2.label>
+  <LitF_Skill_Worker2.description>作業速度が上昇します.</LitF_Skill_Worker2.description>
+
+  <LitF_Skill_Worker3.label>作業者 Lv3</LitF_Skill_Worker3.label>
+  <LitF_Skill_Worker3.description>作業速度が上昇します.</LitF_Skill_Worker3.description>
+
+
+</LanguageData>

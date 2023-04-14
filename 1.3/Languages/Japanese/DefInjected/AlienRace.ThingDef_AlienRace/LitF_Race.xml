@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LittleFairy_Pawn.label>リトルフェアリー</LittleFairy_Pawn.label>
+  <LittleFairy_Pawn.description>リトルフェアリーはその姿と体格の小ささになぞらえて「幼精」とも言われている,小さな奉仕種族です. 様々な調査によって,ある企業が何らかの目的で作り出し,様々な星にバラ撒いたことが起源であることが判明しています.\n\n彼女達は「輝き」と呼ばれる特殊な能力を持ちます. 個体によってその強さはバラバラですが,主に傷から身を守ったり自身や味方の身体能力を強化するために使われます. また、物品に「輝き」を与えることでその物品が何らかの力を得ることも確認されています.\nしかし,過度に「輝き」を使いすぎると暫くの間リトルフェアリーは衰弱してしまいます.\n\n彼女達は主に養殖によって生まれた者が異種族に仕えているため,野生のリトルフェアリーの存在は希少です. 野生のリトルフェアリー達は基本的には温厚で,人懐っこく好物の肉をあげれば簡単に仲間になってくれます.\nしかし,稀に長い間野生で居た結果他者の肉を喰らうために無理やり襲い,それを糧に繁殖する血と肉に飢えたリトルフェアリーの群れが生まれることがあるようです. こうなった場合は奉仕種族としての面影もないほどに意地が固くなってしまいます.\n\nリトルフェアリーの肉は美味しく,大抵の人は食べた時にとても高級な動物の肉として感じるでしょう.</LittleFairy_Pawn.description>
+  <LittleFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</LittleFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <LittleFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</LittleFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <LittleFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.2.name>wing</LittleFairy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.2.name>
+  <LittleFairy_Pawn.tools.0.label>噛みつき</LittleFairy_Pawn.tools.0.label>
+  <LittleFairy_Pawn.tools.1.label>左手</LittleFairy_Pawn.tools.1.label>
+  <LittleFairy_Pawn.tools.2.label>右手</LittleFairy_Pawn.tools.2.label>
+
+
+</LanguageData>
