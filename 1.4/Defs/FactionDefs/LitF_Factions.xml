@@ -79,6 +79,18 @@
         <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
       </xenotypeChances>
     </xenotypeSet>
+    <modExtensions>
+      <li Class="BEPRace_Core.BEPRace_FactionSetting">
+        <roleApparels>
+          <li>
+            <key>IdeoRole_Leader</key>
+            <value>
+              <li>LitF_BloodyArmor</li>
+            </value>
+          </li>
+        </roleApparels>
+      </li>
+    </modExtensions>
   </FactionDef>
 
   <FactionDef ParentName="FactionBase">
@@ -129,6 +141,10 @@
         <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
       </xenotypeChances>
     </xenotypeSet>
+    <modExtensions>
+      <li Class="BEPRace_Core.BEPRace_FactionSetting">
+      </li>
+    </modExtensions>
   </FactionDef>
 
 </Defs>

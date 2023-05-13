@@ -6,8 +6,9 @@
 	<label>LitF BloodyArmor Lite</label>
 	<description>This armor imitates the blood and flesh worn by some wild LittleFairy. By omitting the tentacle defense function, its defense is significantly inferior to that of the standard version, but it can move quickly.</description>
 	<graphicData>
-		<texPath>LittleFairy/Thing/Apparel/BloodyArmor/BloodyArmor</texPath>
+		<texPath>BEPRaceCore/Apparel/ApparelBox/ApparelBox</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
 	</graphicData>
 	<costList>
 		<LitF_BloodyBrillianceWood>50</LitF_BloodyBrillianceWood>
@@ -23,7 +24,7 @@
 		</skillRequirements>
 	</recipeMaker>
 	<thingCategories>
-		<li>LitF_Apparel</li>
+		<li>BEP_Apparel</li>
 	</thingCategories>
 	<statBases>
 		<MaxHitPoints>200</MaxHitPoints>
@@ -41,7 +42,7 @@
 	</statBases>
 	<apparel>
 		<countsAsClothingForNudity>false</countsAsClothingForNudity>
-		<developmentalStageFilter>Adult</developmentalStageFilter>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Shoulders</li>
@@ -55,7 +56,7 @@
 			<li>Shell</li>
 		</layers>
 		<tags>
-			<li>LitF_Apparel</li>
+			<li>BEP_Apparel_Blood</li>
 		</tags>
 		<defaultOutfitTags>
 			<li>Soldier</li>

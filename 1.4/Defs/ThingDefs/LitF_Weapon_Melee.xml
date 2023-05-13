@@ -66,6 +66,7 @@
     <graphicData>
       <texPath>LittleFairy/Thing/Weapon/TinyKnife</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <soundInteract>Bow_Small</soundInteract>
     <statBases>
@@ -126,6 +127,7 @@
     <graphicData>
       <texPath>LittleFairy/Thing/Weapon/TinySword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <soundInteract>Bow_Small</soundInteract>
     <statBases>

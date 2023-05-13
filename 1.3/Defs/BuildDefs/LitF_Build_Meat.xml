@@ -124,8 +124,8 @@
       <LitF_Richmeat>5</LitF_Richmeat>
     </costList>
     <graphicData>
-      <texPath>LittleFairy/Build/Meat/MeatTable</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>LittleFairy/Build/Meat/ButcherTable/ButcherTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>

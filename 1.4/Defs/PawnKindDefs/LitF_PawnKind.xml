@@ -20,13 +20,13 @@
 		</backstoryFiltersOverride>
 		<styleItemTags>
 			<li>
-				<tag>LittleFairy</tag>
+				<tag>BEPRace</tag>
 				<baseWeight>1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
 		<apparelTags>
-			<li>LitF_Apparel</li>
+			<li>BEP_Apparel</li>
 		</apparelTags>
 		<apparelMoney>0~1000</apparelMoney>
 		<weaponMoney>100~600</weaponMoney>
@@ -62,13 +62,13 @@
 		</backstoryFiltersOverride>
 		<styleItemTags>
 			<li>
-				<tag>LittleFairy</tag>
+				<tag>BEPRace</tag>
 				<baseWeight>1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
 		<apparelTags>
-			<li>LitF_Apparel_Slave</li>
+			<li>BEP_Apparel_Slave</li>
 		</apparelTags>
 		<apparelMoney>0~1000</apparelMoney>
 		<minGenerationAge>10</minGenerationAge>
@@ -100,7 +100,7 @@
 		</backstoryFiltersOverride>
 		<styleItemTags>
 			<li>
-				<tag>LittleFairy</tag>
+				<tag>BEPRace</tag>
 				<baseWeight>1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
@@ -142,13 +142,13 @@
 		</backstoryFiltersOverride>
 		<styleItemTags>
 			<li>
-				<tag>LittleFairy</tag>
+				<tag>BEPRace</tag>
 				<baseWeight>1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
 		<apparelRequired>
-			<li>LitF_SimpleCloth</li>
+			<li>BEP_SimpleCloth</li>
 		</apparelRequired>
 		<minGenerationAge>5</minGenerationAge>
 		<maxGenerationAge>10</maxGenerationAge>

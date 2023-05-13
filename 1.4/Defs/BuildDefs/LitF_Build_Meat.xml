@@ -46,7 +46,7 @@
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
     </graphicData>
-    <designationCategory>BEPFT_Building</designationCategory>
+    <designationCategory>BEP_Building</designationCategory>
     <researchPrerequisites>
       <li>LitF_BloodNursery</li>
     </researchPrerequisites>
@@ -95,7 +95,7 @@
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
     </graphicData>
-    <designationCategory>BEPFT_Building</designationCategory>
+    <designationCategory>BEP_Building</designationCategory>
     <researchPrerequisites>
       <li>LitF_MeatFurniture</li>
     </researchPrerequisites>
@@ -144,7 +144,7 @@
     </statBases>
     <size>(1,1)</size>
     <rotatable>false</rotatable>
-    <designationCategory>BEPFT_Building</designationCategory>
+    <designationCategory>BEP_Building</designationCategory>
     <researchPrerequisites>
       <li>LitF_MeatFurniture</li>
     </researchPrerequisites>
@@ -156,8 +156,8 @@
     <description>A compact workbench for efficient butchery of corpses.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>LittleFairy/Build/Meat/ButcherTable</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>LittleFairy/Build/Meat/ButcherTable/ButcherTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(1,1)</drawSize>
       <damageData>
@@ -185,7 +185,7 @@
       <WorkTableEfficiencyFactor>1.2</WorkTableEfficiencyFactor>
     </statBases>
     <size>(1,1)</size>
-    <designationCategory>BEPFT_Building</designationCategory>
+    <designationCategory>BEP_Building</designationCategory>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
@@ -252,7 +252,7 @@
     <neverMultiSelect>true</neverMultiSelect>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <holdsRoof>true</holdsRoof>
-    <designationCategory>BEPFT_Building</designationCategory>
+    <designationCategory>BEP_Building</designationCategory>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <blockLight>true</blockLight>
     <canOverlapZones>false</canOverlapZones>

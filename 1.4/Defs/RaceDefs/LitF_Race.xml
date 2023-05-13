@@ -50,7 +50,7 @@
 					</li>
 				</disallowedTraits>
 				<alienPartGenerator>
-					<oldHairAgeRange>10000~99999</oldHairAgeRange>
+					<oldHairAgeRange>1000~1001</oldHairAgeRange>
 					<oldHairColorGen Class="ColorGenerator_Options">
 						<options>
 							<li>
@@ -79,7 +79,7 @@
 						<li>Female</li>
 						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 					</bodyTypes>
-					<headOffset>(-0.1, -0.186)</headOffset>
+					<headOffset>(-0.1, -0.26)</headOffset>
 					<customDrawSize>(1, 1)</customDrawSize>
 					<customHeadDrawSize>(1, 1)</customHeadDrawSize>
 					<customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
@@ -221,27 +221,29 @@
 					</colorChannels>
 					<bodyAddons>
 						<li>
-							<path>LittleFairy/Race/Ear/Left/LEar</path>
+							<path>BEPRaceCore/Race/FairyEar/Left/LEar</path>
 							<bodyPart>Ear</bodyPart>
 							<bodyPartLabel>left ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<drawSize>1</drawSize>
 							<colorChannel>skin</colorChannel>
 							<drawnInBed>true</drawnInBed>
+							<alignWithHead>true</alignWithHead>
 							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 						<li>
-							<path>LittleFairy/Race/Ear/Right/REar</path>
+							<path>BEPRaceCore/Race/FairyEar/Right/REar</path>
 							<bodyPart>Ear</bodyPart>
 							<bodyPartLabel>right ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<drawSize>1</drawSize>
 							<colorChannel>skin</colorChannel>
 							<drawnInBed>true</drawnInBed>
+							<alignWithHead>true</alignWithHead>
 							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 						<li>
-							<path>LittleFairy/Race/Wing/Wing</path>
+							<path>BEPRaceCore/Race/LittleWing/Wing</path>
 							<bodyPart>LitF_Wing</bodyPart>
 							<inFrontOfBody>false</inFrontOfBody>
 							<drawSize>1</drawSize>
@@ -279,19 +281,53 @@
 			</generalSettings>
 			<graphicPaths>
 				<head>
-					<path>LittleFairy/Race/Head/Average_Normal</path>
+					<path>BEPRaceCore/Race/Head/Average_Normal</path>
 					<headtypeGraphics>
-						<Male_AverageNormal>LittleFairy/Race/Head/Average_Normal</Male_AverageNormal>
-						<Female_AverageNormal>LittleFairy/Race/Head/Average_Normal</Female_AverageNormal>
+						<Male_AverageNormal>BEPRaceCore/Race/Head/Average_Normal</Male_AverageNormal>
+						<Female_AverageNormal>BEPRaceCore/Race/Head/Average_Normal</Female_AverageNormal>
 					</headtypeGraphics>
 				</head>
 				<body>
-					<path>LittleFairy/Race/Body/</path>
+					<path>BEPRaceCore/Race/Body/Child/Body</path>
 				</body>
-				<skeleton>LittleFairy/Race/Bone/Bone</skeleton>
-				<skull>LittleFairy/Race/HeadBone/HeadBone</skull>
+				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
+				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
 				<apparel>
 					<!-- Apparel Graphics options go here -->
+					<individualPaths>
+						<li>
+							<key>BEP_SimpleCloth</key>
+							<value>BEPRaceCore/Apparel/SimpleCloth/SimpleCloth_Child</value>
+						</li>
+						<li>
+							<key>BEP_PreschoolerCloth</key>
+							<value>BEPRaceCore/Apparel/PreschoolerCloth/PreschoolerCloth_Child</value>
+						</li>
+						<li>
+							<key>BEP_MaidCloth</key>
+							<value>BEPRaceCore/Apparel/MaidCloth/MaidCloth_Child</value>
+						</li>
+						<li>
+							<key>BEP_NobleCloth</key>
+							<value>BEPRaceCore/Apparel/NobleCloth/NobleCloth_Child</value>
+						</li>
+						<li>
+							<key>BEP_NobleCape</key>
+							<value>BEPRaceCore/Apparel/NobleCape/NobleCape_Child</value>
+						</li>
+						<li>
+							<key>BEP_SlaveStrap</key>
+							<value>BEPRaceCore/Apparel/SlaveStrap/SlaveStrap_Child</value>
+						</li>
+						<li>
+							<key>BEP_SwimSuit</key>
+							<value>BEPRaceCore/Apparel/SwimSuit/SwimSuit_Child</value>
+						</li>
+						<li>
+							<key>BEP_SimpleArmor</key>
+							<value>BEPRaceCore/Apparel/SimpleArmor/SimpleArmor_Child</value>
+						</li>
+					</individualPaths>
 				</apparel>
 			</graphicPaths>
 			<relationSettings>
@@ -309,18 +345,25 @@
 				<onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
 				<onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
 				<apparelList>
-					<li>LitF_SimpleCloth</li>
-					<li>LitF_MaidCloth</li>
-					<li>LitF_MaidBand</li>
+					<li>BEP_SimpleCloth</li>
+					<li>BEP_PreschoolerCloth</li>
+					<li>BEP_PreschoolerHat</li>
+					<li>BEP_MaidCloth</li>
+					<li>BEP_MaidBand</li>
+					<li>BEP_NobleCloth</li>
+					<li>BEP_NobleCape</li>
+					<li>BEP_SimpleCollor</li>
+					<li>BEP_SlaveStrap</li>
+					<li>BEP_SwimSuit</li>
+					<li>BEP_SimpleArmor</li>
+					<li>BEP_Blindfold</li>
+					<li>BEP_Gag</li>
+					<li>BEP_BlindfoldandGag</li>
+					<li>BEP_SimpleScarf</li>
 					<li>LitF_BloodyArmor</li>
 					<li>LitF_BloodyArmor_Lite</li>
-					<li>LitF_BlindfoldandGag</li>
-					<li>LitF_Blindfold</li>
-					<li>LitF_SimpleCollor</li>
-					<li>LitF_ExplosionCollar</li>
 					<li>LitF_BrainwashCollar</li>
-					<li>LitF_SlaveStrap</li>
-					<li>LitF_SwimSuit</li>
+					<li>LitF_ExplosionCollar</li>
 				</apparelList>
 				<weaponList>
 					<li>LitF_TinyKnife</li>
@@ -537,7 +580,7 @@
 					<value>
 						<hasStyle>true</hasStyle>
 						<styleTagsOverride>
-							<li>LittleFairy</li>
+							<li>BEPRace</li>
 						</styleTagsOverride>
 					</value>
 				</li>
@@ -730,6 +773,15 @@
 		<inspectorTabs>
 			<li>LittleFairy_Race.LitF_ITab</li>
 		</inspectorTabs>
+		<modExtensions>
+			<li Class="BEPRace_Core.BEPRace_Setting">
+				<ignoreDead>true</ignoreDead>
+				<fleeMeat>true</fleeMeat>
+				<ignoreAge>true</ignoreAge>
+				<ignoreFlee>true</ignoreFlee>
+				<slaveWorkSpeed>1.0</slaveWorkSpeed>
+			</li>
+		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
 	
 	<LifeStageDef>

@@ -36,7 +36,7 @@
       <Beauty>20</Beauty>
     </statBases>
     <size>(1,1)</size>
-    <designationCategory>BEPFT_Building</designationCategory>
+    <designationCategory>BEP_Building</designationCategory>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <surfaceType>Item</surfaceType>
@@ -105,7 +105,7 @@
       <Beauty>20</Beauty>
     </statBases>
     <size>(1,1)</size>
-    <designationCategory>BEPFT_Building</designationCategory>
+    <designationCategory>BEP_Building</designationCategory>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <surfaceType>Item</surfaceType>
@@ -178,7 +178,7 @@
       <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
     </statBases>
     <size>(1,1)</size>
-    <designationCategory>BEPFT_Building</designationCategory>
+    <designationCategory>BEP_Building</designationCategory>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
@@ -300,7 +300,7 @@
       <Beauty>20</Beauty>
     </statBases>
     <size>(1,1)</size>
-    <designationCategory>BEPFT_Building</designationCategory>
+    <designationCategory>BEP_Building</designationCategory>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <surfaceType>Item</surfaceType>
@@ -370,7 +370,7 @@
       <Beauty>20</Beauty>
     </statBases>
     <size>(1,1)</size>
-    <designationCategory>BEPFT_Building</designationCategory>
+    <designationCategory>BEP_Building</designationCategory>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <surfaceType>Item</surfaceType>

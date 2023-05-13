@@ -6,7 +6,7 @@
 	<label>LitF BrainwashCollar</label>
 	<description>This is a collar for Little Fairy. It can be used on prisoners or littlefaeries belonging to the colony, who can be fitted with it and enslaved directly. When this effect is used, the collar loses its ability and turns into a mere collar. It also keeps the oppression fixed at maximum at all times while it is worn.\n\n[Note]\nThis item can only be used on prisoners when Ideorogy is not in effect. Also, the effect of enslaving changes to that of belonging directly to the colony.</description>
 	<graphicData>
-		<texPath>LittleFairy/Thing/Apparel/BrainwashCollar/BrainwashCollar</texPath>
+		<texPath>BEPRaceCore/Apparel/ApparelBox/ApparelBox</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
 	</graphicData>
@@ -14,13 +14,13 @@
 		<Steel>30</Steel>
 		<Jade>30</Jade>
 	</costList>
-	<techLevel>Medieval</techLevel>
+	<techLevel>Industrial</techLevel>
 	<costStuffCount>10</costStuffCount>
 	<stuffCategories>
 		<li>Fabric</li>
 		<li>Leathery</li>
 	</stuffCategories>
-	<tradeability>Sellable</tradeability>
+	<tradeability>All</tradeability>
 	<recipeMaker>
 		<researchPrerequisite>LitF_UtilityCollar</researchPrerequisite>
 		<recipeUsers>
@@ -31,12 +31,12 @@
 		</skillRequirements>
 	</recipeMaker>
 	<thingCategories>
-		<li>LitF_Apparel</li>
+		<li>BEP_Apparel</li>
 	</thingCategories>
 	<statBases>
 		<MaxHitPoints>200</MaxHitPoints>
-		<WorkToMake>1500</WorkToMake>
-		<Mass>0.03</Mass>
+		<WorkToMake>6000</WorkToMake>
+		<Mass>0.1</Mass>
 		<Flammability>0.5</Flammability>
 		<EquipDelay>1</EquipDelay>
 	</statBases>
@@ -60,6 +60,7 @@
 		</tags>
 		<defaultOutfitTags>
 			<li>Worker</li>
+			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
 	<comps>

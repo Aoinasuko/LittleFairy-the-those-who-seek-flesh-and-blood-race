@@ -52,8 +52,6 @@
   <LitF.UI.CannotCarryToNursery>Can't carry {1}</LitF.UI.CannotCarryToNursery>
   <LitF.UI.NoNursery>No Nursery</LitF.UI.NoNursery>
 
-  <LitF.UI.Excitement>Excitement</LitF.UI.Excitement>
-
   <LitF.UI.CantAddSkill>No more skills can be learned.</LitF.UI.CantAddSkill>
   <LitF.Incident.LetterLabelAddSkill>New Learning</LitF.Incident.LetterLabelAddSkill>
   <LitF.Incident.LetterAddSkill>{0} has learned {1}.\n\n{2}</LitF.Incident.LetterAddSkill>

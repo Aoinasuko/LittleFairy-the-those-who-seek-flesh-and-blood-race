@@ -6,7 +6,7 @@
 	<label>LitF ExplosionCollar</label>
 	<description>This is a collar for Little Fairy. When attached, the LittleFairy can be detonated at will. The detonated LittleFairy shatters every corpse. It cannot be equipped for a child LittleFairy, who cannot handle the power of brilliance well.</description>
 	<graphicData>
-		<texPath>LittleFairy/Thing/Apparel/ExplosionCollar/ExplosionCollar</texPath>
+		<texPath>BEPRaceCore/Apparel/ApparelBox/ApparelBox</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
 	</graphicData>
@@ -14,13 +14,13 @@
 		<Steel>30</Steel>
 		<Chemfuel>30</Chemfuel>
 	</costList>
-	<techLevel>Medieval</techLevel>
+	<techLevel>Industrial</techLevel>
 	<costStuffCount>10</costStuffCount>
 	<stuffCategories>
 		<li>Fabric</li>
 		<li>Leathery</li>
 	</stuffCategories>
-	<tradeability>Sellable</tradeability>
+	<tradeability>All</tradeability>
 	<recipeMaker>
 		<researchPrerequisite>LitF_UtilityCollar</researchPrerequisite>
 		<recipeUsers>
@@ -31,12 +31,12 @@
 		</skillRequirements>
 	</recipeMaker>
 	<thingCategories>
-		<li>LitF_Apparel</li>
+		<li>BEP_Apparel</li>
 	</thingCategories>
 	<statBases>
 		<MaxHitPoints>200</MaxHitPoints>
-		<WorkToMake>1500</WorkToMake>
-		<Mass>0.03</Mass>
+		<WorkToMake>6000</WorkToMake>
+		<Mass>0.1</Mass>
 		<Flammability>0.5</Flammability>
 		<EquipDelay>1</EquipDelay>
 	</statBases>
@@ -44,9 +44,9 @@
 		<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</SlaveSuppressionOffset>
     </equippedStatOffsets>
 	<apparel>
-		<developmentalStageFilter>Adult</developmentalStageFilter>
 		<useWornGraphicMask>true</useWornGraphicMask>
 		<countsAsClothingForNudity>false</countsAsClothingForNudity>
+		<developmentalStageFilter>Adult</developmentalStageFilter>
 		<bodyPartGroups>
 			<li>Neck</li>
 		</bodyPartGroups>
@@ -59,6 +59,7 @@
 		</tags>
 		<defaultOutfitTags>
 			<li>Worker</li>
+			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
 	<comps>
