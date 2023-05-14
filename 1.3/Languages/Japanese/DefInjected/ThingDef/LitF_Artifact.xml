@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-  <LitF_BrillianceAmplifier.label>LitF 輝き増幅器</LitF_BrillianceAmplifier.label>
-  <LitF_BrillianceAmplifier.description>輝きの力を増幅することによって,リトルフェアリーが新しい汎用スキルを習得します.\nただしどのスキルを得るかはランダムで,今までに習得したものを含めて最大12個までしか習得できません.</LitF_BrillianceAmplifier.description>
-  <LitF_BrillianceAmplifier.comps.0.useLabel>使用する</LitF_BrillianceAmplifier.comps.0.useLabel>
-
-</LanguageData>

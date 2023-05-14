@@ -81,31 +81,8 @@ namespace LittleFairy_Race
 			}
 			Sound_LitF.LitF_Chant.PlayOneShot(SoundInfo.InMap(TargetPawn));
 			Item.Destroy();
-			if (TargetPawn.def.defName == "LittleFairy_Pawn")
-            {
-				Thing collor = ThingMaker.MakeThing(ThingDef.Named("LitF_SimpleCollor"), Item.Stuff);
-				TargetPawn.apparel.Wear((Apparel)collor, true, true);
-			}
-			if (TargetPawn.def.defName == "Mofy_Pawn")
-			{
-				Thing collor = ThingMaker.MakeThing(ThingDef.Named("Mofy_SimpleCollor"), Item.Stuff);
-				TargetPawn.apparel.Wear((Apparel)collor, true, true);
-			}
-			if (TargetPawn.def.defName == "Resurreviewy_Pawn")
-			{
-				Thing collor = ThingMaker.MakeThing(ThingDef.Named("Resur_SimpleCollor"), Item.Stuff);
-				TargetPawn.apparel.Wear((Apparel)collor, true, true);
-			}
-			if (TargetPawn.def.defName == "Glassy_Pawn")
-			{
-				Thing collor = ThingMaker.MakeThing(ThingDef.Named("Glassy_SimpleCollor"), Item.Stuff);
-				TargetPawn.apparel.Wear((Apparel)collor, true, true);
-			}
-			if (TargetPawn.def.defName == "Sweety_Pawn")
-			{
-				Thing collor = ThingMaker.MakeThing(ThingDef.Named("Sweety_SimpleCollor"), Item.Stuff);
-				TargetPawn.apparel.Wear((Apparel)collor, true, true);
-			}
+			Thing collor = ThingMaker.MakeThing(ThingDef.Named("BEP_SimpleCollor"), Item.Stuff);
+			TargetPawn.apparel.Wear((Apparel)collor, true, true);
 			if (ModLister.IdeologyInstalled)
             {
 				try

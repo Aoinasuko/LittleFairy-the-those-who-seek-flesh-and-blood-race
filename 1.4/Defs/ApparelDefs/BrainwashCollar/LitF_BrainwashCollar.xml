@@ -51,7 +51,7 @@
 		<bodyPartGroups>
 			<li>Neck</li>
 		</bodyPartGroups>
-		<wornGraphicPath>LittleFairy/Thing/Apparel/ExplosionCollar/ExplosionCollar</wornGraphicPath>
+		<wornGraphicPath>LittleFairy/Thing/Apparel/ExCollar/ExCollar</wornGraphicPath>
 		<layers>
 			<li>Belt</li>
 		</layers>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+	<AlienRace.ThingDef_AlienRace Tag="BEPRace" ParentName="BasePawn">
 		<defName>LittleFairy_Pawn</defName>
 		<label>Little Fairy</label>
 		<description>Little faeries are a flesh-loving, fairy-like race with tiny wings. They serve various species and perform miscellaneous labor. It is also said that littlefairy that have been feral for a long time become fearsome monsters that attack humans and feed on their growth.</description>
@@ -280,52 +280,20 @@
 				</growthAges>
 			</generalSettings>
 			<graphicPaths>
-				<head>
-					<path>BEPRaceCore/Race/Head/Average_Normal</path>
-					<headtypeGraphics>
-						<Male_AverageNormal>BEPRaceCore/Race/Head/Average_Normal</Male_AverageNormal>
-						<Female_AverageNormal>BEPRaceCore/Race/Head/Average_Normal</Female_AverageNormal>
-					</headtypeGraphics>
-				</head>
-				<body>
-					<path>BEPRaceCore/Race/Body/Child/Body</path>
-				</body>
+				<head>BEPRaceCore/Race/Head/Average_Normal</head>
+				<body>BEPRaceCore/Race/Body/Normal/Naked_Child</body>
 				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
 				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
 				<apparel>
 					<!-- Apparel Graphics options go here -->
 					<individualPaths>
 						<li>
-							<key>BEP_SimpleCloth</key>
-							<value>BEPRaceCore/Apparel/SimpleCloth/SimpleCloth_Child</value>
+							<key>LitF_BloodyArmor</key>
+							<value>LittleFairy/Thing/Apparel/BloodyArmor/BloodyArmor_Child</value>
 						</li>
 						<li>
-							<key>BEP_PreschoolerCloth</key>
-							<value>BEPRaceCore/Apparel/PreschoolerCloth/PreschoolerCloth_Child</value>
-						</li>
-						<li>
-							<key>BEP_MaidCloth</key>
-							<value>BEPRaceCore/Apparel/MaidCloth/MaidCloth_Child</value>
-						</li>
-						<li>
-							<key>BEP_NobleCloth</key>
-							<value>BEPRaceCore/Apparel/NobleCloth/NobleCloth_Child</value>
-						</li>
-						<li>
-							<key>BEP_NobleCape</key>
-							<value>BEPRaceCore/Apparel/NobleCape/NobleCape_Child</value>
-						</li>
-						<li>
-							<key>BEP_SlaveStrap</key>
-							<value>BEPRaceCore/Apparel/SlaveStrap/SlaveStrap_Child</value>
-						</li>
-						<li>
-							<key>BEP_SwimSuit</key>
-							<value>BEPRaceCore/Apparel/SwimSuit/SwimSuit_Child</value>
-						</li>
-						<li>
-							<key>BEP_SimpleArmor</key>
-							<value>BEPRaceCore/Apparel/SimpleArmor/SimpleArmor_Child</value>
+							<key>LitF_BloodyArmor_Lite</key>
+							<value>LittleFairy/Thing/Apparel/BloodyArmor/BloodyArmor_Child</value>
 						</li>
 					</individualPaths>
 				</apparel>
@@ -345,21 +313,6 @@
 				<onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
 				<onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
 				<apparelList>
-					<li>BEP_SimpleCloth</li>
-					<li>BEP_PreschoolerCloth</li>
-					<li>BEP_PreschoolerHat</li>
-					<li>BEP_MaidCloth</li>
-					<li>BEP_MaidBand</li>
-					<li>BEP_NobleCloth</li>
-					<li>BEP_NobleCape</li>
-					<li>BEP_SimpleCollor</li>
-					<li>BEP_SlaveStrap</li>
-					<li>BEP_SwimSuit</li>
-					<li>BEP_SimpleArmor</li>
-					<li>BEP_Blindfold</li>
-					<li>BEP_Gag</li>
-					<li>BEP_BlindfoldandGag</li>
-					<li>BEP_SimpleScarf</li>
 					<li>LitF_BloodyArmor</li>
 					<li>LitF_BloodyArmor_Lite</li>
 					<li>LitF_BrainwashCollar</li>
