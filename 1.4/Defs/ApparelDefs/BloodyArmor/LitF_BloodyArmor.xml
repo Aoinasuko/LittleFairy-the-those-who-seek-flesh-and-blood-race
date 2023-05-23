@@ -14,6 +14,7 @@
 		<LitF_BloodyBrillianceWood>50</LitF_BloodyBrillianceWood>
 		<LitF_Richmeat>20</LitF_Richmeat>
 	</costList>
+	<tradeability>Sellable</tradeability>
 	<recipeMaker>
 		<researchPrerequisite>LitF_NurseryExpansion</researchPrerequisite>
 		<recipeUsers>

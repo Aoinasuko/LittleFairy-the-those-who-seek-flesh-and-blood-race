@@ -20,7 +20,7 @@
 		<li>Fabric</li>
 		<li>Leathery</li>
 	</stuffCategories>
-	<tradeability>All</tradeability>
+	<tradeability>Sellable</tradeability>
 	<recipeMaker>
 		<researchPrerequisite>LitF_UtilityCollar</researchPrerequisite>
 		<recipeUsers>

@@ -243,7 +243,7 @@
 							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 						<li>
-							<path>BEPRaceCore/Race/LittleWing/Wing</path>
+							<path>BEPRaceCore/Race/LittleWing/LittleWing</path>
 							<bodyPart>LitF_Wing</bodyPart>
 							<inFrontOfBody>false</inFrontOfBody>
 							<drawSize>1</drawSize>
@@ -297,6 +297,8 @@
 						</li>
 					</individualPaths>
 				</apparel>
+				<skinShader>CutoutSkin</skinShader>
+				<skinColor>(1,1,1,1)</skinColor>
 			</graphicPaths>
 			<relationSettings>
 				<relationChanceModifierLover>0</relationChanceModifierLover>
