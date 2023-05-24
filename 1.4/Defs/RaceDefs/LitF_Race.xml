@@ -297,7 +297,7 @@
 						</li>
 					</individualPaths>
 				</apparel>
-				<skinShader>CutoutSkin</skinShader>
+				<skinShader>Cutout</skinShader>
 				<skinColor>(1,1,1,1)</skinColor>
 			</graphicPaths>
 			<relationSettings>
