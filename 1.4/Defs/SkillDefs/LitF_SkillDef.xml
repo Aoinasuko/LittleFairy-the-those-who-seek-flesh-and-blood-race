@@ -284,6 +284,26 @@
 		<UseSound>LitF_Buff</UseSound>
 	</LittleFairy_Race.SkillDef>
 	
+	<LittleFairy_Race.SkillDef>
+		<defName>LitF_TriggerHappy</defName>
+		<label>TriggerHappy</label>
+		<description>The time it takes to fire is reduced to zero for a period of 5 seconds.</description>
+		<NeedXP>6000</NeedXP>
+		<GetXP>100</GetXP>
+		<SkillStayTime>60</SkillStayTime>
+		<SkillCoolDown>3600</SkillCoolDown>
+		<Target>Self</Target>
+		<AddHediff>LitF_Skill_TriggerHappy</AddHediff>
+		<SkillCalc Class="LittleFairy_Race.Skill_AddHediff">
+			<GetHediff>LitF_Skill_TriggerHappyShot</GetHediff>
+		</SkillCalc>
+		<IsCommonSkill>false</IsCommonSkill>
+		<SkillCategory>Both</SkillCategory>
+		<SkillPicture>LittleFairy/UI/Icon/Skill/Ranger/TriggerHappy</SkillPicture>
+		<UseMote>LitF_Mote_Effect</UseMote>
+		<UseSound>LitF_Buff</UseSound>
+	</LittleFairy_Race.SkillDef>
+	
 	<!-- ミートメーカー -->
 	
 	<LittleFairy_Race.SkillDef>
@@ -317,26 +337,6 @@
 		<IsCommonSkill>false</IsCommonSkill>
 		<SkillCategory>Passive</SkillCategory>
 		<SkillPicture>LittleFairy/UI/Icon/Skill/MeatMaker/MeatMaker</SkillPicture>
-	</LittleFairy_Race.SkillDef>
-	
-	<LittleFairy_Race.SkillDef>
-		<defName>LitF_TriggerHappy</defName>
-		<label>TriggerHappy</label>
-		<description>The time it takes to fire is reduced to zero for a period of 5 seconds.</description>
-		<NeedXP>6000</NeedXP>
-		<GetXP>100</GetXP>
-		<SkillStayTime>60</SkillStayTime>
-		<SkillCoolDown>3600</SkillCoolDown>
-		<Target>Self</Target>
-		<AddHediff>LitF_Skill_TriggerHappy</AddHediff>
-		<SkillCalc Class="LittleFairy_Race.Skill_AddHediff">
-			<GetHediff>LitF_Skill_TriggerHappyShot</GetHediff>
-		</SkillCalc>
-		<IsCommonSkill>false</IsCommonSkill>
-		<SkillCategory>Both</SkillCategory>
-		<SkillPicture>LittleFairy/UI/Icon/Skill/Ranger/TriggerHappy</SkillPicture>
-		<UseMote>LitF_Mote_Effect</UseMote>
-		<UseSound>LitF_Buff</UseSound>
 	</LittleFairy_Race.SkillDef>
 	
 	<!-- ヒーラー -->

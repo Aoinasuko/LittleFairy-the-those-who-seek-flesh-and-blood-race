@@ -54,7 +54,7 @@ namespace LittleFairy_Race
 				} else
                 {
 					List<FloatMenuOption> list = new List<FloatMenuOption>();
-					List<SkillStyleDef> skillsel = DefDatabase<SkillStyleDef>.AllDefsListForReading.Where(x => x.TargetPawn.EnumerableNullOrEmpty()).ToList();
+					List<SkillStyleDef> skillsel = DefDatabase<SkillStyleDef>.AllDefsListForReading.Where(x => x.TargetPawn.EnumerableNullOrEmpty() && x.CanGeneRandom).ToList();
 					// 苗床にしている種族の可能性を追加
 					if (!inner.EnumerableNullOrEmpty())
 					{
