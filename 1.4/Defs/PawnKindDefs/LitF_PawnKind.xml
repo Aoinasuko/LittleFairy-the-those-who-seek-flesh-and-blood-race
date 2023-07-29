@@ -5,7 +5,7 @@
 		<defName>LittleFairy_Visitor</defName>
 		<label>LittleFairy Visitor</label>
 		<isFighter>false</isFighter>
-		<combatPower>200</combatPower>
+		<combatPower>50</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
@@ -48,7 +48,7 @@
 		<defName>LittleFairy_Slave</defName>
 		<label>LittleFairy Slave</label>
 		<isFighter>false</isFighter>
-		<combatPower>200</combatPower>
+		<combatPower>50</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
@@ -86,7 +86,7 @@
 		<defName>LittleFairy_Wild</defName>
 		<label>Wild LittleFairy</label>
 		<isFighter>true</isFighter>
-		<combatPower>200</combatPower>
+		<combatPower>50</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
@@ -129,7 +129,7 @@
 		<defName>LittleFairy_NurseryBorn</defName>
 		<label>LittleFairy NurseryBorn</label>
 		<isFighter>false</isFighter>
-		<combatPower>200</combatPower>
+		<combatPower>50</combatPower>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
 		<race>LittleFairy_Pawn</race>
