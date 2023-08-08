@@ -4,6 +4,22 @@
 <LitF.Update.Title>LittleFairy UpdateInfo</LitF.Update.Title>
 
 <LitF.Update.label>
+2023/08/08(0.3.1.0):
+*Little Fairy's FP barrier does not react to stun and EMP.
+
+*When Biotech is introduced, if the FP reaches 0 and the player has the Brilliance gene, all the Brilliance will be consumed and the FP will be temporarily and rapidly recovered according to the amount consumed.
+
+*The length of the exhaustion state has been reduced from 24 hours to 12 hours.
+
+*When Biotech is installed, the use of a skill now consumes 10 Brilliance.
+If the skill cannot be consumed, it can still be used as long as FP remains, but the cooldown time will be tripled.
+
+*The unique xenotype of Little Fairy has been implemented.
+
+*Various effects have been changed.
+
+*UI has been improved.
+
 2023/07/29(0.3.0.3):
 *Little Fairy's combat power has been significantly revised so that it appears more often during raids.
 

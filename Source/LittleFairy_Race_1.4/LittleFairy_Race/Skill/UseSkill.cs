@@ -1,9 +1,11 @@
-﻿using RimWorld;
+﻿using BEPRace_Core;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 using Verse;
 using Verse.AI;
 using Verse.Sound;
@@ -24,8 +26,7 @@ namespace LittleFairy_Race
         protected override IEnumerable<Toil> MakeNewToils()
         {
             Comp_LitF comp = pawn.GetComp<Comp_LitF>();
-            Sound_LitF.LitF_Chant.PlayOneShot(new TargetInfo(pawn.Position, pawn.Map, false));
-            MoteMaker.MakeStaticMote(pawn.TrueCenter(), pawn.Map, Mote_LitF.LitF_Mote_Chanting, 1f);
+            Effecter_BEPCore.BEP_UseSkill_A.Spawn(pawn.Position, pawn.Map, Vector3.zero);
             Toil prepare = Toils_General.Wait(comp.UseSkill.SkillStayTime, TargetIndex.None);
             if (pawn.CurJob.targetA.Thing != null)
             {
@@ -43,14 +44,51 @@ namespace LittleFairy_Race
             Toil active = new Toil();
             active.initAction = delegate()
             {
+                // 現在スキルが使用できるかフラグ
+                bool useflag = false;
                 if (comp.NowFP <= 0)
                 {
-                    Messages.Message("LitF.NeedMoreFP".Translate(), MessageTypeDefOf.RejectInput, historical: false);
+                    if (ModLister.BiotechInstalled)
+                    {
+                        if (Util_BEPCore.CheckBrillianceValue(pawn, 0.1f))
+                        {
+                            useflag = true;
+                        } else
+                        {
+                            Messages.Message("LitF.NeedMoreFPorBrilliance".Translate(), MessageTypeDefOf.RejectInput, historical: false);
+                        }
+                    } else
+                    {
+                        Messages.Message("LitF.NeedMoreFP".Translate(), MessageTypeDefOf.RejectInput, historical: false);
+                    }
+                } else
+                {
+                    useflag = true;
                 }
-                else
+                if (useflag)
                 {
                     comp.UseSkill.SkillCalc.SkillUse(pawn, TargetA);
-                    comp.SkillCoolDown.SetOrAdd(comp.UseSkill.defName, comp.UseSkill.SkillCoolDown);
+                    // 輝きを消費できたかフラグ
+                    bool dontconsumption = false;
+                    if (ModLister.BiotechInstalled)
+                    {
+                        if (Util_BEPCore.CheckBrillianceValue(pawn, 0.1f))
+                        {
+                            Gene_Brilliance gene = pawn.genes.GetFirstGeneOfType<Gene_Brilliance>();
+                            gene.useBrilliance(0.1f);
+                        } else
+                        {
+                            dontconsumption = true;
+                        }
+                    }
+                    // 輝きを消費できてない場合、クールダウンが3倍に
+                    if (dontconsumption)
+                    {
+                        comp.SkillCoolDown.SetOrAdd(comp.UseSkill.defName, comp.UseSkill.SkillCoolDown * 3);
+                    } else
+                    {
+                        comp.SkillCoolDown.SetOrAdd(comp.UseSkill.defName, comp.UseSkill.SkillCoolDown);
+                    }
                 }
             };
             active.defaultCompleteMode = ToilCompleteMode.Instant;

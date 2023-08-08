@@ -37,6 +37,10 @@ namespace LittleFairy_Race
                 {
                     comp.UseSkill.UseSound.PlayOneShot(new TargetInfo(pawn.Position, pawn.Map, false));
                 }
+                if (comp.UseSkill.UseEffect != null)
+                {
+                    comp.UseSkill.UseEffect.Spawn(pawn.Position, pawn.Map, Vector3.zero);
+                }
                 Projectile shot = (Projectile)GenSpawn.Spawn(Thing, pawn.Position, pawn.Map);
                 Vector3 drawPos = pawn.DrawPos;
                 if (target.Thing != null)

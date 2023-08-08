@@ -42,6 +42,12 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>1~3</initialResistanceRange>
 		<defaultFactionType>LitF_GentleWildLittleFairy</defaultFactionType>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LitF_LittleFairy MayRequire="Ludeon.RimWorld.Biotech">999</LitF_LittleFairy>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
 	</PawnKindDef>
 	
 	<PawnKindDef>
@@ -80,6 +86,12 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>1~3</initialResistanceRange>
 		<defaultFactionType>LitF_GentleWildLittleFairy</defaultFactionType>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LitF_LittleFairy MayRequire="Ludeon.RimWorld.Biotech">999</LitF_LittleFairy>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
 	</PawnKindDef>
 	
 	<PawnKindDef>
@@ -123,6 +135,12 @@
 		<initialResistanceRange>10~20</initialResistanceRange>
 		<factionLeader>true</factionLeader>
 		<defaultFactionType>LitF_BloodyWildLittleFairy</defaultFactionType>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LitF_LittleFairy MayRequire="Ludeon.RimWorld.Biotech">999</LitF_LittleFairy>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
 	</PawnKindDef>
 	
 	<PawnKindDef>
@@ -157,6 +175,12 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>7~12</initialResistanceRange>
 		<defaultFactionType>LitF_GentleWildLittleFairy</defaultFactionType>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LitF_LittleFairy MayRequire="Ludeon.RimWorld.Biotech">999</LitF_LittleFairy>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
 	</PawnKindDef>
 	
 </Defs>

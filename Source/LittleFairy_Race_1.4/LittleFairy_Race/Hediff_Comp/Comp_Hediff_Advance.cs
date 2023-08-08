@@ -1,4 +1,5 @@
-﻿using RimWorld;
+﻿using BEPRace_Core;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,7 @@ namespace LittleFairy_Race
 			HediffComp_Disappears hediffComp_Disappears = this.parent.TryGetComp<HediffComp_Disappears>();
 			if (hediffComp_Disappears != null && hediffComp_Disappears.ticksToDisappear % 30 == 0)
 			{
-				MoteMaker.MakeStaticMote(Pawn.TrueCenter(), Pawn.Map, Mote_LitF.LitF_Mote_Reflect, 0.5f);
+				Effecter_BEPCore.BEP_UseSkill_D.Spawn(this.Pawn.Position, this.Pawn.Map, Vector3.zero);
 			}
 			if (ticksToCounter <= 0)
 			{

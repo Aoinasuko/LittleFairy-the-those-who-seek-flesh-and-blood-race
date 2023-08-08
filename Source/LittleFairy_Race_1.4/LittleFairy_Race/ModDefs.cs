@@ -91,6 +91,8 @@ namespace LittleFairy_Race
         public ThingDef UseMote = null;
         // 効果発動時に対象に与える音声
         public SoundDef UseSound = null;
+        // 効果発動時に対象に与えるエフェクト
+        public EffecterDef UseEffect = null;
 
         public SkillDef Clone()
         {

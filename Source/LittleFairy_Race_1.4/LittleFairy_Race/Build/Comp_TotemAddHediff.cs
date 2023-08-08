@@ -1,9 +1,11 @@
-﻿using RimWorld;
+﻿using BEPRace_Core;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 using Verse;
 
 namespace LittleFairy_Race
@@ -45,7 +47,7 @@ namespace LittleFairy_Race
 						}
 						if (!pawns.EnumerableNullOrEmpty())
 						{
-							MoteMaker.MakeStaticMote(this.parent.TrueCenter(), this.parent.Map, Mote_LitF.LitF_Mote_Chanting, 1f);
+							Effecter_BEPCore.BEP_UseSkill_D.Spawn(this.parent.Position, this.parent.Map, Vector3.zero);
 							foreach (Pawn pawn in pawns)
 							{
 								pawn.health.AddHediff(Props.Hediff);

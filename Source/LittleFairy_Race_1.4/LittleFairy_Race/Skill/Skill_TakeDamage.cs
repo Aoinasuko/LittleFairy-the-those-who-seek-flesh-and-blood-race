@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 using Verse;
 using Verse.Sound;
 
@@ -57,6 +58,10 @@ namespace LittleFairy_Race
                             {
                                 comp.UseSkill.UseSound.PlayOneShot(new TargetInfo(Enemy.Position, Enemy.Map, false));
                             }
+                            if (comp.UseSkill.UseEffect != null)
+                            {
+                                comp.UseSkill.UseEffect.Spawn(Enemy.Position, Enemy.Map, Vector3.zero);
+                            }
                             Enemy.TakeDamage(new DamageInfo(DamageDef, Amount, Penetration, default, pawn));
                         }
                     }
@@ -80,6 +85,10 @@ namespace LittleFairy_Race
                     if (comp.UseSkill.UseSound != null)
                     {
                         comp.UseSkill.UseSound.PlayOneShot(new TargetInfo(target.Thing.Position, target.Thing.Map, false));
+                    }
+                    if (comp.UseSkill.UseEffect != null)
+                    {
+                        comp.UseSkill.UseEffect.Spawn(target.Thing.Position, target.Thing.Map, Vector3.zero);
                     }
                     target.Thing.TakeDamage(new DamageInfo(DamageDef, Amount, Penetration, default, pawn));
                 }

@@ -1,4 +1,5 @@
-﻿using RimWorld;
+﻿using BEPRace_Core;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,7 +49,26 @@ namespace LittleFairy_Race
 			Text.Anchor = TextAnchor.MiddleCenter;
 			Widgets.Label(rect4, comp.NowFP.ToString() + "/" + comp.MaxFP.ToString());
 			Text.Anchor = TextAnchor.UpperLeft;
+			if (Mouse.IsOver(rect))
+			{
+				Widgets.DrawHighlight(rect);
+				string tip = GetTooltip();
+				if (!tip.NullOrEmpty())
+				{
+					TooltipHandler.TipRegion(rect, () => tip, Gen.HashCombineInt(comp.GetHashCode(), 7477453));
+				}
+			}
 			return new GizmoResult(GizmoState.Clear);
+		}
+
+		protected string GetTooltip()
+		{
+			string text = "LitF.UI.FPDesc".Translate();
+			if (ModLister.BiotechInstalled)
+			{
+				text += "LitF.UI.FPDescBiotech".Translate();
+			}
+			return text;
 		}
 
 	}
@@ -88,6 +108,8 @@ namespace LittleFairy_Race
 		public SkillDef UseSkill = null;
 		// 最初のスポーン?
 		public bool FirstSpawn = false;
+		// 高速回復時間
+		public int SpeedHealTime = 0;
 
 		public override void PostExposeData()
 		{
@@ -102,6 +124,7 @@ namespace LittleFairy_Race
 			Scribe_Collections.Look(ref CommonSkillDef, "CommonSkillDef");
 			Scribe_Defs.Look(ref UseSkill, "UseSkill");
 			Scribe_Values.Look(ref FirstSpawn, "FirstSpawn");
+			Scribe_Values.Look(ref SpeedHealTime, "SpeedHealTime", 0);
 		}
 
 		// FP最大値のセット
@@ -246,6 +269,20 @@ namespace LittleFairy_Race
 					skilldef.SkillCalc.Tick(pawn);
 				}
 			}
+			// 6Tickごとの処理
+			if (parent.IsHashIntervalTick(6))
+            {
+				// 高速回復中なら,FP回復
+				if (SpeedHealTime > 0)
+                {
+					if (parent.Map != null)
+                    {
+						Effecter_BEPCore.BEP_UseSkill_D.Spawn(parent.Position, parent.Map, Vector3.zero);
+					}
+					SpeedHealTime--;
+					FPHeal(1);
+				}
+            }
 			// 1時間ごとの処理
 			if (parent.IsHashIntervalTick(2500))
             {
@@ -331,8 +368,18 @@ namespace LittleFairy_Race
 			}
 			if (NowFP <= 0)
 			{
-				disabledReason = "LitF.UI.LowFP".Translate();
-				return false;
+				if (ModLister.BiotechInstalled)
+				{
+					if (!Util_BEPCore.CheckBrillianceValue(pawn, 0.1f))
+                    {
+						disabledReason = "LitF.UI.LowFPandBrilliance".Translate();
+						return false;
+					}
+				} else
+                {
+					disabledReason = "LitF.UI.LowFP".Translate();
+					return false;
+				}
 			}
 			return skillDef.SkillCalc.SkillUseCheck(pawn, out disabledReason);
 		}
@@ -592,14 +639,14 @@ namespace LittleFairy_Race
 						{
 							continue;
 						}
-						String cooldown = SkillCoolDown.TryGetValue(skilldef.defName, 0).TicksToSeconds().ToString("F1");
+						int cooldown = SkillCoolDown.TryGetValue(skilldef.defName, 0);
 						String reason = "";
 						Gizmo Gizmo = null;
 						if (skilldef.Target == SkillTarget.Self)
 						{
 							Gizmo = new Command_Action
 							{
-								defaultLabel = skilldef.label + "(" + cooldown + ")",
+								defaultLabel = (cooldown > 0) ? skilldef.label + "(" + cooldown.TicksToSeconds().ToString("F1") + ")" : skilldef.label,
 								icon = Graphic_LitF.texture_skill.TryGetValue(skilldef.defName),
 								defaultDesc = Calc_UI.ShowSkillState(skilldef, false),
 								disabled = !SkillUseCheck(skilldef, out reason),
@@ -628,7 +675,7 @@ namespace LittleFairy_Race
 						{
 							Gizmo = new Command_Target
 							{
-								defaultLabel = skilldef.label + "(" + cooldown + ")",
+								defaultLabel = (cooldown > 0) ? skilldef.label + "(" + cooldown.TicksToSeconds().ToString("F1") + ")" : skilldef.label,
 								icon = Graphic_LitF.texture_skill.TryGetValue(skilldef.defName),
 								defaultDesc = Calc_UI.ShowSkillState(skilldef, false),
 								disabled = !SkillUseCheck(skilldef, out reason),
@@ -747,6 +794,17 @@ namespace LittleFairy_Race
 			base.PostPreApplyDamage(dinfo, out absorbed);
 			if (absorbed == false)
             {
+				if (dinfo.Def == DamageDefOf.EMP || dinfo.Def == DamageDefOf.Stun)
+                {
+					return;
+                }
+				if (SpeedHealTime > 0)
+                {
+					MoteMaker.ThrowText(this.parent.TrueCenter(), this.parent.Map, "Protect!");
+					Effecter_BEPCore.BEP_Parry_C.Spawn(this.parent.Position, this.parent.Map, Vector3.zero);
+					absorbed = true;
+					return;
+				}
 				if (NowFP > 0)
                 {
 					Pawn pawn = (Pawn)this.parent;
@@ -757,16 +815,32 @@ namespace LittleFairy_Race
 					}
 					NowFP = Math.Max(0, NowFP - DamageAmount);
 					XP += DamageAmount;
-					MoteMaker.MakeStaticMote(this.parent.TrueCenter(), this.parent.Map, Mote_LitF.LitF_Mote_FPGuard, 0.75f);
 					if (NowFP <= 0)
                     {
 						MoteMaker.ThrowText(this.parent.TrueCenter(), this.parent.Map, "Break!");
-						Sound_LitF.LitF_Break.PlayOneShot(new TargetInfo(this.parent.Position, this.parent.Map, false));
+						Effecter_BEPCore.BEP_Parry_Break.Spawn(this.parent.Position, this.parent.Map, Vector3.zero);
 						pawn.health.AddHediff(Hediff_LitF.LitF_Consumption);
+						if (ModLister.BiotechInstalled)
+                        {
+							Gene_Brilliance gene = pawn.genes.GetFirstGeneOfType<Gene_Brilliance>();
+							if (gene != null)
+							{
+								int time = (int)(100 * gene.Value);
+								gene.Value = 0.00f;
+								SpeedHealTime = time;
+								if (this.parent.Faction?.IsPlayer ?? false)
+                                {
+									if (SpeedHealTime > 0)
+                                    {
+										Messages.Message("LitF.UI.FPSpeedHeal".Translate(this.parent), this.parent, MessageTypeDefOf.NeutralEvent, historical: false);
+									}
+								}
+							}
+						}
 					} else
                     {
 						MoteMaker.ThrowText(this.parent.TrueCenter(), this.parent.Map, "Protect!");
-						Sound_LitF.LitF_Parry.PlayOneShot(new TargetInfo(this.parent.Position, this.parent.Map, false));
+						Effecter_BEPCore.BEP_Parry_C.Spawn(this.parent.Position, this.parent.Map, Vector3.zero);
 					}
 					absorbed = true;
 				}

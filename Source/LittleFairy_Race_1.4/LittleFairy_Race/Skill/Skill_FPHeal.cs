@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 using Verse;
 using Verse.Sound;
 
@@ -49,6 +50,10 @@ namespace LittleFairy_Race
                             {
                                 comp.UseSkill.UseSound.PlayOneShot(new TargetInfo(Enemy.Position, Enemy.Map, false));
                             }
+                            if (comp.UseSkill.UseEffect != null)
+                            {
+                                comp.UseSkill.UseEffect.Spawn(Enemy.Position, Enemy.Map, Vector3.zero);
+                            }
                             int healamo = (int)(((float)tar_comp.MaxFP / 100f) * Amount);
                             tar_comp.FPHeal(healamo);
                         }
@@ -69,6 +74,10 @@ namespace LittleFairy_Race
                     if (comp.UseSkill.UseSound != null)
                     {
                         comp.UseSkill.UseSound.PlayOneShot(new TargetInfo(target.Thing.Position, target.Thing.Map, false));
+                    }
+                    if (comp.UseSkill.UseEffect != null)
+                    {
+                        comp.UseSkill.UseEffect.Spawn(target.Thing.Position, target.Thing.Map, Vector3.zero);
                     }
                     Comp_LitF tar_comp = target.Thing.TryGetComp<Comp_LitF>();
                     int healamo = (int)(((float)tar_comp.MaxFP / 100f) * Amount);

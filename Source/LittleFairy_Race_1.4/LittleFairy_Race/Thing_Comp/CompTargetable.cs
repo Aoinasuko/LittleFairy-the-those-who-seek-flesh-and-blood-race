@@ -1,6 +1,8 @@
-﻿using RimWorld;
+﻿using BEPRace_Core;
+using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 using Verse;
 using Verse.AI;
 using Verse.Sound;
@@ -96,7 +98,7 @@ namespace LittleFairy_Race
 						return;
 					}
 					Sound_LitF.LitF_Chant.PlayOneShot(new TargetInfo(target.Position, target.Map, false));
-					MoteMaker.MakeStaticMote(target.TrueCenter(), this.parent.Map, Mote_LitF.LitF_Mote_Effect, 2f);
+					Effecter_BEPCore.BEP_UseSkill_C.Spawn(this.parent.Position, this.parent.Map, Vector3.zero);
 					List<SkillDef> SkillRand = DefDatabase<SkillDef>.AllDefs.Where(x => x.IsCommonSkill && x.TargetPawn.EnumerableNullOrEmpty() && x.CommonRate > Rand.Range(0, 100) && (x.IsDuplication || !comp.CommonSkillDef.Contains(x))).ToList();
 					SkillDef skill = SkillRand.RandomElement();
 					comp.CommonSkillDef.Add(skill);

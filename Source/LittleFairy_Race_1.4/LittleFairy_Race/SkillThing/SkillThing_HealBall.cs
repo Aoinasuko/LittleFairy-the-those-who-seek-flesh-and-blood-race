@@ -1,9 +1,11 @@
-﻿using RimWorld;
+﻿using BEPRace_Core;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 using Verse;
 
 namespace LittleFairy_Race
@@ -18,7 +20,7 @@ namespace LittleFairy_Race
             {
 				if (comp_thing.life % 60 == 0)
                 {
-					MoteMaker.MakeStaticMote(this.TrueCenter(), this.Map, Mote_LitF.LitF_Mote_Reflect, 0.5f);
+					Effecter_BEPCore.BEP_UseSkill_D.Spawn(this.Position, this.Map, Vector3.zero);
 					IEnumerable<Pawn> pawns = this.Map.mapPawns.AllPawnsSpawned.Where(x => x.Position.DistanceTo(this.Position) <= 5.9f & !x.HostileTo(comp_thing.owner));
 					if (!pawns.EnumerableNullOrEmpty())
 					{

@@ -130,6 +130,10 @@ namespace LittleFairy_Race
 					{
 						output += "\n" + "LitF.UI.AreaRange".Translate() + ": " + def.TargetAreaRange;
 					}
+					if (ModLister.BiotechInstalled)
+                    {
+						output += "\n\n" + "LitF.UI.SkillBiotechDesc".Translate();
+					}
 				}
 			}
 			return output;

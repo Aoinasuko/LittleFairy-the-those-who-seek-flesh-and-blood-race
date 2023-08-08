@@ -1,6 +1,8 @@
-﻿using RimWorld;
+﻿using BEPRace_Core;
+using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 using Verse;
 using Verse.AI;
 using Verse.Sound;
@@ -70,7 +72,7 @@ namespace LittleFairy_Race
 					pawns = TargetPawn.Map.mapPawns.AllPawnsSpawned.Where(x => x != TargetPawn && x.Position.DistanceTo(TargetPawn.Position) <= 20.9f && TargetPawn.Faction == x.Faction);
 					if (!pawns.EnumerableNullOrEmpty())
 					{
-						MoteMaker.MakeStaticMote(TargetPawn.TrueCenter(), TargetPawn.Map, Mote_LitF.LitF_Mote_Effect, 1f);
+						Effecter_BEPCore.BEP_UseSkill_C.Spawn(TargetPawn.Position, TargetPawn.Map, Vector3.zero);
 						foreach (Pawn pawn in pawns)
 						{
 							pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Berserk);

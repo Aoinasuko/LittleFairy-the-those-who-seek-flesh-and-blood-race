@@ -25,6 +25,7 @@ namespace LittleFairy_Race
         public static SoundDef LitF_Break;
     }
 
+    /*
     [DefOf]
     public static class Mote_LitF
     {
@@ -33,6 +34,7 @@ namespace LittleFairy_Race
         public static ThingDef LitF_Mote_Reflect;
         public static ThingDef LitF_Mote_FPGuard;
     }
+    */
 
     [DefOf]
     public static class Hediff_LitF

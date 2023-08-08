@@ -76,7 +76,7 @@
     <settlementTexturePath>LittleFairy/UI/Faction/icon</settlementTexturePath>
     <xenotypeSet>
       <xenotypeChances>
-        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+        <LitF_LittleFairy MayRequire="Ludeon.RimWorld.Biotech">1.0</LitF_LittleFairy>
       </xenotypeChances>
     </xenotypeSet>
     <modExtensions>
@@ -138,7 +138,7 @@
     <settlementTexturePath>LittleFairy/UI/Faction/icon</settlementTexturePath>
     <xenotypeSet>
       <xenotypeChances>
-        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+        <LitF_LittleFairy MayRequire="Ludeon.RimWorld.Biotech">1.0</LitF_LittleFairy>
       </xenotypeChances>
     </xenotypeSet>
     <modExtensions>

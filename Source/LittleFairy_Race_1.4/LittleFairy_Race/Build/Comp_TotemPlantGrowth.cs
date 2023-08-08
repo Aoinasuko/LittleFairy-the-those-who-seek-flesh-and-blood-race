@@ -1,4 +1,5 @@
-﻿using RimWorld;
+﻿using BEPRace_Core;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,7 +45,7 @@ namespace LittleFairy_Race
 								{
 									if (crop.Position.GetPlant(this.parent.Map).Growth < 1.0f)
 									{
-										MoteMaker.MakeStaticMote(crop.TrueCenter(), crop.Map, Mote_LitF.LitF_Mote_Chanting, 1f);
+										Effecter_BEPCore.BEP_UseSkill_D.Spawn(crop.Position, crop.Map, Vector3.zero);
 										crop.Position.GetPlant(this.parent.Map).Growth += 0.02f * crop.Position.GetPlant(this.parent.Map).GrowthRate;
 									}
 								}

@@ -19,13 +19,21 @@
   <LitF.UI.SkillCoolDown>クールダウン</LitF.UI.SkillCoolDown>
   <LitF.UI.Range>射程</LitF.UI.Range>
   <LitF.UI.AreaRange>範囲</LitF.UI.AreaRange>
+  <!-- Biotech追加分 -->
+  <LitF.UI.SkillBiotechDesc>使用するためには,輝きの力の"輝き"が10必要です.\n\nもし何らかの理由で輝きがなくてもスキルは使用できますが,クールダウンの時間が大幅に増加します.</LitF.UI.SkillBiotechDesc>
   
   <LitF.UI.WaitCoolDown>クールダウン中</LitF.UI.WaitCoolDown>
   <LitF.UI.NowDown>ダウン中</LitF.UI.NowDown>
   <LitF.UI.ChildCantUseFP>子供はスキルを使用できない</LitF.UI.ChildCantUseFP>
   <LitF.UI.LowFP>FPが空なので使用できない</LitF.UI.LowFP>
+  <!-- Biotech追加分 -->
+  <LitF.UI.LowFPandBrilliance>FPが空で,輝きも無いため使用できない</LitF.UI.LowFPandBrilliance>
   
   <LitF.UI.FP>FP</LitF.UI.FP>
+  <LitF.UI.FPDesc>FP(Feather Point,あるいはFairy Point)はリトルフェアリーが輝きの力をどのぐらい守りの方面に使えるかを表している数値です.\n\n1につき,1ダメージ通常の攻撃から身を守ることが出来ます. このバリアはスタン及びEMPからは身を守ってくれないため注意が必要です.\n\nFPが0になった時,リトルフェアリーはショックで一時的にダウンしてしまいます.</LitF.UI.FPDesc>
+  <!-- Biotech追加分 -->
+  <LitF.UI.FPDescBiotech>\n\n遺伝子による"輝き"が残っていれば,FPが0になった時にその輝きをすべて消費して一時的にFPを急速的に回復する状態になります,この状態中はダメージを受けてもFPが減らずに安全に回復を行えます.</LitF.UI.FPDescBiotech>
+  <LitF.UI.FPSpeedHeal>{0}はFPが0になったため,残っていた輝きをすべて使いFPの急速回復を行っています.</LitF.UI.FPSpeedHeal>
   
   <LitF.UI.StatNursery>苗床のステータス</LitF.UI.StatNursery>
   <LitF.UI.NurseryNeedLitF>リトルフェアリーが必要</LitF.UI.NurseryNeedLitF>
@@ -46,6 +54,8 @@
   <LitF.UI.Tips_Nursery_AddSkill>特定の生物は,生まれてくるリトルフェアリーに特殊なスキルスタイル,もしくは特殊な汎用スキルを付与してくれる可能性があります.\n最大で5体まで記憶していますが,それ以上投入すると古い生物から継承の可能性がなくなります.</LitF.UI.Tips_Nursery_AddSkill>
 
   <LitF.UI.NeedMoreFP>FPが0のため,スキルを使用できません.</LitF.UI.NeedMoreFP>
+  <!-- Biotech追加分 -->
+  <LitF.UI.NeedMoreFPorBrilliance>FPも輝きも0のため,スキルを使用できません.</LitF.UI.NeedMoreFPorBrilliance>
 
   <LitF.UI.EnterNursery>苗床に入る</LitF.UI.EnterNursery>
   <LitF.UI.CarryToNursery>{1}を苗床に運ぶ</LitF.UI.CarryToNursery>

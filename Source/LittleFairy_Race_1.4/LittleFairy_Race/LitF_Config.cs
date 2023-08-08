@@ -29,7 +29,7 @@ namespace LittleFairy_Race
 	public class LitF_Config : ModSettings
 	{
 		// バージョン
-		public static int ver = 303;
+		public static int ver = 310;
 
 		// アップデートバージョン
 		public static int Updatever = 0;

@@ -19,13 +19,21 @@
   <LitF.UI.SkillCoolDown>CoolDown</LitF.UI.SkillCoolDown>
   <LitF.UI.Range>Range</LitF.UI.Range>
   <LitF.UI.AreaRange>AreaRange</LitF.UI.AreaRange>
+  <!-- Biotech追加分 -->
+  <LitF.UI.SkillBiotechDesc>To use it, you need 10 "brilliance" of the power of brilliance.\n\nIf for some reason you do not have the "brilliance", you can still use the skill, but the cooldown time will be greatly increased.</LitF.UI.SkillBiotechDesc>
   
   <LitF.UI.WaitCoolDown>Now CoolDown</LitF.UI.WaitCoolDown>
   <LitF.UI.NowDown>Now Down</LitF.UI.NowDown>
   <LitF.UI.ChildCantUseFP>Skills are not available in the Child.</LitF.UI.ChildCantUseFP>
   <LitF.UI.LowFP>Cannot be used because FP is 0.</LitF.UI.LowFP>
+  <!-- Biotech追加分 -->
+  <LitF.UI.LowFPandBrilliance>Cannot be used because FP and Brilliance is 0.</LitF.UI.LowFPandBrilliance>
   
   <LitF.UI.FP>FP</LitF.UI.FP>
+  <LitF.UI.FPDesc>FP (Feather Point, or Fairy Point) is a number that indicates how much of LittleFairy's radiant power can be used for defense.\n\nEach FP protects against 1 damage from normal attacks. Note that this barrier does not protect against stun and EMP.\n\nWhen FP reaches 0, little faeries are temporarily downed by shock.</LitF.UI.FPDesc>
+  <!-- Biotech追加分 -->
+  <LitF.UI.FPDescBiotech>\n\nIf the genetic "brilliance" is left, when the FP reaches 0, all the brilliance is consumed and the FP is temporarily recovered rapidly.</LitF.UI.FPDescBiotech>
+  <LitF.UI.FPSpeedHeal>Since {0} is now at 0 FP, it uses all its remaining brightness for a rapid FP recovery.</LitF.UI.FPSpeedHeal>
   
   <LitF.UI.StatNursery>Stat Nursery</LitF.UI.StatNursery>
   <LitF.UI.NurseryNeedLitF>Need LittleFairy</LitF.UI.NurseryNeedLitF>
@@ -46,6 +54,8 @@
   <LitF.UI.Tips_Nursery_AddSkill>Certain creatures may give special skill styles or special general-purpose skills to the LittleFairy that is born. The system remembers up to 5 creatures, but if more are introduced, the possibility of inheritance from older creatures will be lost.</LitF.UI.Tips_Nursery_AddSkill>
 
   <LitF.UI.NeedMoreFP>Cannot use the skill because FP is 0.</LitF.UI.NeedMoreFP>
+  <!-- Biotech追加分 -->
+  <LitF.UI.NeedMoreFPorBrilliance>Cannot use the skill because FP and Brilliance is 0.</LitF.UI.NeedMoreFPorBrilliance>
 
   <LitF.UI.EnterNursery>EnterNursery</LitF.UI.EnterNursery>
   <LitF.UI.CarryToNursery>{1} to the nursery.</LitF.UI.CarryToNursery>

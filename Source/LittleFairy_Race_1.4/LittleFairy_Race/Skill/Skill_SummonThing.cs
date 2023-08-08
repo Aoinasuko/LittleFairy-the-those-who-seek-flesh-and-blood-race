@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 using Verse;
 using Verse.Sound;
 
@@ -36,6 +37,10 @@ namespace LittleFairy_Race
                 if (comp.UseSkill.UseSound != null)
                 {
                     comp.UseSkill.UseSound.PlayOneShot(new TargetInfo(target.Cell, pawn.Map, false));
+                }
+                if (comp.UseSkill.UseEffect != null)
+                {
+                    comp.UseSkill.UseEffect.Spawn(target.Cell, pawn.Map, Vector3.zero);
                 }
                 Thing thing = GenSpawn.Spawn(Thing, target.Cell, pawn.Map);
                 if (thing.TryGetComp<Comp_SummonThing>() != null)
@@ -75,6 +80,10 @@ namespace LittleFairy_Race
                             {
                                 comp.UseSkill.UseSound.PlayOneShot(new TargetInfo(Enemy.Position, Enemy.Map, false));
                             }
+                            if (comp.UseSkill.UseEffect != null)
+                            {
+                                comp.UseSkill.UseEffect.Spawn(Enemy.Position, Enemy.Map, Vector3.zero);
+                            }
                             Thing thing = GenSpawn.Spawn(Thing, Enemy.Position, Enemy.Map);
                             if (thing.TryGetComp<Comp_SummonThing>() != null)
                             {
@@ -109,6 +118,10 @@ namespace LittleFairy_Race
                     if (comp.UseSkill.UseSound != null)
                     {
                         comp.UseSkill.UseSound.PlayOneShot(new TargetInfo(target.Thing.Position, target.Thing.Map, false));
+                    }
+                    if (comp.UseSkill.UseEffect != null)
+                    {
+                        comp.UseSkill.UseEffect.Spawn(target.Thing.Position, target.Thing.Map, Vector3.zero);
                     }
                     Thing thing = GenSpawn.Spawn(Thing, target.Thing.Position, target.Thing.Map);
                     if (thing.TryGetComp<Comp_SummonThing>() != null)

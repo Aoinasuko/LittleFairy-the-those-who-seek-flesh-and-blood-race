@@ -33,8 +33,7 @@
 		<IsCommonSkill>false</IsCommonSkill>
 		<SkillCategory>Both</SkillCategory>
 		<SkillPicture>LittleFairy/UI/Icon/Skill/Warrior/Adrenalin</SkillPicture>
-		<UseMote>LitF_Mote_Effect</UseMote>
-		<UseSound>LitF_Buff</UseSound>
+		<UseEffect>BEP_UseSkill_C</UseEffect>
 	</LittleFairy_Race.SkillDef>
 	
 	<LittleFairy_Race.SkillDef>
@@ -105,8 +104,7 @@
 		<IsCommonSkill>false</IsCommonSkill>
 		<SkillCategory>Active</SkillCategory>
 		<SkillPicture>LittleFairy/UI/Icon/Skill/Berserker/BerserkerEnthusiasm</SkillPicture>
-		<UseMote>LitF_Mote_Effect</UseMote>
-		<UseSound>LitF_Buff</UseSound>
+		<UseEffect>BEP_UseSkill_C</UseEffect>
 	</LittleFairy_Race.SkillDef>
 	
 	<!-- ナイト -->
@@ -141,8 +139,7 @@
 		<IsCommonSkill>false</IsCommonSkill>
 		<SkillCategory>Both</SkillCategory>
 		<SkillPicture>LittleFairy/UI/Icon/Skill/Knight/KnightWill</SkillPicture>
-		<UseMote>LitF_Mote_Effect</UseMote>
-		<UseSound>LitF_Buff</UseSound>
+		<UseEffect>BEP_UseSkill_C</UseEffect>
 	</LittleFairy_Race.SkillDef>
 	
 	<LittleFairy_Race.SkillDef>
@@ -161,8 +158,7 @@
 		<IsCommonSkill>false</IsCommonSkill>
 		<SkillCategory>Active</SkillCategory>
 		<SkillPicture>LittleFairy/UI/Icon/Skill/Knight/Advance</SkillPicture>
-		<UseMote>LitF_Mote_Effect</UseMote>
-		<UseSound>LitF_Buff</UseSound>
+		<UseEffect>BEP_UseSkill_C</UseEffect>
 	</LittleFairy_Race.SkillDef>
 	
 	<!-- レンジャー -->
@@ -257,7 +253,7 @@
 		<IsArea>true</IsArea>
 		<Isbad>true</Isbad>
 		<Downval>5</Downval>
-		<UseMote>LitF_Mote_Effect</UseMote>
+		<UseEffect>BEP_UseSkill_D</UseEffect>
 		<UseSound>Pawn_Melee_MechanoidSlash_HitPawn</UseSound>
 	</LittleFairy_Race.SkillDef>
 	
@@ -280,8 +276,7 @@
 		<IsArea>true</IsArea>
 		<Isbad>true</Isbad>
 		<Downval>5</Downval>
-		<UseMote>LitF_Mote_Effect</UseMote>
-		<UseSound>LitF_Buff</UseSound>
+		<UseEffect>BEP_UseSkill_C</UseEffect>
 	</LittleFairy_Race.SkillDef>
 	
 	<LittleFairy_Race.SkillDef>
@@ -300,8 +295,7 @@
 		<IsCommonSkill>false</IsCommonSkill>
 		<SkillCategory>Both</SkillCategory>
 		<SkillPicture>LittleFairy/UI/Icon/Skill/Ranger/TriggerHappy</SkillPicture>
-		<UseMote>LitF_Mote_Effect</UseMote>
-		<UseSound>LitF_Buff</UseSound>
+		<UseEffect>BEP_UseSkill_C</UseEffect>
 	</LittleFairy_Race.SkillDef>
 	
 	<!-- ミートメーカー -->
@@ -370,8 +364,7 @@
 		<IsCommonSkill>false</IsCommonSkill>
 		<SkillCategory>Both</SkillCategory>
 		<SkillPicture>LittleFairy/UI/Icon/Skill/Healer/HealBall</SkillPicture>
-		<UseMote>LitF_Mote_Effect</UseMote>
-		<UseSound>LitF_Buff</UseSound>
+		<UseEffect>BEP_UseSkill_C</UseEffect>
 	</LittleFairy_Race.SkillDef>
 	
 	<ThingDef>
@@ -413,8 +406,7 @@
 		<IsCommonSkill>false</IsCommonSkill>
 		<SkillCategory>Both</SkillCategory>
 		<SkillPicture>LittleFairy/UI/Icon/Skill/Healer/EmergencyNursing</SkillPicture>
-		<UseMote>LitF_Mote_Effect</UseMote>
-		<UseSound>LitF_Buff</UseSound>
+		<UseEffect>BEP_UseSkill_C</UseEffect>
 	</LittleFairy_Race.SkillDef>
 	
 	<!-- ワーカー -->
