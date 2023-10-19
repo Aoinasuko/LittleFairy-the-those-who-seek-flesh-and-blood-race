@@ -68,6 +68,9 @@
     <researchPrerequisites>
       <li>LitF_Totem</li>
     </researchPrerequisites>
+    <descriptionHyperlinks>
+      <HediffDef>LitF_Protection</HediffDef>
+    </descriptionHyperlinks>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -138,6 +141,9 @@
     <researchPrerequisites>
       <li>LitF_BloodyTotem</li>
     </researchPrerequisites>
+    <descriptionHyperlinks>
+      <HediffDef>LitF_FleshCurse</HediffDef>
+    </descriptionHyperlinks>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -332,6 +338,9 @@
     <researchPrerequisites>
       <li>LitF_UtilityTotem</li>
     </researchPrerequisites>
+    <descriptionHyperlinks>
+      <HediffDef>LitF_Growth</HediffDef>
+    </descriptionHyperlinks>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">

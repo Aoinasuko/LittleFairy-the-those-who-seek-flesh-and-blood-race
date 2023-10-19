@@ -18,7 +18,7 @@
     <DebugSymbols>false</DebugSymbols>
     <DebugType>none</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\LittleFairy the those who seek flesh and blood race\1.4\Assemblies\</OutputPath>
+    <OutputPath>..\..\..\1.4\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -105,6 +105,7 @@
     <Compile Include="Skill\UseSkill.cs" />
     <Compile Include="Texter.cs" />
     <Compile Include="Thing_Comp\CompTargetable.cs" />
+    <Compile Include="Thing_Comp\Comp_BossMeafea.cs" />
     <Compile Include="Thing_Comp\Comp_ExplosiveEquipment.cs" />
     <Compile Include="Thought\ThoughtWorker_Slave.cs" />
     <Compile Include="UI\ITab_LitF.cs" />

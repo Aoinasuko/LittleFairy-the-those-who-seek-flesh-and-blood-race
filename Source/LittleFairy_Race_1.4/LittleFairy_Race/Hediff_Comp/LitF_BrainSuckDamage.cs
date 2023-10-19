@@ -19,7 +19,7 @@ namespace LittleFairy_Race
                         BodyPartRecord brain = pawn.RaceProps.body.AllParts.Where(x => x.def == BodyPartDefOf.Brain).FirstOrDefault();
                         if (brain != null)
                         {
-                            pawn.TakeDamage(new DamageInfo(DamageDefOf.Bite, Rand.Range(3.0f, 8.0f), 5.0f, -1, dinfo.IntendedTarget, brain));
+                            pawn.TakeDamage(new DamageInfo(DamageDefOf.Bite, (totalDamage / 0.5f) + Rand.Range(1.0f, 5.0f), 5.0f, -1, dinfo.IntendedTarget, brain));
                         }
                     }
                 }

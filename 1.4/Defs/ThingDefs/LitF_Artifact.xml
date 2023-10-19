@@ -75,4 +75,103 @@
     </comps>
   </ThingDef>
   
+  <!-- Boss -->
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>LitF_EPK_Blood</defName>
+    <label>LitF Blood EggplantKey</label>
+    <description>This is the "key" that generates the ordeal, a piece of technology gifted from far in the future. Use it to cause a boss to appear in the vicinity.</description>
+    <techLevel>Archotech</techLevel>
+    <tradeability>Sellable</tradeability>
+    <graphicData>
+      <texPath>LittleFairy/Thing/Artifact/EPK_Blood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <costList>
+      <LitF_Richmeat>20</LitF_Richmeat>
+      <LitF_BrillianceWood>100</LitF_BrillianceWood>
+      <LitF_BloodyBrillianceWood>100</LitF_BloodyBrillianceWood>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_MakeBow</soundWorking>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>LitF_CraftTable</li>
+      </recipeUsers>
+      <researchPrerequisite>LitF_Knowledge</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <Mass>1</Mass>
+      <WorkToMake>30000</WorkToMake>
+    </statBases>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <comps>
+      <li Class="CompProperties_Targetable">
+        <compClass>BEPRace_Core.BEPRace_CompTargetable_Self</compClass>
+      </li>
+      <li Class="BEPRace_Core.CompProperties_SummonBoss">
+        <SummonPawnkind>LitF_DeraMeefae</SummonPawnkind>
+      </li>
+      <li Class="CompProperties_Usable">
+        <useJob>UseArtifact</useJob>
+        <useLabel>Activate</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf">
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>LitF_WK_Blood</defName>
+    <label>LitF Wishkey(Flesh)</label>
+    <description>This is a gift from far in the future, thanks to combat experiment data. The user's consciousness is permanently elevated.\n\n"To stop the chain of mistakes, we developed a technology that can partially alter the past that had already been determined...M.O.D"</description>
+    <techLevel>Archotech</techLevel>
+    <tradeability>Sellable</tradeability>
+    <graphicData>
+      <texPath>LittleFairy/Thing/Artifact/WishKey_Blood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <comps>
+      <li Class="CompProperties_Targetable">
+        <compClass>BEPRace_Core.BEPRace_CompTargetable_Self</compClass>
+      </li>
+      <li Class="BEPRace_Core.CompProperties_GetBuff">
+        <GetHediff>LitF_WOTF</GetHediff>
+      </li>
+      <li Class="CompProperties_Usable">
+        <useJob>UseArtifact</useJob>
+        <useLabel>Activate</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf">
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="BEPRace_Core.Wishable">
+        <canWish>false</canWish>
+      </li>
+    </modExtensions>
+    <descriptionHyperlinks>
+      <HediffDef>LitF_WOTF</HediffDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+  
 </Defs>

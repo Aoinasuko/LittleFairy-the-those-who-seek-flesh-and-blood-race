@@ -75,5 +75,8 @@
 
   <LitF.UI.labelExplosiveEquipment>Explosive</LitF.UI.labelExplosiveEquipment>
   <LitF.UI.ExplosiveEquipment>Draw the power of the glow and detonate the collar.\nLittleFairy is shattered, corpse and all.</LitF.UI.ExplosiveEquipment>
+  
+  <!-- Boss -->
+  <LitF_DeraMeefae.BossDesc>-Melee attacks are very powerful, so it is best to avoid close combat as much as possible.\n\n-Movement speed increases rapidly for a short period of time when taking damage, so it is advisable to flee with some time to spare.</LitF_DeraMeefae.BossDesc>
 
 </LanguageData>

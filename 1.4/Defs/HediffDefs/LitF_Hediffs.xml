@@ -105,4 +105,49 @@
     </stages>
   </HediffDef>
   
+  <!-- Boss -->
+  
+  <HediffDef>
+    <defName>LitF_Counterattack</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Counterattack</label>
+    <description>The movement speed is greatly increased in an attempt to counterattack when attacked.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>240</min>
+          <max>240</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+            <MoveSpeed>5.0</MoveSpeed>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>LitF_WOTF</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Wish of the Flesh</label>
+    <description>It is a state of increased capacity with benefits.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.15</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
 </Defs>

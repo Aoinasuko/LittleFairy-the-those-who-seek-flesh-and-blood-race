@@ -76,4 +76,7 @@
   <LitF.UI.labelExplosiveEquipment>首輪起爆</LitF.UI.labelExplosiveEquipment>
   <LitF.UI.ExplosiveEquipment>輝きの力を引き出して首輪を起爆させます.\nリトルフェアリーは死体ごと粉々になります.</LitF.UI.ExplosiveEquipment>
 
+  <!-- Boss -->
+  <LitF_DeraMeefae.BossDesc>-近接攻撃は非常に強力なため,極力近接戦闘を避けたほうが良いでしょう.\n\n-ダメージを受けると移動速度が短時間急激に上昇するため,ある程度余裕を持って逃げましょう.</LitF_DeraMeefae.BossDesc>
+
 </LanguageData>

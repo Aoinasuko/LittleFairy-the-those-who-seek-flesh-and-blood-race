@@ -42,6 +42,8 @@ namespace LittleFairy_Race
         public static HediffDef LitF_Consumption;
         public static HediffDef LitF_Skill_BerserkerCharge;
         public static HediffDef LitF_Skill_Traped;
+        public static HediffDef LitF_Counterattack;
+        public static HediffDef LitF_WOTF;
     }
 
     [DefOf]

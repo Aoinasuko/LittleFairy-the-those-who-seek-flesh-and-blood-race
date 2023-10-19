@@ -13,5 +13,10 @@
   <LitF_Growth.label>輝きの成長</LitF_Growth.label>
   <LitF_Growth.description>スキルの成長速度が上昇した状態です.</LitF_Growth.description>
 
+  <LitF_Counterattack.label>猛反撃</LitF_Counterattack.label>
+  <LitF_Counterattack.description>攻撃を受け,移動速度が大幅に上昇した状態です.</LitF_Counterattack.description>
+
+  <LitF_WOTF.label>願望の祝福(血肉)</LitF_WOTF.label>
+  <LitF_WOTF.description>願望の祝福を受け,少しだけ能力が上昇した状態です.</LitF_WOTF.description>
 
 </LanguageData>
