@@ -87,7 +87,7 @@
 	    <defName>LitF_NurseryExpansion</defName>
 	    <label>Nursery Expansion</label>
 	    <description>You will be able to create weapons and armor for the bloodthirsty wild LittleFairies.</description>
-	    <baseCost>5000</baseCost>
+	    <baseCost>2000</baseCost>
 	    <prerequisites>
 	      <li>LitF_BloodyBrillianceWood</li>
 	      <li>LitF_ResourceRecycling</li>

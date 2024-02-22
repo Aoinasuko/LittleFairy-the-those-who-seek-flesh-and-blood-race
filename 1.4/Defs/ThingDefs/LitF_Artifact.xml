@@ -134,7 +134,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>LitF_WK_Blood</defName>
     <label>LitF Wishkey(Flesh)</label>
-    <description>This is a gift from far in the future, thanks to combat experiment data. The user's consciousness is permanently elevated.\n\n"To stop the chain of mistakes, we developed a technology that can partially alter the past that had already been determined...M.O.D"</description>
+    <description>This is a gift from far in the future, thanks to combat experiment data. The user's consciousness is permanently elevated.\n\n"Thanks for trying a new battle, and this is for the experimental data."</description>
     <techLevel>Archotech</techLevel>
     <tradeability>Sellable</tradeability>
     <graphicData>

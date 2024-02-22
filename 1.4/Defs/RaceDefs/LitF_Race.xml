@@ -275,9 +275,14 @@
 				</reproduction>
 				<growthAges>
 					<li>1</li>
-					<li>3</li>
-					<li>5</li>
 				</growthAges>
+				<growthFactorByAge>
+					<points>
+						<li>(0,10)</li>
+						<li>(1,10)</li>
+						<li>(2,1)</li>
+					</points>
+				</growthFactorByAge>
 			</generalSettings>
 			<graphicPaths>
 				<head>BEPRaceCore/Race/Head/Average_Normal</head>
@@ -724,6 +729,7 @@
 			<hediffGiverSets>
 				<li>OrganicStandard</li>
 			</hediffGiverSets>
+			
 		</race>
 		<comps>
 			<li Class="LittleFairy_Race.CompProperties_LitF">
@@ -747,6 +753,7 @@
 		<defName>LittleFairy_Baby</defName>
 		<label>Little Fairy Baby</label>
 		<reproductive>false</reproductive>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
 		<visible>false</visible>
 		<developmentalStage>Child</developmentalStage>
 		<statFactors>
@@ -760,6 +767,7 @@
 		<defName>LittleFairy_Adult</defName>
 		<label>Little Fairy</label>
 		<reproductive>true</reproductive>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
 		<visible>false</visible>
 		<developmentalStage>Adult</developmentalStage>
 	</LifeStageDef>
