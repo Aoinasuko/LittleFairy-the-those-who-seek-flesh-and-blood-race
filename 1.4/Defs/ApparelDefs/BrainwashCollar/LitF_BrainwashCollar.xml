@@ -29,6 +29,7 @@
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 	</recipeMaker>
 	<thingCategories>
 		<li>BEP_Apparel</li>

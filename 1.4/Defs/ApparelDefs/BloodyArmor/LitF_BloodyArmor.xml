@@ -23,6 +23,7 @@
 		<skillRequirements>
 			<Crafting>10</Crafting>
 		</skillRequirements>
+		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 	</recipeMaker>
 	<thingCategories>
 		<li>BEP_Apparel</li>

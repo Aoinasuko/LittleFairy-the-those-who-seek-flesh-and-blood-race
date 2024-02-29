@@ -54,6 +54,7 @@
         <li>LitF_CraftTable</li>
       </recipeUsers>
       <researchPrerequisite>LitF_MoreBrilliance</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     </recipeMaker>
     <statBases>
       <MarketValue>1000</MarketValue>
@@ -108,6 +109,7 @@
         <li>LitF_CraftTable</li>
       </recipeUsers>
       <researchPrerequisite>LitF_Knowledge</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     </recipeMaker>
     <statBases>
       <MarketValue>3000</MarketValue>

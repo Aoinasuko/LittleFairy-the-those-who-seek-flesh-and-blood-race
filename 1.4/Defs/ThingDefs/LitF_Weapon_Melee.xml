@@ -215,6 +215,7 @@
         <li>LitF_CraftTable</li>
       </recipeUsers>
       <researchPrerequisite>LitF_NurseryExpansion</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
     <tools>
       <li>
