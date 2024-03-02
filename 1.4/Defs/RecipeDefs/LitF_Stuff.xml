@@ -49,6 +49,74 @@
   </RecipeDef>
 
   <RecipeDef ParentName="LitF_CookMealBase">
+    <defName>LitF_CookRichmeat_Bulk</defName>
+    <label>Cook LitF Richmeat(x4)</label>
+    <description>Make a little fairy favorite, rich meat.</description>
+    <jobString>Cooking LitF rich meat</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <researchPrerequisite>LitF_Knowledge</researchPrerequisite>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>600</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>1.4</count>
+      </li>
+    </ingredients>
+    <products>
+      <LitF_Richmeat>4</LitF_Richmeat>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LitF_CookMealBase">
+    <defName>LitF_CookRichmeat_BulkEx</defName>
+    <label>Cook LitF Richmeat(x10)</label>
+    <description>Make a little fairy favorite, rich meat.</description>
+    <jobString>Cooking LitF rich meat</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <researchPrerequisite>LitF_Knowledge</researchPrerequisite>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1400</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>3.5</count>
+      </li>
+    </ingredients>
+    <products>
+      <LitF_Richmeat>10</LitF_Richmeat>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LitF_CookMealBase">
     <defName>LitF_CookRichmeatCan</defName>
     <label>Cook LitF Richmeat Can</label>
     <description>Make a little fairy favorite, rich meat.\nIt is canned to preserve it longer.</description>
@@ -68,6 +136,40 @@
           </categories>
         </filter>
         <count>0.35</count>
+      </li>
+    </ingredients>
+    <products>
+      <LitF_RichmeatCan>1</LitF_RichmeatCan>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LitF_CookMealBase">
+    <defName>LitF_CookRichmeatCan_Bulk</defName>
+    <label>Cook LitF Richmeat Can(x4)</label>
+    <description>Make a little fairy favorite, rich meat.\nIt is canned to preserve it longer.</description>
+    <jobString>Cooking LitF rich meat can</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <researchPrerequisite>LitF_ImitationTechnology</researchPrerequisite>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>600</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>1.4</count>
       </li>
     </ingredients>
     <products>

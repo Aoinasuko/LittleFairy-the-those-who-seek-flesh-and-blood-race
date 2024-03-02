@@ -5,9 +5,21 @@
   <LitF_CookRichmeat.description>リトルフェアリーの大好物のリッチミートを料理します.</LitF_CookRichmeat.description>
   <LitF_CookRichmeat.jobString>リッチミートを作っている</LitF_CookRichmeat.jobString>
 
+  <LitF_CookRichmeat_Bulk.label>リッチミートを料理する(x4)</LitF_CookRichmeat_Bulk.label>
+  <LitF_CookRichmeat_Bulk.description>リトルフェアリーの大好物のリッチミートを料理します.</LitF_CookRichmeat_Bulk.description>
+  <LitF_CookRichmeat_Bulk.jobString>リッチミート(x4)を作っている</LitF_CookRichmeat_Bulk.jobString>
+
+  <LitF_CookRichmeat_BulkEx.label>リッチミートを料理する(x10)</LitF_CookRichmeat_BulkEx.label>
+  <LitF_CookRichmeat_BulkEx.description>リトルフェアリーの大好物のリッチミートを料理します.</LitF_CookRichmeat_BulkEx.description>
+  <LitF_CookRichmeat_BulkEx.jobString>リッチミート(x10)を作っている</LitF_CookRichmeat_BulkEx.jobString>
+
   <LitF_CookRichmeatCan.label>リッチミート缶を料理する</LitF_CookRichmeatCan.label>
   <LitF_CookRichmeatCan.description>リトルフェアリーの大好物のリッチミートを料理します.\n長期保存できるように,缶詰にします.</LitF_CookRichmeatCan.description>
   <LitF_CookRichmeatCan.jobString>リッチミート缶を作っている</LitF_CookRichmeatCan.jobString>
+
+  <LitF_CookRichmeatCan_Bulk.label>リッチミート缶を料理する(x4)</LitF_CookRichmeatCan_Bulk.label>
+  <LitF_CookRichmeatCan_Bulk.description>リトルフェアリーの大好物のリッチミートを料理します.\n長期保存できるように,缶詰にします.</LitF_CookRichmeatCan_Bulk.description>
+  <LitF_CookRichmeatCan_Bulk.jobString>リッチミート缶(x4)を作っている</LitF_CookRichmeatCan_Bulk.jobString>
 
   <LitF_MakeBrillianceWood.label>輝きの木材を作る</LitF_MakeBrillianceWood.label>
   <LitF_MakeBrillianceWood.description>&lt;color=#B1FBFF&gt;種族要求:リトルフェアリー&lt;/color&gt;\n\n輝きの木材を作ります.</LitF_MakeBrillianceWood.description>
