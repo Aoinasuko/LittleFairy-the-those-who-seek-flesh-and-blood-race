@@ -15,6 +15,9 @@
 
   <LitF_BrillianceBullet.label>輝くバレット</LitF_BrillianceBullet.label>
 
+  <LitF_PreservationTotem.label>LitF 防腐のトーテム</LitF_PreservationTotem.label>
+  <LitF_PreservationTotem.description>範囲内に腐るものがあり,それがまだ腐っていないなら腐敗の進行度を回復してくれます. 更に範囲内に肉壁があるなら耐久度を600回復します,これは限界を超えて3000まで回復します. 範囲内に耐久度の減ったアイテムがある場合耐久度を1ずつ回復します.\n血の輝く木材が燃料として必要です.\n\n&lt;color=#B1FBFF&gt;"奴らは特に食欲が満たされない事を嫌う傾向がある,その執念がこのような物品を生み出したのだろう."\n～無名の旅人の手記～&lt;/color&gt;</LitF_PreservationTotem.description>
+
   <LitF_GrowthTotem.label>LitF 成長のトーテム</LitF_GrowthTotem.label>
   <LitF_GrowthTotem.description>周囲の味方のスキルレベルの成長を早めるバフを与えます.\n輝く木材が燃料として必要です.</LitF_GrowthTotem.description>
 

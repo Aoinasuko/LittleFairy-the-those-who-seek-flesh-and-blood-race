@@ -219,7 +219,74 @@
       <li>LitF_BloodyTotem</li>
     </researchPrerequisites>
   </ThingDef>
-  
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>LitF_PreservationTotem</defName>
+    <label>LitF Preservation Totem</label>
+    <description>It emits a radiance into the area, gradually restoring the HP of "MeatWalls" within its range. This recovery exceeds the limit to 3000.\n\nIn addition, if there are items within range that have not yet decayed, it will reset their decay progress.\n\nIn addition, if the durability of any item within range is less than the maximum durability, regardless of whether it is decomposed or not, it will gradually heal the item.</description>
+    <graphicData>
+      <texPath>LittleFairy/Build/Totem/PreservationTotem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <costList>
+      <Steel>50</Steel>
+      <LitF_BloodyBrillianceWood>30</LitF_BloodyBrillianceWood>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.75</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0.25</Flammability>
+      <Mass>5</Mass>
+      <Beauty>20</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>BEP_Building</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <surfaceType>Item</surfaceType>
+    <tickerType>Normal</tickerType>
+    <specialDisplayRadius>10.9</specialDisplayRadius>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <comps>
+      <li Class="LittleFairy_Race.CompProperties_TotemItemHeal">
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>5.0</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>LitF_BloodyBrillianceWood</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,80,80,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>LitF_BloodyTotem</li>
+    </researchPrerequisites>
+  </ThingDef>
+
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>LitF_SparkleShell</defName>
     <label>sparkle shell</label>

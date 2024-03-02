@@ -65,15 +65,15 @@
 		</defaultOutfitTags>
 	</apparel>
 	<comps>
-		<li>
-			<compClass>CompColorable</compClass>
-		</li>
-		<li Class="LittleFairy_Race.CompProperties_Oppression">
-		</li>
 		<li Class="CompProperties_Usable">
 			<useJob>UseItem</useJob>
 			<useLabel>Use Collar</useLabel>
 			<useDuration>0</useDuration>
+		</li>
+		<li>
+			<compClass>CompColorable</compClass>
+		</li>
+		<li Class="LittleFairy_Race.CompProperties_Oppression">
 		</li>
 		<li Class="CompProperties_Targetable">
 			<compClass>LittleFairy_Race.CompTargetable_LitF_OnlyPlayerorPrisoner</compClass>

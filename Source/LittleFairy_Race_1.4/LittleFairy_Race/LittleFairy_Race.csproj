@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Build\Comp_TotemAddHediff.cs" />
+    <Compile Include="Build\Comp_TotemItemHeal.cs" />
     <Compile Include="Build\Comp_TotemPlantGrowth.cs" />
     <Compile Include="Build\Dialog_Nursery.cs" />
     <Compile Include="Build\Thing_BloodNursery.cs" />

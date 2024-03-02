@@ -133,6 +133,55 @@
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<initialWillRange>4~5</initialWillRange>
 		<initialResistanceRange>10~20</initialResistanceRange>
+		<factionLeader>false</factionLeader>
+		<defaultFactionType>LitF_BloodyWildLittleFairy</defaultFactionType>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LitF_LittleFairy MayRequire="Ludeon.RimWorld.Biotech">999</LitF_LittleFairy>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
+	</PawnKindDef>
+	
+	<PawnKindDef>
+		<defName>LittleFairy_Wild_Leader</defName>
+		<label>Wild LittleFairy Leader</label>
+		<isFighter>true</isFighter>
+		<combatPower>75</combatPower>
+		<itemQuality>Masterwork</itemQuality>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>false</forceNormalGearQuality>
+		<race>LittleFairy_Pawn</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>LitF_FairyStory_Wild</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<styleItemTags>
+			<li>
+				<tag>BEPRace</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+		<weaponMoney>100~2000</weaponMoney>
+		<weaponTags>
+			<li>LitF_LowTier</li>
+			<li>LitF_Bloody</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>LitF_BloodyArmor</li>
+		</apparelRequired>
+		<minGenerationAge>5</minGenerationAge>
+		<maxGenerationAge>20</maxGenerationAge>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<invNutrition>2</invNutrition>
+		<invFoodDef>LitF_Richmeat</invFoodDef>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<initialWillRange>4~5</initialWillRange>
+		<initialResistanceRange>10~20</initialResistanceRange>
 		<factionLeader>true</factionLeader>
 		<defaultFactionType>LitF_BloodyWildLittleFairy</defaultFactionType>
 		<xenotypeSet>
