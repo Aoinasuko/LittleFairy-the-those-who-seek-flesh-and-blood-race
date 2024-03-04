@@ -820,7 +820,21 @@ namespace LittleFairy_Race
 						MoteMaker.ThrowText(this.parent.TrueCenter(), this.parent.Map, "Break!");
 						Effecter_BEPCore.BEP_Parry_Break.Spawn(this.parent.Position, this.parent.Map, Vector3.zero);
 						pawn.health.AddHediff(Hediff_LitF.LitF_Consumption);
-						if (ModLister.BiotechInstalled)
+                        // もし入植者でもなく囚人でもなく奴隷でもないなら、N%の確率で即死させる
+                        if (!pawn.IsColonist && !pawn.IsPrisoner && !pawn.IsSlave)
+                        {
+                            if (Rand.Range(0, 10) < LitF_Config.EnemyFairy_KillRate)
+                            {
+                                BodyPartRecord brain = pawn.RaceProps.body.AllParts.Where(x => x.def == BodyPartDefOf.Brain).FirstOrDefault();
+                                if (brain != null)
+                                {
+                                    pawn.health.AddHediff(HediffDefOf.MissingBodyPart, brain, dinfo);
+                                }
+                                absorbed = true;
+								return;
+                            }
+                        }
+                        if (ModLister.BiotechInstalled)
                         {
 							Gene_Brilliance gene = pawn.genes.GetFirstGeneOfType<Gene_Brilliance>();
 							if (gene != null)

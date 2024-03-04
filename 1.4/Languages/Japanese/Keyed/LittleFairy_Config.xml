@@ -19,6 +19,8 @@
   <LitF.Config.RandomSuccession_Rate>永続敵対の野生のリトルフェアリーが,ランダムの種族の能力を継承している確率です.</LitF.Config.RandomSuccession_Rate>
   <LitF.Config.LabelEnemyFairy_Damage>敵対派閥のリトルフェアリーが受けるダメージ補正</LitF.Config.LabelEnemyFairy_Damage>
   <LitF.Config.EnemyFairy_Damage>敵対派閥のリトルフェアリーが受けるダメージ量に補正を掛けます.</LitF.Config.EnemyFairy_Damage>
+  <LitF.Config.LabelEnemyFairy_KillRate>敵対的なリトルフェアリーの即死確率</LitF.Config.LabelEnemyFairy_KillRate>
+  <LitF.Config.EnemyFairy_KillRate>入植者ではなく,奴隷でもなく,囚人でもないリトルフェアリーのFPを削り切った時,表記されている確率で"当たり所が悪かった"として脳を破壊して即死させます.</LitF.Config.EnemyFairy_KillRate>
 
   <LitF.Config.Title.1>特殊設定(＊変更後,再起動が必要です＊)</LitF.Config.Title.1>
   

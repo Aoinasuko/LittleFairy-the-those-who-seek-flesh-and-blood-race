@@ -19,6 +19,8 @@
   <LitF.Config.RandomSuccession_Rate>The probability that a wild LittleFairy of permanent hostility inherits the abilities of a random species.</LitF.Config.RandomSuccession_Rate>
   <LitF.Config.LabelEnemyFairy_Damage>Damage Correction For HostileFaction</LitF.Config.LabelEnemyFairy_Damage>
   <LitF.Config.EnemyFairy_Damage>Corrects the amount of damage done to the Little Fairies of the hostile faction.</LitF.Config.EnemyFairy_Damage>
+  <LitF.Config.LabelEnemyFairy_KillRate>Probability of hostile being "hit in the wrong place"</LitF.Config.LabelEnemyFairy_KillRate>
+  <LitF.Config.EnemyFairy_KillRate>LittleFairy, who is not a colonist, not a prisoner, and not a slave, has this probability of destroying his brain and killing him instantly as a "bad hit" when his FP runs out.</LitF.Config.EnemyFairy_KillRate>
 
   <LitF.Config.Title.1>Special settings (*Reboot is required after changing the settings*)</LitF.Config.Title.1>
   

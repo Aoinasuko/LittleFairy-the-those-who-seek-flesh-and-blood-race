@@ -29,7 +29,7 @@ namespace LittleFairy_Race
 	public class LitF_Config : ModSettings
 	{
 		// バージョン
-		public static int ver = 331;
+		public static int ver = 332;
 
 		// アップデートバージョン
 		public static int Updatever = 0;
@@ -45,8 +45,10 @@ namespace LittleFairy_Race
 		public static int RandomSuccession_Rate = 10;
 		// 敵対するリトルフェアリーのダメージ補正
 		public static float EnemyFairy_Damage = 1.0f;
-		// ミーフィーが産まれる確率
-		public static int SpawnMeefaeRate = 5;
+        // 敵対するリトルフェアリーの即死確率
+        public static int EnemyFairy_KillRate = 5;
+        // ミーフィーが産まれる確率
+        public static int SpawnMeefaeRate = 5;
 		// 大人の状態で産まれるようにする
 		public static bool AdultCondition = true;
 		
@@ -66,7 +68,8 @@ namespace LittleFairy_Race
 			Scribe_Values.Look(ref GetDailyXPAmount, "GetDailyXPAmount", 50);
 			Scribe_Values.Look(ref RandomSuccession, "RandomSuccession", false);
 			Scribe_Values.Look(ref EnemyFairy_Damage, "EnemyFairy_Damage", 1.0f);
-			Scribe_Values.Look(ref RandomSuccession_Rate, "Succession_Amount", 10);
+            Scribe_Values.Look(ref EnemyFairy_KillRate, "EnemyFairy_KillRate", 5);
+            Scribe_Values.Look(ref RandomSuccession_Rate, "Succession_Amount", 10);
 			Scribe_Values.Look(ref SpawnMeefaeRate, "SpawnMeefaeRate", 5);
 			Scribe_Values.Look(ref AdultCondition, "AdultCondition", true);
 			Scribe_Values.Look(ref Add_Animal_Succession, "Add_Animal_Succession", false);
@@ -115,7 +118,11 @@ namespace LittleFairy_Race
 			listingStandard.Label("LitF.Config.LabelEnemyFairy_Damage".Translate() + ": x" + EnemyFairy_Damage, -1.0f, "LitF.Config.EnemyFairy_Damage".Translate());
 			listingStandard.Gap(5f);
 			EnemyFairy_Damage = (float)Math.Round(listingStandard.Slider(EnemyFairy_Damage, 0.1f, 5.0f), 1);
-			listingStandard.GapLine();
+            listingStandard.Gap(10f);
+            listingStandard.Label("LitF.Config.LabelEnemyFairy_KillRate".Translate() + ": " + (EnemyFairy_KillRate * 10) + "%", -1.0f, "LitF.Config.EnemyFairy_KillRate".Translate());
+            listingStandard.Gap(5f);
+            EnemyFairy_KillRate = (int)Math.Round(listingStandard.Slider(EnemyFairy_KillRate, 0, 10), 0);
+            listingStandard.GapLine();
 			listingStandard.Gap(50f);
 			listingStandard.Label("LitF.Config.Title.1".Translate());
 			listingStandard.GapLine();
