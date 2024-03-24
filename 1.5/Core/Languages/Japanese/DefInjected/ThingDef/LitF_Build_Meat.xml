@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LitF_BloodNursery.label>血肉の苗床</LitF_BloodNursery.label>
+  <LitF_BloodNursery.description>リトルフェアリーと,他の生物の雄を捧げることで時間を掛けて新しいリトルフェアリーを産み出します.\n5匹産み出した後,リトルフェアリーが新しく必要です.\n生まれてくるリトルフェアリーの強さは苗床のレベルと今まで捧げた雄のスキルレベルによって変化します.\n苗床は雄を捧げることでその強さに応じて経験値を得ます.\n一定以上の経験値を得ることでレベルが上昇します.\n更に,偶に捧げた種族の能力を継承したリトルフェアリーが産まれることもあります.</LitF_BloodNursery.description>
+
+  <LitF_MeatLamp.label>LitF 肉のランプ</LitF_MeatLamp.label>
+  <LitF_MeatLamp.description>肉のようなランプです.\n範囲は狭いもののの,燃料不要であたりを照らします.</LitF_MeatLamp.description>
+
+  <LitF_MeatTable.label>LitF 肉のテーブル</LitF_MeatTable.label>
+  <LitF_MeatTable.description>小さな肉のテーブルです.\nちゃんと食事をする場所として利用することができます.</LitF_MeatTable.description>
+
+  <LitF_ButcherTable.label>LitF 屠殺テーブル</LitF_ButcherTable.label>
+  <LitF_ButcherTable.description>効率よく死体を解体することができるコンパクトなテーブルです.</LitF_ButcherTable.description>
+
+  <LitF_MeatWall.label>LitF 肉壁</LitF_MeatWall.label>
+  <LitF_MeatWall.description>爆発にある程度強い壁です.</LitF_MeatWall.description>
+
+</LanguageData>

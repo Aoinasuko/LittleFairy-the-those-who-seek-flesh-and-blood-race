@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LitF_BrainwashCollar.label>LitF 洗脳の首輪</LitF_BrainwashCollar.label>
+  <LitF_BrainwashCollar.description>リトルフェアリー用の首輪です.\n奴隷のリトルフェアリーに装着させると,抑圧を100%の状態で固定化させます.\nまた,アーティファクトとして使用することも出来,任意の入植者か囚人のリトルフェアリーを1人奴隷に堕とすことが出来ます.\nIdeology未導入時は,直接仲間になります.\n使用後に,首輪は力を失い対象が装備します.</LitF_BrainwashCollar.description>
+  <LitF_BrainwashCollar.comps.CompUsable.useLabel>{0_label}を使用する</LitF_BrainwashCollar.comps.CompUsable.useLabel>
+
+</LanguageData>

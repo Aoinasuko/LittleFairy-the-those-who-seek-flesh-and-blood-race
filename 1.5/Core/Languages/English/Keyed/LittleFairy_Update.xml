@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<LitF.Update.Title>LittleFairy UpdateInfo</LitF.Update.Title>
+
+<LitF.Update.label>
+2024/03/04(0.3.3.2):
+*Added a setting to instantly kill hostile little faeries with a probability of death when their FP is cut down
+
+2024/03/02(0.3.3.1):
+*Bulk recipes have been added to Richmeat and Richmeat cans
+
+2024/03/02(0.3.3.0):
+*New items added
+
+*Fixed a problem where only one LittleFairy raid came in
+
+2024/02/22(0.3.2.1):
+*Biotech-related bugs have been fixed
+
+*Fixed some descriptions
+
+*Reduced the cost of some research
+
+2023/10/19(0.3.2.0):
+*Added a new boss.
+
+*Added items to summon bosses and items as rewards for defeating them.
+
+2023/08/08(0.3.1.0):
+*Little Fairy's FP barrier does not react to stun and EMP.
+
+*When Biotech is introduced, if the FP reaches 0 and the player has the Brilliance gene, all the Brilliance will be consumed and the FP will be temporarily and rapidly recovered according to the amount consumed.
+
+*The length of the exhaustion state has been reduced from 24 hours to 12 hours.
+
+*When Biotech is installed, the use of a skill now consumes 10 Brilliance.
+If the skill cannot be consumed, it can still be used as long as FP remains, but the cooldown time will be tripled.
+
+*The unique xenotype of Little Fairy has been implemented.
+
+*Various effects have been changed.
+
+*UI has been improved.
+
+2023/07/29(0.3.0.3):
+*Little Fairy's combat power has been significantly revised so that it appears more often during raids.
+
+2023/07/01(0.3.0.2):
+*Graphics for Meefae were changed.
+
+2023/06/21(0.3.0.1):
+*Skill categories that are not available through random generation cannot be specified in the nursery's skill designations.
+
+2023/05/23(0.3.0.0):
+*B.E.P Race Core is required as a prerequisite mod, and common parts have been greatly reduced.
+If you are using an earlier version, various data such as hairstyles and clothes have been lost.
+If you need an older version, you can download the mod before the update by going to github from the mod page.
+
+2023/04/08(0.2.4.1):
+*Fixed a problem that prevented the possession of LittleFairy ideology from performing jobs that would open up in slavery status.
+
+*Added clarification that Little Fairy's skills cannot be used while down.
+
+2023/03/27(0.2.4.0):
+*Fixed some bugs
+
+*Fixed some graphics
+
+*Separated FacialAnimation definitions into separate mods
+To reduce the load at startup, I have separated FacialAnimation images and definitions into separate mods.
+Please subscribe from the collection.
+
+2023/03/05(0.2.3.0):
+*LittleFairies now appear dressed according to their roles
+
+*Some bugs have been fixed
+
+2023/01/31(0.2.2.5):
+*Removed race restrictions on research
+
+*Armor values of some equipment have been adjusted
+
+2023/01/30(0.2.2.4):
+*Various statuses are no longer corrected based on age
+
+2023/01/29(0.2.2.3):
+*Increased the number of hairstyle types to 8
+
+2023/01/28(0.2.2.2):
+*Fixed a bug that nursery data could not be saved correctly when trying to save after using a nursery
+Please dismantle the nursery once, as this change could cause information to be corrupted
+
+*Allowed settlers and slaves other than Little Fairy to enter the nursery on their own
+
+*Brainwashing collars are now available for Sweety
+
+2023/01/16(0.2.2.1):
+*The market value of bloody armor has been significantly reduced, and the armor values of slashing and striking have been significantly reduced
+
+2023/01/15(0.2.2.0):
+*Architect categories have been merged
+
+*The amount of damage received by the Little Fairies of the hostile faction can now be adjusted in the config
+
+*New clothes added
+
+2023/01/08(0.2.1.5):
+*The setting was changed so that the gene of Biotech's appearance system cannot be adapted
+
+2023/01/06(0.2.1.4):
+*Support for the function of fertility change through Biotech linkage of HAR
+
+*Fixed a bug that prevented inherited buffs from being loaded when loading save data
+
+2022/12/12(0.2.1.3):
+*Some small fixes were made
+
+2022/12/08(0.2.1.1):
+*Brainwashing collars can now be used against Glassy
+
+2022/12/07(0.2.1.0):
+*When FP is 0, the skill button cannot be pressed
+
+*Some small fixes were made
+
+2022/11/23(0.2.0.8):
+*Skin and hair colors are no longer changed by genes
+
+*Adjusted behavior of source code
+
+2022/11/12(0.2.0.6):
+*Brainwashing collars can now be used even when the target is not a player faction.
+However, if the target belongs to a faction, the faction will become hostile the moment it is used, except under certain circumstances.
+
+*Mods are now interlocked with each other.
+
+*Mofy the whitefox in a cold land race*
+Mofy can now be brainwashed with a brainwashing collar.
+However, the faction will turn against you.
+
+*Resurreviewy the nxious about immortality race*
+Resurreviewy the nxious about immortality race
+However, if there are other Resurreviewy around, they will run amok and become hostile
+
+2022/11/06(0.2.0.5):
+*Body shape graphics and costume graphics have been re-created
+
+*Resolved the problem of misaligned drawing of children's heads
+
+*Facial Animation elements have been adjusted.
+Some data has been adjusted by re-creating graphics.
+Some parts have been deleted. Please use mods such as CharacterEditer to correct them.
+
+2022/10/30(0.2.0.4):
+*The specification that made the face unique has been eliminated.
+For existing saved data, please use CharacterEditer or other mods to correct this issue.
+
+*Fixed a problem in which wild little faeries that appeared sometimes learned one skill category in duplicate.
+
+*When creating a little faerie whose parent has already been created, the parent's abilities are now inherited and spawned.
+
+2022/10/12(0.2.0.2):
+*Fixed a bug that caused the display of nursery progress to remain at 0%.
+
+2022/10/11(0.2.0.1):
+*Slaves and prisoners can now be offered even if they are not down.
+
+2022/10/10(0.2.0.0):
+*Fixed some bugs.
+
+*Compatible with 1.4 (Wip)
+1: Added body shape in child state, etc.
+Some equipment, such as armor, cannot be equipped in the child state.
+Also, the movement speed is a little slower than that of adults.
+
+*The price of meat has been slightly increased.
+
+*The gestation period has been shortened from 10 to 6 days.
+
+*Added some configurations
+1: It is now possible to give birth as an adult.
+Without BioTech DLC, some features are not available, so they are turned on by default.
+If you have BioTech, it is recommended to turn it off.
+
+*Special abilities are no longer available for children.
+
+2022/10/07(0.1.0.2):
+*Added a hairstyle.
+
+*Decreased the performance of the MeatCleaver.
+
+*Added a new outfit.
+
+*added 3 new collars, collars can be created with new research.
+
+*added a new totem.
+
+*added new configurations.
+
+*some bugs fixed.
+
+2022/10/04(0.1.0.1):
+*Translation flaws have been corrected.
+
+*Hairstyle added.
+
+*[NL] Facial Animation - WIP is now supported.
+
+*Configuration has been added.
+
+*New "Succession" common skill has been added.
+"Succession" will be applied to the AlienRace in use and may produce little faeries with a passive skill that buffs the abilities of their race when placed in the nursery.
+The amount of effect of the buff depends on how far away from the human the race is.
+If you want to know the details of the buffs, you can find them in the status menu of the nursery where the tribe was submitted.
+The amount of the buff's effect can be adjusted in the configuration.
+</LitF.Update.label>
+
+</LanguageData>

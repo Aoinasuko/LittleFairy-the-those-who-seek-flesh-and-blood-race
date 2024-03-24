@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LitF_BrillianceAmplifier.label>LitF 輝き増幅器</LitF_BrillianceAmplifier.label>
+  <LitF_BrillianceAmplifier.description>輝きの力を増幅することによって,リトルフェアリーが新しい汎用スキルを習得します.\nただしどのスキルを得るかはランダムで,今までに習得したものを含めて最大12個までしか習得できません.</LitF_BrillianceAmplifier.description>
+  <LitF_BrillianceAmplifier.comps.CompUsable.useLabel>{0_label}を使用する</LitF_BrillianceAmplifier.comps.CompUsable.useLabel>
+
+  <LitF_EPK_Blood.label>LitF 血肉の茄子の鍵</LitF_EPK_Blood.label>
+  <LitF_EPK_Blood.description>使用することで試練を発生させる鍵です.\n\nなぜ特定の混合物からこのような物体が作れるのかについては全く解明されていません.\n\n&lt;color=#B1FBFF&gt;"探求心から生まれた新たなる戦い,挑戦を受けるか受けないかはあなた次第だ."&lt;/color&gt;</LitF_EPK_Blood.description>
+  <LitF_EPK_Blood.comps.CompUsable.useLabel>{0_label}を使用する</LitF_EPK_Blood.comps.CompUsable.useLabel>
+
+  <LitF_WK_Blood.label>LitF 願望の鍵(血肉)</LitF_WK_Blood.label>
+  <LitF_WK_Blood.description>試練を越えた者に贈られる"実験データのお礼"です. 使用すると力を得ることができるでしょう.\n\n&lt;color=#B1FBFF&gt;"新しい戦いに参加してくれてありがとうございナス,これは実験データのお礼だナス."&lt;/color&gt;</LitF_WK_Blood.description>
+  <LitF_WK_Blood.comps.CompUsable.useLabel>{0_label}を使用する</LitF_WK_Blood.comps.CompUsable.useLabel>
+
+</LanguageData>

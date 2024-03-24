@@ -1,0 +1,790 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<AlienRace.ThingDef_AlienRace Tag="BEPRace" ParentName="BasePawn">
+		<defName>LittleFairy_Pawn</defName>
+		<label>Little Fairy</label>
+		<description>Little faeries are a flesh-loving, fairy-like race with tiny wings. They serve various species and perform miscellaneous labor. It is also said that littlefairy that have been feral for a long time become fearsome monsters that attack humans and feed on their growth.</description>
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>-1</maleGenderProbability>
+				<immuneToAge>true</immuneToAge>
+				<canLayDown>true</canLayDown>
+				<maxDamageForSocialfight>1</maxDamageForSocialfight>
+				<minAgeForAdulthood>1</minAgeForAdulthood>
+				<humanRecipeImport>true</humanRecipeImport>
+				<immuneToXenophobia>true</immuneToXenophobia>
+				<allowHumanBios>false</allowHumanBios>
+				<lovinIntervalHoursFromAge>
+					<points>
+						<li>(0.3, 2)</li>
+						<li>(900, 2)</li>
+						<li>(950, 5)</li>
+						<li>(1000, 10.0)</li>
+					</points>
+				</lovinIntervalHoursFromAge>
+				<disallowedTraits>
+					<li>
+						<defName>Beauty</defName>
+						<degree>-1</degree>
+					</li>
+					<li>
+						<defName>Beauty</defName>
+						<degree>-2</degree>
+					</li>
+					<li>
+						<defName>Beauty</defName>
+						<degree>2</degree>
+					</li>
+					<li>
+						<defName>DislikesMen</defName>
+					</li>
+					<li>
+						<defName>DislikesWomen</defName>
+					</li>
+					<li>
+						<defName>AnnoyingVoice</defName>
+					</li>
+					<li>
+						<defName>CreepyBreathing</defName>
+					</li>
+				</disallowedTraits>
+				<alienPartGenerator>
+					<oldHairAgeRange>1000~1001</oldHairAgeRange>
+					<oldHairColorGen Class="ColorGenerator_Options">
+						<options>
+							<li>
+								<weight>1</weight>
+								<only>RGBA(1.0,1.0,1.0,1)</only>
+							</li>
+							<li>
+								<weight>1</weight>
+								<only>RGBA(1.0,0.8,0.8,1)</only>
+							</li>
+							<li>
+								<weight>1</weight>
+								<only>RGBA(0.8,1.0,0.8,1)</only>
+							</li>
+							<li>
+								<weight>1</weight>
+								<only>RGBA(0.8,0.8,1.0,1)</only>
+							</li>
+						</options>
+					</oldHairColorGen>
+					<headTypes Inherit="False">
+						<li>Male_AverageNormal</li>
+						<li>Female_AverageNormal</li>
+					</headTypes>
+					<bodyTypes>
+						<li>Female</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+					</bodyTypes>
+					<headOffset>(-0.1, -0.26)</headOffset>
+					<customDrawSize>(1, 1)</customDrawSize>
+					<customHeadDrawSize>(1, 1)</customHeadDrawSize>
+					<customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
+					<customPortraitHeadDrawSize>(1, 1)</customPortraitHeadDrawSize>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(0.97,0.92,0.79,1)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(1.0,0.85,0.76,1)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(0.94,0.69,0.72,1)</only>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,104,104,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,189,54,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,248,137,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(169,255,172,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(153,255,255,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(154,164,255,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(223,181,255,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(172,90,60,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,250,240,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(233,205,113,255)</only>
+									</li>
+								</options>
+							</second>
+						</li>
+						<li>
+							<name>hair</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(1.0,1.0,1.0,1)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(1.0,0.8,0.8,1)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(0.8,1.0,0.8,1)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(0.8,0.8,1.0,1)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+						<li>
+							<name>wing</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,104,104,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,189,54,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,248,137,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(169,255,172,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(153,255,255,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(154,164,255,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(223,181,255,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(172,90,60,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,250,240,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(233,205,113,255)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+					<bodyAddons>
+						<li>
+							<path>BEPRaceCore/Race/FairyEar/Left/LEar</path>
+							<bodyPart>Ear</bodyPart>
+							<bodyPartLabel>left ear</bodyPartLabel>
+							<inFrontOfBody>true</inFrontOfBody>
+							<drawSize>1</drawSize>
+							<colorChannel>skin</colorChannel>
+							<drawnInBed>true</drawnInBed>
+							<alignWithHead>true</alignWithHead>
+							<drawnDesiccated>false</drawnDesiccated>
+						</li>
+						<li>
+							<path>BEPRaceCore/Race/FairyEar/Right/REar</path>
+							<bodyPart>Ear</bodyPart>
+							<bodyPartLabel>right ear</bodyPartLabel>
+							<inFrontOfBody>true</inFrontOfBody>
+							<drawSize>1</drawSize>
+							<colorChannel>skin</colorChannel>
+							<drawnInBed>true</drawnInBed>
+							<alignWithHead>true</alignWithHead>
+							<drawnDesiccated>false</drawnDesiccated>
+						</li>
+						<li>
+							<path>BEPRaceCore/Race/LittleWing/LittleWing</path>
+							<bodyPart>LitF_Wing</bodyPart>
+							<inFrontOfBody>false</inFrontOfBody>
+							<drawSize>1</drawSize>
+							<colorChannel>wing</colorChannel>
+							<drawnInBed>false</drawnInBed>
+							<drawnDesiccated>false</drawnDesiccated>
+						</li>
+					</bodyAddons>
+				</alienPartGenerator>
+				<reproduction>
+					<!-- 男の生殖率 -->
+					<maleFertilityAgeFactor>
+						<points>
+							<li>(0.5, 0)</li>
+							<li>(1, 1)</li>
+							<li>(950, 1)</li>
+							<li>(1000, 0)</li>
+						</points>
+					</maleFertilityAgeFactor>
+					<!-- 女の生殖率 -->
+					<femaleFertilityAgeFactor>
+						<points>
+							<li>(0.5, 0)</li>
+							<li>(1, 1)</li>
+							<li>(950, 1)</li>
+							<li>(1000, 0)</li>
+						</points>
+					</femaleFertilityAgeFactor>
+				</reproduction>
+				<growthAges>
+					<li>1</li>
+				</growthAges>
+				<growthFactorByAge>
+					<points>
+						<li>(0,10)</li>
+						<li>(1,10)</li>
+						<li>(2,1)</li>
+					</points>
+				</growthFactorByAge>
+			</generalSettings>
+			<graphicPaths>
+				<head>BEPRaceCore/Race/Head/Average_Normal</head>
+				<body>BEPRaceCore/Race/Body/Normal/Naked_Child</body>
+				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
+				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
+				<apparel>
+					<!-- Apparel Graphics options go here -->
+					<individualPaths>
+						<li>
+							<key>LitF_BloodyArmor</key>
+							<value>LittleFairy/Thing/Apparel/BloodyArmor/BloodyArmor_Child</value>
+						</li>
+						<li>
+							<key>LitF_BloodyArmor_Lite</key>
+							<value>LittleFairy/Thing/Apparel/BloodyArmor/BloodyArmor_Child</value>
+						</li>
+					</individualPaths>
+				</apparel>
+				<swaddle>BEPRaceCore/Race/Dummy/Dummy</swaddle>
+				<skinShader>Cutout</skinShader>
+				<skinColor>(1,1,1,1)</skinColor>
+			</graphicPaths>
+			<relationSettings>
+				<relationChanceModifierLover>0</relationChanceModifierLover>
+				<relationChanceModifierExLover>0</relationChanceModifierExLover>
+				<relationChanceModifierFiance>0</relationChanceModifierFiance>
+				<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+				<relationChanceModifierParent>0</relationChanceModifierParent>
+				<relationChanceModifierChild>0</relationChanceModifierChild>
+				<relationChanceModifierSibling>0</relationChanceModifierSibling>
+			</relationSettings>
+			<raceRestriction>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
+				<onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
+				<apparelList>
+					<li>LitF_BloodyArmor</li>
+					<li>LitF_BloodyArmor_Lite</li>
+					<li>LitF_BrainwashCollar</li>
+					<li>LitF_ExplosionCollar</li>
+				</apparelList>
+				<weaponList>
+					<li>LitF_TinyKnife</li>
+					<li>LitF_TinySword</li>
+					<li>LitF_MeatCleaver</li>
+					<li>LitF_BrightBow</li>
+					<li>LitF_BrightCrossBow</li>
+					<li>LitF_WingBeat</li>
+					<li>LitF_BloodyBrightBow</li>
+				</weaponList>
+				<foodList>
+					<li>LitF_Richmeat</li>
+				</foodList>
+				<recipeList>
+					<li>LitF_MakeBrillianceWood</li>
+					<li>LitF_MakeBrillianceWood_Bulk</li>
+					<li>LitF_MakeBloodyBrillianceWood</li>
+					<li>LitF_MakeBloodyBrillianceWood_Bulk</li>
+				</recipeList>
+				<blackGeneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">FacialRidges</li>
+				</blackGeneList>
+				<blackGeneTags>
+					<li>SkinColor</li>
+					<li>HairColor</li>
+					<li>EyeColor</li>
+					<li>BodyType</li>
+					<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Head</li>
+					<li>Headbone</li>
+					<li>HairStyle</li>
+					<li>BeardStyle</li>
+					<li>SkinColorOverride</li>
+					<li>Fur</li>
+					<li>Tail</li>
+				</blackGeneTags>
+				<blackEndoCategories>
+					<li>Melanin</li>
+					<li>HairColor</li>
+					<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Head</li>
+					<li>BodyType</li>
+				</blackEndoCategories>
+				<xenotypeList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">LitF_LittleFairy</li>
+				</xenotypeList>
+				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+			</raceRestriction>
+			<thoughtSettings>
+				<cannotReceiveThoughts>
+					<!-- 絆で結ばれた動物や友人以外の死に無関心 -->
+					<li>KnowGuestExecuted</li>
+					<li>KnowColonistExecuted</li>
+					<li>KnowPrisonerDiedInnocent</li>
+					<li>KnowColonistDied</li>
+					<li>PawnWithBadOpinionDied</li>
+					<li>MySonDied</li>
+					<li>MyDaughterDied</li>
+					<li>MyHusbandDied</li>
+					<li>MyWifeDied</li>
+					<li>MyFianceDied</li>
+					<li>MyFianceeDied</li>
+					<li>MyLoverDied</li>
+					<li>MyBrotherDied</li>
+					<li>MySisterDied</li>
+					<li>MyGrandchildDied</li>
+					<li>MyFatherDied</li>
+					<li>MyMotherDied</li>
+					<li>MyNieceDied</li>
+					<li>MyNephewDied</li>
+					<li>MyHalfSiblingDied</li>
+					<li>MyAuntDied</li>
+					<li>MyUncleDied</li>
+					<li>MyGrandparentDied</li>
+					<li>MyCousinDied</li>
+					<li>MyKinDied</li>
+					<!-- ひどい食事によるムード低下無効 -->
+					<li>AteRawFood</li>
+					<li>AteKibble</li>
+					<li>AteCorpse</li>
+					<li>AteHumanlikeMeatDirect</li>
+					<li>AteHumanlikeMeatAsIngredient</li>
+					<li>AteInsectMeatDirect</li>
+					<li>AteInsectMeatAsIngredient</li>
+					<li>AteWithoutTable</li>
+					<!-- 結婚関連 -->
+					<li>AttendedWedding</li>
+					<li>AttendedParty</li>
+					<!-- ロスト -->
+					<li>ColonistLost</li>
+					<li>PawnWithBadOpinionLost</li>
+					<li>MySonLost</li>
+					<li>MyDaughterLost</li>
+					<li>MyHusbandLost</li>
+					<li>MyWifeLost</li>
+					<li>MyFianceLost</li>
+					<li>MyFianceeLost</li>
+					<li>MyLoverLost</li>
+					<li>MyBrotherLost</li>
+					<li>MySisterLost</li>
+					<li>MyGrandchildLost</li>
+					<li>MyFatherLost</li>
+					<li>MyMotherLost</li>
+					<li>MyNieceLost</li>
+					<li>MyNephewLost</li>
+					<li>MyHalfSiblingLost</li>
+					<li>MyAuntLost</li>
+					<li>MyUncleLost</li>
+					<li>MyGrandparentLost</li>
+					<li>MyCousinLost</li>
+					<li>MyKinLost</li>
+					<!-- 環境 -->
+					<li>AteWithoutTable</li>
+					<li>SleptOutside</li>
+					<li>SleptOnGround</li>
+					<li>SleptInCold</li>
+					<li>SleptInHeat</li>
+					<li>SoakingWet</li>
+					<li>AteInImpressiveDiningRoom</li>
+					<li>SleptInBedroom</li>
+					<li>SleptInBarracks</li>
+					<li>SleepDisturbed</li>
+					<li>NeedBeauty</li>
+					<li>NeedRoomSize</li>
+					<li>NeedOutdoors</li>
+					<li>NeedIndoors</li>
+					<!-- ゲスト、囚人 -->
+					<li>KnowPrisonerSold</li>
+					<li>ReleasedHealthyPrisoner</li>
+					<li>KnowGuestOrganHarvested</li>
+					<li>KnowColonistOrganHarvested</li>
+					<li>KnowBuriedInSarcophagus</li>
+					<li>ButcheredHumanlikeCorpse</li>
+					<li>KnowButcheredHumanlikeCorpse</li>
+					<li>ObservedLayingCorpse</li>
+					<li>ObservedLayingRottingCorpse</li>
+					<li>WitnessedDeathAlly</li>
+					<li>WitnessedDeathNonAlly</li>
+					<li>WitnessedDeathFamily</li>
+					<li>ColonistBanished</li>
+					<li>ColonistBanishedToDie</li>
+					<li>PrisonerBanishedToDie</li>
+					<li>BondedAnimalBanished</li>
+					<li>FailedToRescueRelative</li>
+					<li>RescuedRelative</li>
+					<li>FreedFromSlavery</li>
+					<!-- シチュエーション -->
+					<li>EnvironmentDark</li>
+					<li>ApparelDamaged</li>
+					<li>WrongApparelGender</li>
+					<li>DeadMansApparel</li>
+					<li>HumanLeatherApparelSad</li>
+					<li>Insulted</li>
+					<li>InsultedMood</li>
+					<!-- シチュエーションニード -->
+					<li>NeedRoomSize</li>
+					<li>NeedOutdoors</li>
+					<!-- シチュエーション好感度 -->
+					<li>ButcheredHumanlikeCorpseOpinion</li>
+					<li>SoldPrisoner</li>
+					<li>ExecutedPrisoner</li>
+					<li>KilledColonist</li>
+					<li>KilledColonyAnimal</li>
+					<li>HarmedMe</li>
+					<li>BotchedMySurgery</li>
+					<!-- シチュエーションSP -->
+					<li>SharedBed</li>
+					<li>ColonistLeftUnburied</li>
+					<li>Naked</li>
+					<!-- Biotechの心情 -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">KilledChild</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">MyBirthMotherDied</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">KilledMyBirthMother</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">MyBirthMotherLost</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">AteBabyFood</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">ChildLabor_Encouraged_ChildAssignedWork</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeder_ReveredBloodfeeder</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Essential_ChildNotInGrowthVat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Essential_Pregnant</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Prohibited_ChildInGrowthVat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Prohibited_ChildNotInGrowthVat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Prohibited_GrowthVatInColony</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">BabyBorn</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">FedOn</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Miscarried</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PartnerMiscarried</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PregnancyEnded</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PregnancyTerminated</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Stillbirth</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">XenogermHarvested_Prisoner</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">KilledChild_Opinion</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PregnancyAttitude</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PregnancyMood_Collapse</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PregnancyMood_Down</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PregnancyMood_High</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PregnancyMood_Up</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">BabySick</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">ChildInGrowthVat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">EnslavedChild</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">MyChildHappy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">MyChildrenHappy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">MyChildSad</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">MyChildrenSad</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">MyParentHappy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">MyParentsHappy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">YoungstersHappy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">YoungstersSad</li>
+				</cannotReceiveThoughts>
+			</thoughtSettings>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<li>BEPRace</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+		</alienRace>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>500</MarketValue>
+			<MoveSpeed>7.5</MoveSpeed>
+			<Flammability>1</Flammability>
+			<ToxicResistance>-0.25</ToxicResistance>
+			<PsychicSensitivity>1</PsychicSensitivity>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<CarryingCapacity>100</CarryingCapacity>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.10</ArmorRating_Heat>
+			<MeatAmount>150</MeatAmount>
+			<LeatherAmount>10</LeatherAmount>
+			<PainShockThreshold>0.95</PainShockThreshold>
+			<MeleeDodgeChance>2.5</MeleeDodgeChance>
+			<MentalBreakThreshold>0.55</MentalBreakThreshold>
+			<RoyalFavorValue>5</RoyalFavorValue>
+			<Fertility MayRequire="Ludeon.RimWorld.Biotech">3.0</Fertility>
+		</statBases>
+		<tools>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Bite</def>
+							<amount>3</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>0.8</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Blunt</def>
+							<amount>3</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>0.8</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Blunt</def>
+							<amount>3</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<baseHungerRate>0.35</baseHungerRate>
+			<intelligence>Humanlike</intelligence>
+			<fleshType>LitF_Fairy</fleshType>
+			<makesFootprints>false</makesFootprints>
+			<lifeExpectancy>1000</lifeExpectancy>
+			<leatherDef>Leather_Light</leatherDef>
+			<nameCategory>HumanStandard</nameCategory>
+			<hasGenders>true</hasGenders>
+			<trainability>Advanced</trainability>
+			<body>LitF_Fairy</body>
+			<baseBodySize>0.35</baseBodySize>
+			<baseHealthScale>0.25</baseHealthScale>
+			<wildness>0.15</wildness>
+			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+			<foodType>OmnivoreAnimal</foodType>
+			<gestationPeriodDays>6</gestationPeriodDays>
+			<meatMarketValue>2</meatMarketValue>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<litterSizeCurve>
+				<points>
+					<li>(0, 0)</li>
+					<li>(1, 0.4)</li>
+					<li>(2, 0.55)</li>
+					<li>(3, 0.05)</li>
+					<li>(4, 0)</li>
+					<li>(5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>LittleFairy_Baby</def>
+					<minAge>0</minAge>
+					<soundWounded>LitF_LitFHurt</soundWounded>
+					<soundDeath>LitF_LitFDeath</soundDeath>
+					<headOffsetDirectional>
+						<north>(0.0, 0.0)</north>
+						<east>(0.06, 0.0)</east>
+						<south>(0.0, 0.0)</south>
+						<west>(-0.06, 0.0)</west>
+					</headOffsetDirectional>
+				</li>
+				<li>
+					<def>LittleFairy_Adult</def>
+					<minAge>1</minAge>
+					<soundWounded>LitF_LitFHurt</soundWounded>
+					<soundDeath>LitF_LitFDeath</soundDeath>
+				</li>
+			</lifeStageAges>
+			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>1</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>1</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">1</Childcare>
+				<BasicWorker>1</BasicWorker>
+				<Warden>1</Warden>
+				<Handling>1</Handling>
+				<Cooking>0</Cooking>
+				<Hunting>0</Hunting>
+				<Construction>1</Construction>
+				<Growing>1</Growing>
+				<Mining>1</Mining>
+				<PlantCutting>1</PlantCutting>
+				<Smithing>1</Smithing>
+				<Tailoring>1</Tailoring>
+				<Art>1</Art>
+				<Crafting>1</Crafting>
+				<Hauling>1</Hauling>
+				<Cleaning>1</Cleaning>
+				<Research>1</Research>
+			</lifeStageWorkSettings>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(3,0)</li>
+					<li>(8,100)</li>
+					<li>(10,100)</li>
+					<li>(15,80)</li>
+					<li>(20,30)</li>
+					<li>(30,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+			</hediffGiverSets>
+			
+		</race>
+		<comps>
+			<li Class="LittleFairy_Race.CompProperties_LitF">
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>LittleFairy_Race.LitF_ITab</li>
+		</inspectorTabs>
+		<modExtensions>
+			<li Class="BEPRace_Core.BEPRace_Setting">
+				<ignoreDead>true</ignoreDead>
+				<fleeMeat>true</fleeMeat>
+				<ignoreAge>true</ignoreAge>
+				<ignoreFlee>true</ignoreFlee>
+				<slaveWorkSpeed>1.0</slaveWorkSpeed>
+			</li>
+		</modExtensions>
+	</AlienRace.ThingDef_AlienRace>
+	
+	<LifeStageDef>
+		<defName>LittleFairy_Baby</defName>
+		<label>Little Fairy Baby</label>
+		<reproductive>false</reproductive>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
+		<visible>false</visible>
+		<developmentalStage>Child</developmentalStage>
+		<statFactors>
+			<MoveSpeed>0.75</MoveSpeed>
+		</statFactors>
+		<meleeDamageFactor>0.5</meleeDamageFactor>
+		<healthScaleFactor>0.5</healthScaleFactor>
+	</LifeStageDef>
+	
+	<LifeStageDef>
+		<defName>LittleFairy_Adult</defName>
+		<label>Little Fairy</label>
+		<reproductive>true</reproductive>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+		<visible>false</visible>
+		<developmentalStage>Adult</developmentalStage>
+	</LifeStageDef>
+	
+	<AlienRace.RaceSettings>
+		<defName>LitF_Settings</defName>
+		<pawnKindSettings>
+			<alienslavekinds>
+				<li>
+					<kindDefs>
+						<li>LittleFairy_Slave</li>
+					</kindDefs>
+					<chance>30.0</chance>
+				</li>
+			</alienslavekinds>
+		</pawnKindSettings>
+	</AlienRace.RaceSettings>
+	
+</Defs>

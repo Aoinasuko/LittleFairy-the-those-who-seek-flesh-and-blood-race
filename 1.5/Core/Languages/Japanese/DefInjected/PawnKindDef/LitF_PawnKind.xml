@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LittleFairy_Visitor.label>リトルフェアリーの来訪者</LittleFairy_Visitor.label>
+  <LittleFairy_Visitor.labelPlural>リトルフェアリーの来訪者</LittleFairy_Visitor.labelPlural>
+
+  <LittleFairy_Slave.label>リトルフェアリーの奴隷</LittleFairy_Slave.label>
+  <LittleFairy_Slave.labelPlural>リトルフェアリーの奴隷</LittleFairy_Slave.labelPlural>
+
+  <LittleFairy_Wild.label>野生のリトルフェアリー</LittleFairy_Wild.label>
+  <LittleFairy_Wild.labelPlural>野生のリトルフェアリー</LittleFairy_Wild.labelPlural>
+
+  <LittleFairy_Wild_Leader.label>野生のリトルフェアリーのリーダー</LittleFairy_Wild_Leader.label>
+  <LittleFairy_Wild_Leader.labelPlural>野生のリトルフェアリーのリーダー</LittleFairy_Wild_Leader.labelPlural>
+
+  <LittleFairy_NurseryBorn.label>苗床生まれのリトルフェアリー</LittleFairy_NurseryBorn.label>
+  <LittleFairy_NurseryBorn.labelPlural>苗床生まれのリトルフェアリー</LittleFairy_NurseryBorn.labelPlural>
+
+
+</LanguageData>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>LitF_Mote_Chanting</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <solidTime>0.25</solidTime>
+      <fadeOutTime>0.5</fadeOutTime>
+      <growthRate>4</growthRate>
+    </mote>
+    <graphicData>
+      <texPath>LittleFairy/UI/Mote/Chant</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>LitF_Mote_Effect</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <solidTime>0.25</solidTime>
+      <fadeOutTime>0.5</fadeOutTime>
+      <growthRate>-2</growthRate>
+    </mote>
+    <graphicData>
+      <texPath>LittleFairy/UI/Mote/Chant</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="MoteBase">
+    <defName>LitF_Mote_Reflect</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <solidTime>0.2</solidTime>
+      <fadeOutTime>1.25</fadeOutTime>
+      <growthRate>5.2</growthRate>
+    </mote>
+    <graphicData>
+      <texPath>LittleFairy/UI/Mote/Reflect</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>LitF_Mote_FPGuard</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <solidTime>0.1</solidTime>
+      <fadeOutTime>0.3</fadeOutTime>
+    </mote>
+    <graphicData>
+      <texPath>LittleFairy/UI/Mote/FPGuard</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </ThingDef>
+
+</Defs>

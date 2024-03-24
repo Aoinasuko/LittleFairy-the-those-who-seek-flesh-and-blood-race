@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>LittleFairy the Those Who Seek Flesh and Blood Race</name>
+  <name>[B.E.P Race]LittleFairy the Those Who Seek Flesh and Blood Race</name>
   <author>Aoi_nasuko</author>
   <packageId>bep.littlefairy.ttwsfabr</packageId>
+  <modIconPath IgnoreIfNoMatchingField="True">LittleFairy/UI/Nasuko</modIconPath>
   <supportedVersions>
     <li>1.4</li>
+    <li>1.5</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -59,7 +61,7 @@ English(Machine translation)
 <color=#77FFFF>-死や環境等に関するムード低下を受けない</color>
 <color=#77FFFF>-リトルフェアリーが死んだり,死体を解体してもムード低下を受けず,また食べた時に心情が大幅に上昇する</color>
 <color=#77FFFF>-ダメージから身を守るFPを所持している FPは1につき1ダメージ身を守ってくれる</color>
-<color=#77FFFF>-Ideorogy導入時、奴隷状態の時に脱走せず、作業速度が50%上昇し、抑圧に応じて心情にボーナスが入る</color>
+<color=#77FFFF>-Ideorogy導入時、奴隷状態の時に脱走せず、作業速度と心情に抑圧度に応じたボーナスが入る</color>
 
 <color=#FF7777>-部位HPがとても低い</color>
 <color=#FF7777>-毒にかなり弱い</color>
